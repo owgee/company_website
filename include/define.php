@@ -10,7 +10,7 @@
  *
  * DESC: This define all important parameters used in a system
  */
-defined('ENVIRONMENT') ? NULL : define('ENVIRONMENT', 'production');
+defined('ENVIRONMENT') ? NULL : define('ENVIRONMENT', 'development');
 /*
  * ---------------------------------------------------------------
  * ERROR REPORTING

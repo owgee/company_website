@@ -6,14 +6,15 @@
  * 
  */
 require_once 'define.php';
-define('RT', __DIR__. '/');
-require(RT . 'connection.php');
-require(RT . 'function.php');
-require(RT . 'input.php');
-require(RT . 'sender.php');
+defined('RT') ? NULL : define('RT', $_SERVER['DOCUMENT_ROOT'] . '/' . ROOT_FOLDER . '');
+
+require(RT . 'include/connection.php');
+require(RT . 'include/function.php');
+require(RT . 'include/input.php');
+require(RT . 'include/sender.php');
 
 
-$HOME = 'http://' . $_SERVER['HTTP_HOST'] . '/';
+$HOME = 'http://' . $_SERVER['HTTP_HOST'] . '/'.ROOT_FOLDER.'new/';
 
 $AJAX = $HOME . "index.php?isajax=true&";
 
@@ -47,4 +48,5 @@ if (isset($_GET['isajax'])) {
     }
     
 }
+if(isset($_GET['pg']) && $_GET['pg']=='admin') {    include_once 'modules/admin/admin.php';    exit(); }
 ?>

@@ -5,8 +5,9 @@
  * * @author Ephraim Swilla <swillae1@gmail.com>
  */
 ob_start();
-include('include/bootstrap.php');
 
+include('../include/bootstrap.php');
+ 
 //ob_start('sanitize_output'); 
 ?>
 <!DOCTYPE html>

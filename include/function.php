@@ -40,6 +40,15 @@ function css_media($css_name, $media = 'screen') {
     echo '<link href="media/css/' . $css_name . '.css" media="' . $media . '" rel="stylesheet" type="text/css"/>';
 }
 
+function media_folder($folder_name,$type) {
+    foreach (scandir($folder_name) as $name) {
+        if(!is_dir($name) && pathinfo($name, PATHINFO_EXTENSION)==$type){
+            $media = str_ireplace('.'.$type, '', $name);
+            $type=='css'? css_media($media) :  js_media($media);
+        }
+    }
+}
+
 /**
  * 
  * @param type $css_ie_name
@@ -60,13 +69,6 @@ function js_media($media_name, $option = '') {
     echo '<script type="text/javascript" language="javascript" src="media/js/' . $media_name . '.js" ' . $option . '></script>';
 }
 
-/**
- * load jquery ui
- */
-function jquery_ui() {
-    echo '<link type="text/css" href="persistance/plugins/jquery-ui-1.8.22.custom/css/custom-theme/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
-	 <script type="text/javascript" src="persistance/plugins/jquery-ui-1.8.22.custom/js/jquery-ui-1.8.22.custom.min.js"></script>';
-}
 
 /**
  * 
@@ -267,16 +269,14 @@ function remove_invisible_characters($str, $url_encoded = TRUE) {
 
     return $str;
 }
+
 /**
  * 
  * @param type this are contents that contains urls for user to be able to click
  * @return type
  */
-function make_links_clickable($text)
-{
+function make_links_clickable($text) {
     return preg_replace('!(((f|ht)tp(s)?://)[-a-zA-Zа-яА-Я()0-9@:%_+.~#?&;//=]+)!i', '<a href="$1">$1</a>', $text);
 }
-
-
 ?>
 

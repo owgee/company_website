@@ -697,8 +697,8 @@ class input {
         $key_match = $input->keys_map($global_data, $param);
         if ($key_match != '') {
             $build_url = $key_match . '/' . $input->get_post($key_match) . '.php';
-        } else if(isset($_GET['sec'])){
-            $build_url = 'section/' . $input->get_post('sec') . '.php';
+        } else if(isset($_GET['section'])){
+            $build_url = 'section/' . $input->get_post('section') . '.php';
         }else if(isset ($_GET['file'])){
             $build_url = $input->get_post('file') . '.php';
         }else{
