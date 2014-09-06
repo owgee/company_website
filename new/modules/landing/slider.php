@@ -6,7 +6,12 @@
             <ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: 450px;">	<!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="3" data-masterspeed="300" style="width: 100%; height: 100%; overflow: hidden; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 0, 0, 1); -webkit-transform-origin: 50% 50% 0px; visibility: visible; left: 0px; top: 0px; opacity: 1; position: absolute; z-index: 20;">
                     <!-- MAIN IMAGE -->
-                    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://preview.themique.com/ventus/wp-content/uploads/2013/09/banner-back-3.jpg" data-src="http://preview.themique.com/ventus/wp-content/uploads/2013/09/banner-back-3.jpg" style="width: 100%; height: 100%; opacity: 1; background-image: url(http://preview.themique.com/ventus/wp-content/uploads/2013/09/banner-back-3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;"></div></div>
+                    <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
+			<div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="media/images/banner-back-3.jpg" data-src="media/images/banner-back-3.jpg" style="width: 100%; height: 100%; opacity: 1; background-image: url(media/images/banner-back-3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;">
+			    
+			</div>
+			
+</div>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -33,7 +38,7 @@
                 <li data-transition="fade" data-slotamount="3" data-masterspeed="300" style="width: 100%; height: 100%; overflow: hidden; position: absolute; opacity: 1; visibility: visible; left: 0px; top: 0px; z-index: 18;">
                     <!-- MAIN IMAGE -->
                     <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
-                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://preview.themique.com/ventus/wp-content/uploads/2013/09/back_green_3.jpg" data-src="http://preview.themique.com/ventus/wp-content/uploads/2013/09/back_green_3.jpg" style="width: 100%; height: 100%; position: relative; opacity: 0; background-image: url(http://preview.themique.com/ventus/wp-content/uploads/2013/09/back_green_3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;"></div></div>
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="media/images/back_green_3.jpg" data-src="media/images/back_green_3.jpg" style="width: 100%; height: 100%; position: relative; opacity: 0; background-image: url(media/images/back_green_3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;"></div></div>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -50,14 +55,14 @@
 
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption lfb start" data-x="center" data-hoffset="0" data-y="190" data-speed="300" data-start="800" data-easing="easeOutExpo" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-endspeed="300" style="z-index: 5; white-space: nowrap; min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 12px; left: 503px; top: 190px; visibility: visible; opacity: 0; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, 0, 475, 0, 1);"><div class="slider-buttons stripes">
-                            <a href="http://demo.themique.com/ventus/features/" class="btn btn-padded btn-prime drop-shadow button-curved curved-hz-1">SIGN UP</a> &nbsp; <div class="btn-group"><a href="http://demo.themique.com/ventus/features/" class="btn"><i class="button-flash"></i></a><a href="http://demo.themique.com/ventus/features/" class="btn">TAKE A TOUR</a></div></div>
+                            <a href="#" class="btn btn-padded btn-prime drop-shadow button-curved curved-hz-1">SIGN UP</a> &nbsp; <div class="btn-group"><a href="#" class="btn"><i class="button-flash"></i></a><a href="#" class="btn">TAKE A TOUR</a></div></div>
                     </div>
                 </li>
                 <!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="3" data-masterspeed="300" style="width: 100%; height: 100%; overflow: hidden; opacity: 1; visibility: visible; left: 0px; top: 0px; position: absolute; z-index: 18;">
                     <!-- MAIN IMAGE -->
                     <div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="center top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined">
-                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="http://preview.themique.com/ventus/wp-content/uploads/2013/09/back_green_3.jpg" data-src="http://preview.themique.com/ventus/wp-content/uploads/2013/09/back_green_3.jpg" style="width: 100%; height: 100%; opacity: 0; background-image: url(http://preview.themique.com/ventus/wp-content/uploads/2013/09/back_green_3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;"></div></div>
+                        <div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="media/images/back_green_3.jpg" data-src="media/images/back_green_3.jpg" style="width: 100%; height: 100%; opacity: 0; background-image: url(media/images/back_green_3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 50% 0%; background-repeat: no-repeat;"></div></div>
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -85,71 +90,71 @@
         <div style="position: absolute; margin-top: -26px; left: 60px; top: 225px;" class="tp-leftarrow tparrows default"></div><div style="position: absolute; margin-top: -26px; right: 60px; top: 225px;" class="tp-rightarrow tparrows default"></div></div>			
     <script type="text/javascript">
 
-        var tpj = jQuery;
-        tpj.noConflict();
-        var revapi1;
+	var tpj = jQuery;
+	tpj.noConflict();
+	var revapi1;
 
-        tpj(document).ready(function() {
+	tpj(document).ready(function() {
 
-            if (tpj('#rev_slider_1_1').revolution == undefined)
-                revslider_showDoubleJqueryError('#rev_slider_1_1');
-            else
-                revapi1 = tpj('#rev_slider_1_1').show().revolution(
-                        {
-                            dottedOverlay: "none",
-                            delay: 9000,
-                            startwidth: 978,
-                            startheight: 450,
-                            hideThumbs: 0,
-                            thumbWidth: 100,
-                            thumbHeight: 50,
-                            thumbAmount: 3,
-                            navigationType: "none",
-                            navigationArrows: "solo",
-                            navigationStyle: "round",
-                            touchenabled: "on",
-                            onHoverStop: "on",
-                            swipe_velocity: 0.7,
-                            swipe_min_touches: 1,
-                            swipe_max_touches: 1,
-                            drag_block_vertical: false,
-                            keyboardNavigation: "off",
-                            navigationHAlign: "center",
-                            navigationVAlign: "bottom",
-                            navigationHOffset: 0,
-                            navigationVOffset: 20,
-                            soloArrowLeftHalign: "left",
-                            soloArrowLeftValign: "center",
-                            soloArrowLeftHOffset: 60,
-                            soloArrowLeftVOffset: 0,
-                            soloArrowRightHalign: "right",
-                            soloArrowRightValign: "center",
-                            soloArrowRightHOffset: 60,
-                            soloArrowRightVOffset: 0,
-                            shadow: 0,
-                            fullWidth: "on",
-                            fullScreen: "off",
-                            spinner: "spinner0",
-                            stopLoop: "off",
-                            stopAfterLoops: -1,
-                            stopAtSlide: -1,
-                            shuffle: "off",
-                            autoHeight: "off",
-                            forceFullWidth: "off",
-                            hideTimerBar: "on",
-                            hideThumbsOnMobile: "off",
-                            hideNavDelayOnMobile: 1500, hideBulletsOnMobile: "off",
-                            hideArrowsOnMobile: "off",
-                            hideThumbsUnderResolution: 0,
-                            hideSliderAtLimit: 481,
-                            hideCaptionAtLimit: 481,
-                            hideAllCaptionAtLilmit: 0,
-                            startWithSlide: 0,
-                            videoJsPath: "http://preview.themique.com/ventus/wp-content/plugins/revslider/rs-plugin/videojs/",
-                            fullScreenOffsetContainer: ".slider-area"
-                        });
+	    if (tpj('#rev_slider_1_1').revolution == undefined)
+		revslider_showDoubleJqueryError('#rev_slider_1_1');
+	    else
+		revapi1 = tpj('#rev_slider_1_1').show().revolution(
+			{
+			    dottedOverlay: "none",
+			    delay: 9000,
+			    startwidth: 978,
+			    startheight: 450,
+			    hideThumbs: 0,
+			    thumbWidth: 100,
+			    thumbHeight: 50,
+			    thumbAmount: 3,
+			    navigationType: "none",
+			    navigationArrows: "solo",
+			    navigationStyle: "round",
+			    touchenabled: "on",
+			    onHoverStop: "on",
+			    swipe_velocity: 0.7,
+			    swipe_min_touches: 1,
+			    swipe_max_touches: 1,
+			    drag_block_vertical: false,
+			    keyboardNavigation: "off",
+			    navigationHAlign: "center",
+			    navigationVAlign: "bottom",
+			    navigationHOffset: 0,
+			    navigationVOffset: 20,
+			    soloArrowLeftHalign: "left",
+			    soloArrowLeftValign: "center",
+			    soloArrowLeftHOffset: 60,
+			    soloArrowLeftVOffset: 0,
+			    soloArrowRightHalign: "right",
+			    soloArrowRightValign: "center",
+			    soloArrowRightHOffset: 60,
+			    soloArrowRightVOffset: 0,
+			    shadow: 0,
+			    fullWidth: "on",
+			    fullScreen: "off",
+			    spinner: "spinner0",
+			    stopLoop: "off",
+			    stopAfterLoops: -1,
+			    stopAtSlide: -1,
+			    shuffle: "off",
+			    autoHeight: "off",
+			    forceFullWidth: "off",
+			    hideTimerBar: "on",
+			    hideThumbsOnMobile: "off",
+			    hideNavDelayOnMobile: 1500, hideBulletsOnMobile: "off",
+			    hideArrowsOnMobile: "off",
+			    hideThumbsUnderResolution: 0,
+			    hideSliderAtLimit: 481,
+			    hideCaptionAtLimit: 481,
+			    hideAllCaptionAtLilmit: 0,
+			    startWithSlide: 0,
+			    videoJsPath: "http://preview.themique.com/ventus/wp-content/plugins/revslider/rs-plugin/videojs/",
+			    fullScreenOffsetContainer: ".slider-area"
+			});
 
-        });	//ready
+	});	//ready
 
     </script>
 

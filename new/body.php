@@ -12,8 +12,8 @@
                 <div class="span12 relative">
 
                     <div class="bubble head-bubble " style="z-index:90 !important; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; ">
-                        <h4 class="left">DO YOU LIKE VENTUS <strong>CAPABILITIES</strong>?</h4>
-                        <a href="http://themeforest.net/item/ventus-unique-multipurpose-wordpress-theme/5498133?ref=imangm" class="btn btn-padded right">BUY VENTUS!</a>				</div>
+                        <h4 class="left">Start to expand your business now with <strong>karibuSMS</strong>?</h4>
+                        <a href="http://www.karibusms.com" target="_blank" class="btn btn-padded right">Click  here to Join it Free</a>				</div>
                     <div class="bubble-triangle"></div>
                 </div>
             </div>

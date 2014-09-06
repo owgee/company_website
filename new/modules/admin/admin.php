@@ -1,9 +1,6 @@
 <?php
 $root=HOME.'modules/admin/';
 
-if(isset($_POST)){
-    $ses_user=true;
-}
 if(!isset($ses_user)){
     include_once 'modules/admin/section/signin.php';
 }else{

@@ -21,6 +21,14 @@
     </div>
 </div>
 
+<?php
+
+function highligh_tab($tab_name) {
+    $hightlight = isset($_GET['pg']) && $_GET['pg'] == $tab_name ? 'nav-active' : '';
+    $tab_panel = $hightlight != '' ? '<i class="nav-active-arrow" style="top: 95px;"></i>' : '';
+    return array($hightlight, $tab_panel);
+}
+?>
 <!-- BEGIN NAVIGATION
 ================================================== -->
 <div class="navbar navbar-inverse top-contact-bar-header navbar-fixed-top">
@@ -31,9 +39,10 @@
             </a>
             <div class="nav-collapse collapse">
                 <ul id="header-menu" class="sf-menu nav sf-js-enabled sf-arrows l_tinynav1">
-                    <li id="menu-item-1819" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1816 current_page_item menu-item-1819 nav-active"><i class="nav-active-arrow" style="top: 95px;"></i>
+                    <li id="menu-item-1819" class="menu-item menu-item-type-post_type menu-item-object-page   <?= empty($_GET['pg']) ? 'nav-active' : '' ?>">	<?= empty($_GET['pg']) ? '<i class="nav-active-arrow" style="top: 95px;"></i>' : '' ?>		
                         <a href="<?= HOME ?>" style="padding: 38px 15px;">HOME</a></li>
-                    <li id="menu-item-1812" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1812">
+		    <li id="menu-item-1812" 
+			class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1812 <?= highligh_tab('about')[0] ?>"><?= highligh_tab('about')[1] ?>
 			<a href="<?= HOME ?>about" class="sf-with-ul" style="padding: 38px 15px;">ABOUT</a>
                         <ul class="sub-menu" style="display: none;">
 
@@ -46,17 +55,19 @@
 
                         </ul>
                     </li>
-                    <li id="menu-item-1813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1813"><a href="<?= HOME ?>service" class="sf-with-ul" style="padding: 38px 15px;">SERVICES</a>
+                    <li id="menu-item-1813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1813 <?= highligh_tab('service')[0] ?>"><?= highligh_tab('service')[1] ?>
+			<a href="<?= HOME ?>service" class="sf-with-ul" style="padding: 38px 15px;">SERVICES</a>
                         <ul class="sub-menu" style="display: none;">
-                            <li id="menu-item-1830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1830"><a href="http://preview.themique.com/ventus/portfolios/portfolio-3-col/">PORTFOLIO 3-COL</a></li>
-                            <li id="menu-item-1829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1829"><a href="http://preview.themique.com/ventus/portfolios/portfolio-2-col/">PORTFOLIO 2-COL</a></li>
-                            <li id="menu-item-1828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1828"><a href="http://preview.themique.com/ventus/portfolios/filtered-portfolio/">FILTERED PORTFOLIO</a></li>
-                            <li id="menu-item-1815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1815"><a href="http://preview.themique.com/ventus/blog/portfolio/project-10/">PORTFOLIO SINGLE</a></li>
-                            <li id="menu-item-1897" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1897"><a href="http://preview.themique.com/ventus/blog/portfolio/project-11/">PORTFOLIO SINGLE 2</a></li>
-                            <li id="menu-item-1886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="http://preview.themique.com/ventus/portfolio-slider/">PORTFOLIO SLIDER</a></li>
+
+
+                            <li id="menu-item-1897" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1897"><a href="#">Software development</a></li>
+                            <li id="menu-item-1886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="#">Web design</a></li>
+			    <li id="menu-item-1886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="#">Mobile application</a></li>
+			    <li id="menu-item-1886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="#">Electronics application</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1861"><a href="<?= HOME ?>project" class="sf-with-ul" style="padding: 38px 15px;">PROJECTS</a>
+                    <li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1861 <?= highligh_tab('project')[0] ?>">
+	<?= highligh_tab('project')[1] ?><a href="<?= HOME ?>project" class="sf-with-ul" style="padding: 38px 15px;">PROJECTS</a>
                         <ul class="sub-menu" style="display: none;">
                             <li id="menu-item-1855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1855"><a href="http://preview.themique.com/ventus/shortcodes/accordions/">ACCORDIONS</a></li>
                             <li id="menu-item-1856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1856"><a href="http://preview.themique.com/ventus/shortcodes/data-tables/">DATA TABLES</a></li>
@@ -73,13 +84,13 @@
                             <li id="menu-item-1818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1818"><a href="http://preview.themique.com/ventus/shortcodes/elements/">MORE ELEMENTS</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-1817" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1817"><a href="<?= HOME ?>public" class="sf-with-ul" style="padding: 38px 15px;">PUBLICITY</a>
+                    <li id="menu-item-1817" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1817 <?= highligh_tab('public')[0] ?>"><?= highligh_tab('public')[1] ?><a href="<?= HOME ?>public" class="sf-with-ul" style="padding: 38px 15px;">PUBLICITY</a>
                         <ul class="sub-menu" style="display: none;">
                             <li id="menu-item-1840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1840"><a href="http://preview.themique.com/ventus/features/">OVERVIEW</a></li>
                             <li id="menu-item-1866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1866"><a href="http://preview.themique.com/ventus/features/admin-panel/">ADMIN PANEL</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-1814" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1814"><a href="<?= HOME ?>contact" style="padding: 38px 15px;">JOBS & INVESTMENTS</a></li>
+                    <li id="menu-item-1814" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1814 <?= highligh_tab('contact')[0] ?>"><?= highligh_tab('contact')[1] ?><a href="<?= HOME ?>contact" style="padding: 38px 15px;">JOBS & INVESTMENTS</a></li>
                 </ul>
 		<select tabindex="1" class="default tinynav tinynav1" name="dropkick" id="tinynav1">
 		    <option value="http://preview.themique.com/ventus/" selected="selected">HOME</option>
@@ -114,9 +125,9 @@
 		    <option value="http://preview.themique.com/ventus/shortcodes/audio/">- AUDIO</option>
 		    <option value="http://preview.themique.com/ventus/shortcodes/elements/">- MORE ELEMENTS</option>
 		    <option value="undefined">FEATURES</option>
-		    <option value="http://preview.themique.com/ventus/features/">- OVERVIEW</option>
-		    <option value="http://preview.themique.com/ventus/features/admin-panel/">- ADMIN PANEL</option>
-		    <option value="http://themeforest.net/item/ventus-unique-multipurpose-wordpress-theme/5498133?ref=imangm" selected="selected">PURCHASE</option>
+		    <option value="#">- OVERVIEW</option>
+		    <option value="#">- ADMIN PANEL</option>
+		    <option value="#" selected="selected">PURCHASE</option>
 		</select>	
 	    </div><!--/.nav-collapse -->
         </div>

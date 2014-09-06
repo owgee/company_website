@@ -82,11 +82,11 @@ h6 {
 	box-shadow:         inset 0 0 15px rgb(-5,140,108);
 }
 .content-image-overlay {
-	background:  url(http://preview.themique.com/ventus/wp-content/themes/ventus/assets/img/image_overlay.png);
+	background:  url('media/images/image_overlay.png');
 	background-size: 0px 0px;
 }
 .content-image-overlay:hover {
-	background:  url(http://preview.themique.com/ventus/wp-content/themes/ventus/assets/img/image_overlay.png);
+	background:  url('media/images/image_overlay.png');
 	background-size: 48px 48px;
 }
 .content-image-overlay i {
@@ -164,7 +164,7 @@ h6 {
 	}
 /* Other Pages Slider Area Background */
 	.slider {
-		background-image: url('http://preview.themique.com/ventus/wp-content/uploads/2013/10/inner_back2.jpg');
+		background-image: url('media/images/inner_back2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}

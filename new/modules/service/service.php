@@ -37,20 +37,21 @@
 			</div>
 			<div class="span2">
 			    <ul class="portfolio-view-nav">
-				<li><a href="http://preview.themique.com/ventus/blog/portfolio/project-11/"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/icon_arrowleft.png" alt=""></a></li>
-				<li><a href="http://preview.themique.com/ventus/portfolios/portfolio-3-col/"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/icon_grid.png" alt=""></a></li>
-				<li><a href="http://preview.themique.com/ventus/blog/portfolio/project-9/"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/icon_arrowright.png" alt=""></a></li>
+				<li><a href="#"><img src="media/images/icon_arrowleft.png" alt=""></a></li>
+				<li><a href="#"><img src="media/images/icon_grid.png" alt=""></a></li>
+				<li><a href="#"><img src="media/images/icon_arrowright.png" alt=""></a></li>
 			    </ul>
 			</div>
 		    </div>
 		    <div class="content-bubble drop-shadow curved">
 			<div class="flexslider portfolio_flexsliders">
 
-			    <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1000%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-2052px, 0px, 0px);"><li class="clone" style="float: left; display: block; width: 684px;"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-5441478-climbing-hard-s1.jpg" class="fancybox"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/photodune-5441478-climbing-hard-s1-700x420.jpg" alt="" title="photodune-5441478-climbing-hard-s"></a></li>
-				    <li class="" style="float: left; display: block; width: 684px;"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-3716591-arrow-s1.jpg" class="fancybox"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/photodune-3716591-arrow-s1-700x420.jpg" alt="" title="photodune-3716591-arrow-s"></a></li>
-				    <li class="" style="float: left; display: block; width: 684px;"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-5436157-on-the-bicycle-s1.jpg" class="fancybox"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/photodune-5436157-on-the-bicycle-s1-700x420.jpg" alt="" title="photodune-5436157-on-the-bicycle-s"></a></li>
-				    <li style="float: left; display: block; width: 684px;" class="flex-active-slide"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-5441478-climbing-hard-s1.jpg" class="fancybox"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/photodune-5441478-climbing-hard-s1-700x420.jpg" alt="" title="photodune-5441478-climbing-hard-s"></a></li>
-				    <li class="clone" style="float: left; display: block; width: 684px;"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-3716591-arrow-s1.jpg" class="fancybox"><img src="./Ventus Premium Business WordPress Theme   Project #10 – Slideshow_files/photodune-3716591-arrow-s1-700x420.jpg" alt="" title="photodune-3716591-arrow-s"></a></li></ul></div><ul class="flex-direction-nav"><li><a class="flex-prev" href="http://preview.themique.com/ventus/blog/portfolio/project-10/#"></a></li><li><a class="flex-next" href="http://preview.themique.com/ventus/blog/portfolio/project-10/#"></a></li></ul></div>								
+			    <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1000%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-2052px, 0px, 0px);"><li class="clone" style="float: left; display: block; width: 684px;">
+					<a href="media/images/photodune-5441478-climbing-hard-s1.jpg" class="fancybox"><img src="media/images/photodune-5441478-climbing-hard-s1-700x420.jpg" alt="" title="photodune-5441478-climbing-hard-s"></a></li>
+				    <li class="" style="float: left; display: block; width: 684px;"><a href="media/images/photodune-3716591-arrow-s1.jpg" class="fancybox"><img src="media/images/photodune-3716591-arrow-s1-700x420.jpg" alt="" title="photodune-3716591-arrow-s"></a></li>
+				    <li class="" style="float: left; display: block; width: 684px;"><a href="media/images/photodune-5436157-on-the-bicycle-s1.jpg" class="fancybox"><img src="media/images/photodune-5436157-on-the-bicycle-s1-700x420.jpg" alt="" title="photodune-5436157-on-the-bicycle-s"></a></li>
+				    <li style="float: left; display: block; width: 684px;" class="flex-active-slide"><a href="media/images/photodune-5441478-climbing-hard-s1.jpg" class="fancybox"><img src="media/images/photodune-5441478-climbing-hard-s1-700x420.jpg" alt="" title="photodune-5441478-climbing-hard-s"></a></li>
+				    <li class="clone" style="float: left; display: block; width: 684px;"><a href="media/images/photodune-3716591-arrow-s1.jpg" class="fancybox"><img src="media/images/photodune-3716591-arrow-s1-700x420.jpg" alt="" title="photodune-3716591-arrow-s"></a></li></ul></div><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>								
 		    </div>
 		    <div class="content-bubble-triangle"></div>
 		</div>
@@ -87,7 +88,7 @@
 		    <p>Proin augue quam, ultrices in dictum in, accumsan vitae elit. Aenean aliquam ipsum at augue malesuada, et tristique nisl laoreet. Cras aliquet, augue eu pretium eleifend, ligula metus malesuada nulla, sed dignissim felis lectus et quam. Sed auctor sagittis lacus, eget adipiscing diam pretium consequat. Nulla vitae libero sem. Phasellus sed lorem id eros venenatis luctus. Aenean commodo est eget elementum congue.</p>
 		    <br>																		<div class="row-fluid">
 			<div class="span12">
-			    <a href="http://demo.themique.com/ventus" target="_blank" class="btn btn-padded btn-block">VIEW PROJECT</a>
+			    <a href="#" target="_blank" class="btn btn-padded btn-block">VIEW PROJECT</a>
 			</div>
 		    </div>
 

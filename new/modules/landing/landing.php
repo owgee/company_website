@@ -14,11 +14,11 @@
                                                 <div class="features-circle">
                                                     <i class="icomoon-mobile"></i>
                                                 </div>
-                                                <h4>SUPER RESPONSIVE</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
+                                                <h4>SOFTWARE/WEB DESIGN AND DEVELOPMENT</h4>
+                                                <p>We design and develop website  and web application via international standards and engineering ethics to meet your needs.</p>
                                                 <br>
                                                 <div class="features-read-more">
-                                                    <a class="btn btn-small btn-prime" href="http://preview.themique.com/ventus/#" target="_self">READ MORE</a>
+                                                    <a class="btn btn-small btn-prime" href="<?=HOME?>service&section=web" target="_self">READ MORE</a>
                                                 </div>
                                                 <div class="features-triangle"></div>
                                             </div>
@@ -39,8 +39,8 @@
                                                 <div class="features-circle">
                                                     <i class="icomoon-screen"></i>
                                                 </div>
-                                                <h4>SQUEEKY CLEAN</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
+                                                <h4>DATABASE DESIGN</h4>
+                                                <p>Focus on high scale multiuser support and transactions abilities to be used in Banks and other institutions.  We are expert in MYSQL, Oracle, Postgres, CautchDB and other databases</p>
                                                 <br>
                                                 <div class="features-read-more">
                                                     <a class="btn btn-small btn-prime" href="http://preview.themique.com/ventus/#" target="_self">READ MORE</a>
@@ -64,8 +64,8 @@
                                                 <div class="features-circle">
                                                     <i class="icomoon-laptop"></i>
                                                 </div>
-                                                <h4>MULTI PURPOSE</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
+                                                <h4>MOBILE APPLICATIONS</h4>
+                                                <p>We develop applications to runs on smart phones (phone with touch screen), USSD mobile application, SMS solutions apps and SIM card applications. </p>
                                                 <br>
                                                 <div class="features-read-more">
                                                     <a class="btn btn-small btn-prime" href="http://preview.themique.com/ventus/#" target="_self">READ MORE</a>
@@ -89,8 +89,8 @@
                                                 <div class="features-circle">
                                                     <i class="icomoon-support"></i>
                                                 </div>
-                                                <h4>HIGHLY FLEXIBLE</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
+                                                <h4>ELECTRONICS CIRCUIT DESIGN</h4>
+                                                <p>We deal with control systems design in Telecommunication and electronics engineering with skills in microcontroller programming, automation and security systems.</p>
                                                 <br>
                                                 <div class="features-read-more">
                                                     <a class="btn btn-small btn-prime" href="http://preview.themique.com/ventus/#" target="_self">READ MORE</a>
@@ -121,35 +121,39 @@
                                     <div class="wpb_wrapper">
                                         <div class="row-fluid">
                                             <div class="portfolio_item span4  element">
-                                                <div class="content-image"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-5441478-climbing-hard-s-700x457.jpg" class="fancybox"><span class="content-image-overlay"><i class="icomoon-search"></i></span><img src="media/images/photodune-5441478-climbing-hard-s-700x420.jpg" class="attachment-slideshow wp-post-image" alt="photodune-5441478-climbing-hard-s"></a>
+                                                <div class="content-image">
+						    <a href="media/images/photodune-5441478-climbing-hard-s-700x457.jpg" class="fancybox">
+							<span class="content-image-overlay">
+							    <i class="icomoon-search"></i></span>
+							<img src="media/images/photodune-5441478-climbing-hard-s-700x420.jpg" class="attachment-slideshow wp-post-image" alt="photodune-5441478-climbing-hard-s"></a>
                                                 </div>
 
                                                 <div class="content-bubble drop-shadow curved">
-                                                    <h5 class="heading"><a href="http://preview.themique.com/ventus/blog/portfolio/project-11/">Project #11</a></h5><p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis suscipit quam, at elementum elit. Aliquam commodo commodo eros, at<a href="http://preview.themique.com/ventus/blog/portfolio/project-11/">[...]</a>
+                                                    <h5 class="heading"><a href="#">Project #11</a></h5><p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis suscipit quam, at elementum elit. Aliquam commodo commodo eros, at<a href="#">[...]</a>
                                                     </p>							
                                                 </div>
                                                 <div class="content-bubble-triangle"></div>
                                             </div>
 
                                             <div class="portfolio_item span4  element">
-                                                <div class="content-image"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-3716591-arrow-s-700x466.jpg" class="fancybox"><span class="content-image-overlay"><i class="icomoon-search"></i></span><img src="media/images/photodune-3716591-arrow-s-700x420.jpg" class="attachment-slideshow wp-post-image" alt="photodune-3716591-arrow-s"></a>
+                                                <div class="content-image"><a href="media/images/photodune-3716591-arrow-s-700x466.jpg" class="fancybox"><span class="content-image-overlay"><i class="icomoon-search"></i></span><img src="media/images/photodune-3716591-arrow-s-700x420.jpg" class="attachment-slideshow wp-post-image" alt="photodune-3716591-arrow-s"></a>
                                                 </div>
 
                                                 <div class="content-bubble drop-shadow curved">
-                                                    <h5 class="heading"><a href="http://preview.themique.com/ventus/blog/portfolio/project-10/">Project #10 – Slideshow</a></h5><p>
-                                                        Nullam eget tortor orci. Quisque pellentesque nisi ac sem faucibus, eget luctus orci commodo. Suspendisse eget libero vitae eros scelerisque<a href="http://preview.themique.com/ventus/blog/portfolio/project-10/">[...]</a>
+                                                    <h5 class="heading"><a href="#">Project #10 – Slideshow</a></h5><p>
+                                                        Nullam eget tortor orci. Quisque pellentesque nisi ac sem faucibus, eget luctus orci commodo. Suspendisse eget libero vitae eros scelerisque<a href="#">[...]</a>
                                                     </p>							
                                                 </div>
                                                 <div class="content-bubble-triangle"></div>
                                             </div>
 
                                             <div class="portfolio_item span4  element">
-                                                <div class="content-image"><a href="http://preview.themique.com/ventus/wp-content/uploads/2013/08/photodune-5436157-on-the-bicycle-s-700x473.jpg" class="fancybox"><span class="content-image-overlay"><i class="icomoon-search"></i></span><img src="media/images/photodune-5436157-on-the-bicycle-s-700x420.jpg" class="attachment-slideshow wp-post-image" alt="photodune-5436157-on-the-bicycle-s"></a>
+                                                <div class="content-image"><a href="media/images/photodune-5436157-on-the-bicycle-s-700x473.jpg" class="fancybox"><span class="content-image-overlay"><i class="icomoon-search"></i></span><img src="media/images/photodune-5436157-on-the-bicycle-s-700x420.jpg" class="attachment-slideshow wp-post-image" alt="photodune-5436157-on-the-bicycle-s"></a>
                                                 </div>
 
                                                 <div class="content-bubble drop-shadow curved">
-                                                    <h5 class="heading"><a href="http://preview.themique.com/ventus/blog/portfolio/project-9/">Project #9</a></h5><p>
+                                                    <h5 class="heading"><a href="#/">Project #9</a></h5><p>
                                                         Maecenas ullamcorper sapien a purus bibendum ultrices. Nunc viverra nibh a dignissim feugiat. Integer lacus massa, consequat eu dignissim vel,<a href="http://preview.themique.com/ventus/blog/portfolio/project-9/">[...]</a>
                                                     </p>							
                                                 </div>
@@ -178,7 +182,8 @@
 
                                 <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_left-to-right">
                                     <div class="wpb_wrapper">
-                                        <div class="tour-tab"><ul class="nav nav-list" id="myTab">
+                                        <div class="tour-tab">
+					    <ul class="nav nav-list" id="myTab">
                                                 <li class="active first">
                                                     <a href="http://preview.themique.com/ventus/#slug-ZTFT6-0">ABOUT US</a>
                                                 </li>
@@ -352,18 +357,18 @@
                                     <div class="wpb_wrapper">
                                         <ul class="nav nav-tabs" id="tabs">
                                             <li class="active">
-                                                <a href="http://preview.themique.com/ventus/#slug-XHDeX-0">Design</a>
+                                                <a href="#slug0">Design</a>
                                             </li>
 
                                             <li class="">
-                                                <a href="http://preview.themique.com/ventus/#slug-XHDeX-1">Production</a>
+                                                <a href="#slug1">Production</a>
                                             </li>
                                         </ul> <div class="tab-content">
-                                            <div class="tab-pane active" id="slug-XHDeX-0"><div class="content-bubble">
+                                            <div class="tab-pane active" id="slug0"><div class="content-bubble">
                                                     <h5 class="text-left heading">Design</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sed do eiusmod tempor ut labore et dolore magna sed<br><br> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sed do eiusmod tempor”<br><br>
                                                 </div></div>
 
-                                            <div class="tab-pane " id="slug-XHDeX-1"><div class="content-bubble">
+                                            <div class="tab-pane " id="slug1"><div class="content-bubble">
                                                     <h5 class="text-left normal">Production</h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sed do eiusmod tempor ut labore et dolore magna sed<br><br> “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna sed do eiusmod tempor”
                                                 </div></div>
                                         </div><div class="content-bubble-triangle"></div>

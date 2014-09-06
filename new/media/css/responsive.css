@@ -22,7 +22,7 @@
 		height: 49px;
 		margin-top: 0px;
 		margin-left: 75px !important;
-		background: transparent url(../img/vertical_tab_active_shadow2.png) no-repeat right top !important;
+		background: transparent url(media/images/vertical_tab_active_shadow1.png) no-repeat right top !important;
 		z-index: -1;
 	}
 	.nav-list .active:before  {
@@ -32,7 +32,7 @@
 		height: 49px;
 		margin-top: -50px;
 		margin-left: 75px !important;
-		background: transparent url(../img/vertical_tab_active_shadow1.png) no-repeat right top !important;
+		background: transparent url(media/images/vertical_tab_active_shadow1.png) no-repeat right top !important;
 		z-index: -1;
 	}
 	.nav-list .first:before  {
@@ -89,24 +89,24 @@
 		padding: 14px 22px;
 		font-size: 12px;
 		color: #555;
-		background: url(../img/vertical_tab_line_shadow.png) no-repeat, url(../img/vertical_tab_divider.png) no-repeat !important;
+		background: url(media/images/vertical_tab_line_shadow.png) no-repeat, url(../images/vertical_tab_divider.png) no-repeat !important;
 		background-position: 92%, 5px bottom !important;
 	}
 	.nav-list .first a  {
-		background: url(../img/vertical_tab_line_first.png) no-repeat, url(../img/vertical_tab_divider.png) no-repeat !important;
+		background: url(media/images/vertical_tab_line_first.png) no-repeat, url(../images/vertical_tab_divider.png) no-repeat !important;
 		background-position: 92%, 5px bottom !important;
 	}
 	.nav-list .last a  {
-		background: url(../img/vertical_tab_line_last.png) no-repeat !important;
+		background: url(media/images/vertical_tab_line_last.png) no-repeat !important;
 		background-position: 92%, 5px bottom !important;
 	}
 	.nav-list li a:hover  {
 		color: #fff;
 		text-shadow: 1px 1px #4c4c4c !important;
-		background: transparent url(../img/vertical_tab_active.png) no-repeat right !important;
+		background: transparent url(media/images/vertical_tab_active.png) no-repeat right !important;
 	}
 	.nav-list .active a  {
-		background: transparent url(../img/vertical_tab_active.png) no-repeat right !important;
+		background: transparent url(media/images/vertical_tab_active.png) no-repeat right !important;
 		
 	}
  }
@@ -166,7 +166,7 @@
 		right: 0;
 		border-radius: 0;
 		padding: 19px 22px 20px 22px;
-		background: url(../img/breadcrumbs_bg.png) no-repeat right;
+		background: url(media/images/breadcrumbs_bg.png) no-repeat right;
 		
 	}
 	.breadcrumb:after {
@@ -218,7 +218,7 @@
 		width: 100%; height: 50px;
 		position: absolute;
 		margin-top: -67px;
-		background: #EFEFEF url('../img/stripes-divider.png') repeat-x;
+		background: #EFEFEF url('media/images/stripes-divider.png') repeat-x;
 	}
 	.bubble-triangle {
 	   width: 0px;
@@ -413,7 +413,7 @@
 		background: none !important;
 	}	
 	.navbar ul .active a {
-		background: url("../img/navigation_active.png") !important;
+		background: url("media/images/navigation_active.png") !important;
 		box-shadow: none !important;
 		moz-box-shadow: none !important;
 		webkit-box-shadow: none !important;

@@ -35,7 +35,7 @@
 		<div class="row">
 			<div class="box-holder span6 offset3">
 				<!-- Title -->
-				<h1>archon</h1><hr>
+				<h1>inets</h1><hr>
 				<!-- Login Form -->
 				<form action="<?=HOME?>admin">
 					<div class="input-prepend">
