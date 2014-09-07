@@ -29,7 +29,7 @@ if (defined('ENVIRONMENT')) {
             $dbname = 'inets';
             $username = 'root';
             $password = '';
-            $table_prefix = '';
+            $table_prefix = 'inets_';
             $root_folder = 'inets/';
             break;
 

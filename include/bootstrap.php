@@ -9,6 +9,7 @@ require_once 'define.php';
 defined('RT') ? NULL : define('RT', $_SERVER['DOCUMENT_ROOT'] . '/' . ROOT_FOLDER . '');
 
 require(RT . 'include/connection.php');
+require_once (RT . 'new/persistance/database/tables/tables.php');
 require(RT . 'include/function.php');
 require(RT . 'include/input.php');
 require(RT . 'include/sender.php');
