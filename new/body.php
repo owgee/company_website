@@ -3,7 +3,9 @@
         <?php include_once 'modules/landing/banner.php'; ?>
         <!-- BEGIN SLIDER
     ================================================== -->
-        <?php include_once 'modules/landing/slider.php'; ?>
+        <?php empty($_GET['pg'])? 
+	        include_once 'modules/landing/slider.php':
+		include_once 'modules/landing/slider_inner.php'; ?>
 
         <!-- BEGIN MAIN BUBBLE
     ================================================== -->

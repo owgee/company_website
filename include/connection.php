@@ -329,8 +329,9 @@ class dbpdo {
         return self::find_by_sql("SELECT * FROM `" . TABLE_PREFIX . $table . "` ORDER BY " . $table . "_id DESC ",$table.'_');
     }
 
-    public static function find_by_sql($sql = "",$table) {
+    public static function find_by_sql($sql = "",$table='') {
          $db = new dbpdo();
+	  $table = $table==''? get_called_class(): $table;
         $obj = $db->remove_table_prefix($db->fetch_object($sql), $table);
         return $obj;
     }

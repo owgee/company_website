@@ -4,7 +4,7 @@
 	<div class="span12">
 	    <div class="breadcrumb-container">
 		<ul class="breadcrumb">
-		    <li><a href="http://preview.themique.com/ventus/">Home</a></li><span class="divider"> / </span><li class="active">Blog</li>
+		    <li><a href="#">Home</a></li><span class="divider"> / </span><li class="active">Blog</li>
 		</ul>
 	    </div>
 	</div>
@@ -19,22 +19,15 @@
 		<section id="nav_menu-2" class="widget-side span12 widget_nav_menu">
 		    <div class="menu-shortcodes-container">
 			<ul id="menu-shortcodes" class="menu nav nav-list">
-			    <li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860 first"><a href="http://preview.themique.com/ventus/shortcodes/">SHORTCODES</a></li>
-			    <li id="menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1858"><a href="http://preview.themique.com/ventus/shortcodes/accordions/">ACCORDIONS</a></li>
-			    <li id="menu-item-1857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1857"><a href="http://preview.themique.com/ventus/shortcodes/data-tables/">DATA TABLES</a></li>
-			    <li id="menu-item-1846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1846"><a href="http://preview.themique.com/ventus/shortcodes/image-box/">IMAGE BOX</a></li>
-			    <li id="menu-item-1841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1841"><a href="http://preview.themique.com/ventus/shortcodes/portfolio/">PORTFOLIO</a></li>
-			    <li id="menu-item-1870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1870"><a href="http://preview.themique.com/ventus/shortcodes/clients-carousel/">CLIENTS CAROUSEL</a></li>
-			    <li id="menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1850"><a href="http://preview.themique.com/ventus/shortcodes/price-tables/">PRICE TABLES</a></li>
-			    <li id="menu-item-1847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1847"><a href="http://preview.themique.com/ventus/shortcodes/1584-2/">SERVICES</a></li>
-			    <li id="menu-item-1854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1854"><a href="http://preview.themique.com/ventus/shortcodes/1609-2/">TABS &amp; TOUR</a></li>
-			    <li id="menu-item-1842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1842"><a href="http://preview.themique.com/ventus/shortcodes/team-members/">TEAM MEMBERS</a></li>
-			    <li id="menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1851"><a href="http://preview.themique.com/ventus/shortcodes/testimonials/">TESTIMONIALS</a></li>
-			    <li id="menu-item-1863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1863"><a href="http://preview.themique.com/ventus/shortcodes/video/">VIDEO</a></li>
-			    <li id="menu-item-1864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1864"><a href="http://preview.themique.com/ventus/shortcodes/audio/">AUDIO</a></li>
-			    <li id="menu-item-1859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1859"><a href="http://preview.themique.com/ventus/shortcodes/elements/">MORE ELEMENTS</a></li>
-			    <li id="menu-item-1867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1867 last"><a href="http://preview.themique.com/ventus/features/admin-panel/">ADMIN PANEL</a></li>
-			</ul></div></section></div>						</div>
+			    <?php 
+			    $blog_categories=  blog::find_by_sql("SELECT DISTINCT blog_category FROM inets_blog");
+			    foreach ($blog_categories as $bg) {
+			    ?>
+			    <li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860 first"><a href="<?=HOME.'public/&category='.$bg->category?>"><?=$bg->category?></a></li>
+			    <?php } ?>
+			</ul>
+		    </div>
+		</section></div>						</div>
 	<div class="span9">
 	    <div class="textcenter">
 		<span class="content-heading">BLOG</span>
@@ -42,7 +35,12 @@
 	    </div>
 
 	    <?php
-	    $blogs = blog::find_all();
+	    if(isset($_GET['category']) && !empty($_GET['category'])){
+		$blogs = blog::find_where(array('category'=>$_GET['category']));
+	    }  else {
+		$blogs = blog::find_all();
+	    }
+	    
 	    foreach ($blogs as $blog) {
 		?>
 
@@ -53,8 +51,8 @@
     			<div class="flexslider portfolio_flexsliders">
 
     			    <div class="flex-viewport" style="overflow: hidden; position: relative;">
-				<ul class="slides" style="width: 1800%; -webkit-transition: 0.6s; transition: 0.6s; -webkit-transform: translate3d(-1208px, 0px, 0px);">
-				    <li class="clone" style="float: left; display: block; width: 604px;">
+    				<ul class="slides" style="width: 1800%; -webkit-transition: 0.6s; transition: 0.6s; -webkit-transform: translate3d(-1208px, 0px, 0px);">
+    				    <li class="clone" style="float: left; display: block; width: 604px;">
     					<a href="media/images/photodune-4079101-blue-paint-s1.jpg" class="fancybox">
     					    <img src="media/images/photodune-4079101-blue-paint-s1-700x420.jpg" alt="" title="photodune-4079101-blue-paint-s">
     					</a></li>

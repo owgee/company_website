@@ -78,9 +78,9 @@
     					</div>
 
     					<div class="content-bubble drop-shadow curved">
-    					    <h5 class="heading"><a href="<?= HOME . 'project&section=single&name=' . $project->name ?>"><?= $project->name ?></a></h5><p>
+    					    <h5 class="heading"><a href="<?= HOME . 'project&section=type&name=' . $project->name ?>"><?= $project->name ?></a></h5><p>
 						    <?= $project->description ?>
-    						<a href="<?= HOME . 'project&section=single&name=' . $project->name ?>">[...]</a>
+    						<a href="<?= HOME . 'project&section=type&name=' . $project->name ?>">[...]</a>
     					    </p>							
     					</div>
     					<div class="content-bubble-triangle"></div>
@@ -116,19 +116,14 @@
 				<div class="tour-tab">
 				    <ul class="nav nav-list" id="myTab">
 					<li class="active first">
-					    <a href="#slug-ZTFT6-0">HOW WE WORKS</a>
+					    <a href="#slug-ZTFT6-0" data-toggle="tab">HOW WE WORKS</a>
 					</li>
 
 					<li class="">
-					    <a href="#slug-ZTFT6-2">OUR TEAM</a>
+					    <a href="#slug-ZTFT6-2" data-toggle="tab">OUR CULTURE</a>
 					</li>
-
 					<li class="">
-					    <a href="#slug-ZTFT6-3">PRICING</a>
-					</li>
-
-					<li class="">
-					    <a href="#slug-ZTFT6-4">HOW WE WORKS</a>
+					    <a href="#slug-ZTFT6-4" data-toggle="tab">OUR TEAM</a>
 					</li>
 				    </ul></div><div class="tour-content mobile-box"> <div class="tab-content">
 					<div class="tab-pane active" id="slug-ZTFT6-0">
@@ -136,24 +131,15 @@
 					    We provide our services in more open way, transparent and highly committed and efficient to meet customer needs and add more values. We provide professional services and open contracts with guarantee that, if we deliver something which do not meet your expectation or needs, we will pay you back.<br><br><br><br><a href="#" target="_self" class="btn btn-prime ">GET STARTED</a>
 					</div>
 
-					<div class="tab-pane " id="slug-ZTFT6-1">
-					    Tab Content
-					</div>
 
 					<div class="tab-pane " id="slug-ZTFT6-2">
-					    Tab Content
-					</div>
-
-					<div class="tab-pane " id="slug-ZTFT6-3">
-					    Tab Content
+					  	    <h4 class="text-left ">Our Culture</h4>
+					    We provide our services in more open way, transparent and highly committed and efficient to meet customer needs and add more values. We provide professional services and open contracts with guarantee that, if we deliver something which do not meet your expectation or needs, we will pay you back.<br><br><br><br>
 					</div>
 
 					<div class="tab-pane " id="slug-ZTFT6-4">
-					    Tab Content
-					</div>
-
-					<div class="tab-pane " id="slug-ZTFT6-5">
-					    Tab Content
+					   <h4 class="text-left ">Our Team</h4>
+					   <?php include_once 'modules/landing/section/team.php';?>
 					</div>
 				    </div></div>
 
@@ -232,22 +218,27 @@
 			    <div class="wpb_wrapper">
 				<ul class="nav nav-tabs" id="tabs">
 				    <li class="active">
-					<a href="#slug0">Our Vision</a>
+					<a href="#slug0" data-toggle="tab">Our Vision</a>
 				    </li>
 
 				    <li class="">
-					<a href="#slug1">Our Mission</a>
+					<a href="#slug1" data-toggle="tab">Our Mission</a>
 				    </li>
-				</ul> <div class="tab-content">
-				    <div class="tab-pane active" id="slug0"><div class="content-bubble">
+				</ul> 
+				<div class="tab-content">
+				    <div class="tab-pane active" id="slug0">
+					<div class="content-bubble">
 					    <h5 class="text-left heading">Vision</h5><br><br>
 					    To be a centre for innovation that use technology as a tool to create global solutions to people, organizations and companies
-					</div></div>
+					</div>
+				    </div>
 
-				    <div class="tab-pane " id="slug1"><div class="content-bubble">
+				    <div class="tab-pane " id="slug1">
+					<div class="content-bubble">
 					    <h5 class="text-left normal">Mission</h5>
 					    To provide standards and quality effective software and products that change the way we do things into better and mostly simplified approach to adopt.
-					</div></div>
+					</div>
+				    </div>
 				</div><div class="content-bubble-triangle"></div>
 
 

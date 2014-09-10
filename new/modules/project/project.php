@@ -39,8 +39,8 @@
     			    </div>
 
     			    <div class="content-bubble drop-shadow curved">
-    				<h5 class="heading"><a href="<?= HOME . 'project&section=single&name=' . $project->name ?>"><?=$project->name?></a></h5><p>
-    				   <?=$project->description?><a href="<?= HOME . 'project&section=single&name=' . $project->name ?>">[...]</a>
+    				<h5 class="heading"><a href="<?= HOME . 'project&section=type&name=' . $project->name ?>"><?=$project->name?></a></h5><p>
+    				   <?=$project->description?><a href="<?= HOME . 'project&section=type&name=' . $project->name ?>">[...]</a>
     				</p>							
     			    </div>
     			    <div class="content-bubble-triangle"></div>
