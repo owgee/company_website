@@ -10,8 +10,10 @@
 			    foreach ($projects as $project) {
 				?>
 
-			    <li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838 first"><a href="#"><?= strtoupper($project->name) ?></a></li>
-<?php } ?>
+    			    <li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1838 first">
+    				<a href="<?=HOME?>contact&tab=project_investment&name=<?= $project->name ?>"><?= strtoupper($project->name) ?></a>
+    			    </li>
+			    <?php } ?>
 			</ul></div></section></div>						</div>
 	<div class="span9">
 	    <div class="wpb_row vc_row-fluid">
@@ -22,7 +24,7 @@
 			    <div class="wpb_wrapper">
 
 				<div class="textcenter">
-				    <span class="content-heading">WHAT WE DO</span>
+				    <span class="content-heading">Project investment</span>
 				    <div class="content-heading-stripes"></div>
 				</div>
 
@@ -31,105 +33,34 @@
 			</div> 
 			<div class="wpb_text_column wpb_content_element ">
 			    <div class="wpb_wrapper">
-
+				<?php
+				$name = isset($_GET['name']) ? $_GET['name'] : 'karibuSMS';
+				$projects_investment = project::find_where(array('name' => $name));
+				$project = array_shift($projects_investment);
+				?>
 				<div class="content-bubble drop-shadow curved text-left">
 				    <br>
-				    &lt;h6&gt;&lt;strong&gt;WE DO MORE THAN JUST DESIGN&lt;/strong&gt;&lt;/h6&gt;<br>
-				    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<p></p>
+				    <h4 class="heading"><?= $project->name ?></h4>
+				    <p><?= $project->description ?></p>
 				    <p>
 				    </p></div><div class="content-bubble-triangle"></div>
 
+				    
+				    <div class="content-bubble drop-shadow curved text-left">
+				    <br>
+				    <h4 class="heading">Why you should invest on <?=$project->name?></h4>
+				    <p><?= $project->why_invest ?></p>
+				    <p>
+				    </p></div><div class="content-bubble-triangle"></div>
+				    <div class="span12">
+    			    <a href="#" target="_blank" class="btn btn-padded btn-block">Click here to invest on this project</a>
+    			</div>
 			    </div> 
 			</div> 
 		    </div> 
 		</div> 
 	    </div><div class="wpb_row vc_row-fluid">
-		<div class="vc_span4 wpb_column column_container">
-		    <div class="wpb_wrapper">
 
-			<div class="wpb_text_column wpb_content_element ">
-			    <div class="wpb_wrapper">
-				<div class="">
-				    <div class="features drop-shadow features-active">
-					<div class="features-circle">
-					    <i class="icomoon-mobile"></i>
-					</div>
-					<h4>WE <strong>DESIGN</strong></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
-					<br>
-					<div class="features-read-more">
-					    <a class="btn btn-small btn-prime" href="#" target="_self">READ MORE</a>
-					</div>
-					<div class="features-triangle"></div>
-				    </div>
-				</div>
-
-			    </div> 
-			</div> 
-		    </div> 
-		</div> 
-
-		<div class="vc_span4 wpb_column column_container">
-		    <div class="wpb_wrapper">
-
-			<div class="wpb_text_column wpb_content_element ">
-			    <div class="wpb_wrapper">
-				<div class="">
-				    <div class="features drop-shadow">
-					<div class="features-circle">
-					    <i class="icomoon-screen"></i>
-					</div>
-					<h4>WE <strong>DEVELOP</strong></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
-					<br>
-					<div class="features-read-more">
-					    <a class="btn btn-small btn-prime" href="#" target="_self">READ MORE</a>
-					</div>
-					<div class="features-triangle"></div>
-				    </div>
-				</div>
-
-			    </div> 
-			</div> 
-		    </div> 
-		</div> 
-
-		<div class="vc_span4 wpb_column column_container">
-		    <div class="wpb_wrapper">
-
-			<div class="wpb_text_column wpb_content_element ">
-			    <div class="wpb_wrapper">
-				<div class="">
-				    <div class="features drop-shadow">
-					<div class="features-circle">
-					    <i class="icomoon-laptop"></i>
-					</div>
-					<h4>WE <strong>CONSULT</strong></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet…</p>
-					<br>
-					<div class="features-read-more">
-					    <a class="btn btn-small btn-prime" href="#" target="_self">READ MORE</a>
-					</div>
-					<div class="features-triangle"></div>
-				    </div>
-				</div>
-
-			    </div> 
-			</div> 
-		    </div> 
-		</div> 
-	    </div><div class="wpb_row vc_row-fluid">
-		<div class="vc_span12 wpb_column column_container">
-		    <div class="wpb_wrapper">
-
-			<div class="wpb_text_column wpb_content_element ">
-			    <div class="wpb_wrapper">
-				<div class="clearfix" style="height: 10px"></div>
-
-			    </div> 
-			</div> 
-		    </div> 
-		</div> 
 	    </div>
 	</div>
 

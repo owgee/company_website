@@ -23,14 +23,14 @@
 			    $blog_categories=  blog::find_by_sql("SELECT DISTINCT blog_category FROM inets_blog");
 			    foreach ($blog_categories as $bg) {
 			    ?>
-			    <li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860 first"><a href="<?=HOME.'public/&category='.$bg->category?>"><?=$bg->category?></a></li>
+			    <li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1860 first"><a href="<?=HOME.'public/&category='.$bg->_category?>"><?=$bg->_category?></a></li>
 			    <?php } ?>
 			</ul>
 		    </div>
 		</section></div>						</div>
 	<div class="span9">
 	    <div class="textcenter">
-		<span class="content-heading">BLOG</span>
+		<h3 class="content-heading">BLOG</h3>
 		<div class="content-heading-stripes"></div>
 	    </div>
 
@@ -68,21 +68,20 @@
     		    <!-- Blog Title -->
     		    <div class="relative">
     			<div class="title-bubble">
-    			    <h5 class="left">Headers Post with Slideshow</h5>
+    			    <h5 class="left"><?=$blog->title?></h5>
     			    <div class="title-bubble-triangle"></div>
     			</div>
     		    </div>
 
     		    <!-- Blog Excerpt -->
     		    <div class="content-bubble blog drop-shadow curved">
-    			<p class="blog-info">BY <strong><a href="http://preview.themique.com/ventus/blog/author/imangm/" title="Posts by imangm" rel="author">imangm</a></strong> IN <strong><a href="http://preview.themique.com/ventus/blog/category/uncategorized/">Uncategorized</a></strong> On 31-08-2013</p>
-    			<p>This Is An H1 Tag Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo [...]</p>
+    			<p class="blog-info">BY <strong>
+				<a href="www.karibusms.com/inets" title="Posts by imangm" rel="author">Inets</a>
+			    </strong> <?=$blog->posted_time?></p>
+    			<p><?=$blog->description?></p>
 
     			<p class="visible-phone left">1 year ago / <a></a><a href="http://preview.themique.com/ventus/blog/headers-post-with-slideshow/#disqus_thread" title="Comment on Headers Post with Slideshow" data-disqus-identifier="1410 http://demo.themique.com/ventus/headers-post/"><span class="dsq-postid" rel="1410 http://demo.themique.com/ventus/headers-post/">No Comments</span></a></p>
 
-    			<div class="read-more">
-    			    <a href="http://preview.themique.com/ventus/blog/headers-post-with-slideshow/" class="btn btn-small">READ MORE</a>
-    			</div>    
     		    </div>	
     		    <div class="content-bubble-triangle"></div>
     		</div>

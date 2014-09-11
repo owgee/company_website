@@ -6,16 +6,14 @@
  * 
  */
 require_once 'define.php';
-defined('RT') ? NULL : define('RT', $_SERVER['DOCUMENT_ROOT'] . '/' . ROOT_FOLDER . '');
-
-require(RT . 'include/connection.php');
-require_once (RT . 'new/persistance/database/tables/tables.php');
-require(RT . 'include/function.php');
-require(RT . 'include/input.php');
-require(RT . 'include/sender.php');
+define('RT', __DIR__. '/');
+require(RT . 'connection.php');
+require(RT . 'function.php');
+require(RT . 'input.php');
+require(RT . 'sender.php');
 
 
-$HOME = 'http://' . $_SERVER['HTTP_HOST'] . '/'.ROOT_FOLDER.'new/?pg=';
+$HOME = 'http://' . $_SERVER['HTTP_HOST'] . '/';
 
 $AJAX = $HOME . "index.php?isajax=true&";
 
@@ -49,5 +47,4 @@ if (isset($_GET['isajax'])) {
     }
     
 }
-if(isset($_GET['pg']) && $_GET['pg']=='admin') {    include_once 'modules/admin/admin.php';    exit(); }
 ?>

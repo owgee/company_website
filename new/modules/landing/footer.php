@@ -15,24 +15,29 @@
 	    </div>
 	    <div class="span3 scrollbar" style="max-height: 240px; overflow: scroll; overflow-x: hidden;">
 		<a class="twitter-timeline" href="https://twitter.com/Inetstz" data-widget-id="509818389234081792">Tweets by @Inetstz</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<script>!function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+			if (!d.getElementById(id)) {
+			    js = d.createElement(s);
+			    js.id = id;
+			    js.src = p + "://platform.twitter.com/widgets.js";
+			    fjs.parentNode.insertBefore(js, fjs);
+			}
+		    }(document, "script", "twitter-wjs");</script>
 
 
 	    </div>
 	    <div class="span3">
-		<h5 class="heading">LATEST POSTS</h5>		<ul>
-		    <li>
-			<a href="#">Headers Post with Slideshow</a>
-		    </li>
-		    <li>
-			<a href="#">Links Post</a>
-		    </li>
-		    <li>
-			<a href="#">Blockquote Post</a>
-		    </li>
-		    <li>
-			<a href="#">UL and OL Post</a>
-		    </li>
+		<h5 class="heading">LATEST POSTS</h5>	
+		<ul>
+<?php
+$posts = blog::find_where("title !='' ", 'AND', 4);
+foreach ($posts as $post) {
+    ?>
+    		    <li>
+    			<a href="<?=HOME?>public"><?=$post->title?></a>
+    		    </li>
+<?php } ?>
 		</ul>
 	    </div>
 	    <div class="span3">
@@ -70,7 +75,7 @@
 		<ul class="social-icons">
 		    <a rel="alternate" target="_blank" href="https://www.twitter.com/inetstz" data-original-title="Share on Twitter"><i class="icomoon-twitter"></i></a>
 		    <a rel="alternate" target="_blank" href="https://www.facebook.com/inets#" data-original-title="Share on Facebook"><i class="icomoon-facebook"></i></a>
-	   <a rel="alternate" target="_blank" href="https://plus.google.com/115817418998123742140#" data-original-title="Share on Google+"><i class="icomoon-google-plus"></i></a>
+		    <a rel="alternate" target="_blank" href="https://plus.google.com/115817418998123742140#" data-original-title="Share on Google+"><i class="icomoon-google-plus"></i></a>
 		    <a rel="alternate" target="_blank" href="https://www.linkedin.com/company/inets" data-original-title="Linked in!"><i class="icomoon-yelp"></i></a>
 		</ul>
 
@@ -81,22 +86,7 @@
 	<img src="media/images/icon_up.png" alt=""></a>
 </div> 	
 <script>
-    (function(i, s, o, g, r, a, m) {
-	i['GoogleAnalyticsObject'] = r;
-	i[r] = i[r] || function() {
-	    (i[r].q = i[r].q || []).push(arguments)
-	}, i[r].l = 1 * new Date();
-	a = s.createElement(o),
-		m = s.getElementsByTagName(o)[0];
-	a.async = 1;
-	a.src = g;
-	m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-42515685-1', 'themique.com');
-    ga('send', 'pageview');
-
-</script>
 <script type="text/javascript">
     /* <![CDATA[ */
     var _wpcf7 = {"loaderUrl": "http:\/\/preview.themique.com\/ventus\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif", "sending": "Sending ..."};

@@ -122,25 +122,20 @@
 					<li class="">
 					    <a href="#slug-ZTFT6-2" data-toggle="tab">OUR CULTURE</a>
 					</li>
-					<li class="">
-					    <a href="#slug-ZTFT6-4" data-toggle="tab">OUR TEAM</a>
-					</li>
+				
 				    </ul></div><div class="tour-content mobile-box"> <div class="tab-content">
 					<div class="tab-pane active" id="slug-ZTFT6-0">
 					    <h4 class="text-left ">How we work</h4>
-					    We provide our services in more open way, transparent and highly committed and efficient to meet customer needs and add more values. We provide professional services and open contracts with guarantee that, if we deliver something which do not meet your expectation or needs, we will pay you back.<br><br><br><br><a href="#" target="_self" class="btn btn-prime ">GET STARTED</a>
+					    We provide our services in more open way, transparent and highly committed and efficient to meet customer needs and add more values. We provide professional services and open contracts with guarantee that, if we deliver something which do not meet your expectation or needs, we will pay you back.<br><br><br><br>
 					</div>
 
 
 					<div class="tab-pane " id="slug-ZTFT6-2">
 					  	    <h4 class="text-left ">Our Culture</h4>
-					    We provide our services in more open way, transparent and highly committed and efficient to meet customer needs and add more values. We provide professional services and open contracts with guarantee that, if we deliver something which do not meet your expectation or needs, we will pay you back.<br><br><br><br>
+					 The amazing technology within INETS is such simple, we hire every new member to the team based on our culture aptitude and experience, and we believe if you hire the right people and add a culture of innovation at the core of your business, brilliant light shall be the results<br><br><br><br>
 					</div>
 
-					<div class="tab-pane " id="slug-ZTFT6-4">
-					   <h4 class="text-left ">Our Team</h4>
-					   <?php include_once 'modules/landing/section/team.php';?>
-					</div>
+					
 				    </div></div>
 
 

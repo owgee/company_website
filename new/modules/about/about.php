@@ -18,7 +18,6 @@
 	    <div class="row-fluid"><section id="nav_menu-3" class="widget-side span12 widget_nav_menu"><div class="menu-side-menu-container">
 			<ul id="menu-side-menu" class="menu nav nav-list">
 			    <li id="menu-item-1838" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-174 current_page_item menu-item-1838 active first"><a href="<?= HOME ?>about">ABOUT</a></li>
-			    <li id="menu-item-1836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1836"><a href="<?= HOME ?>about&tab=team">OUR TEAM</a></li>
 			    <li id="menu-item-1832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1832"><a href="<?= HOME ?>about&tab=faq">FAQ</a></li>
 			    <li id="menu-item-1831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1831"><a href="<?= HOME ?>about&tab=testimony">TESTIMONIALS</a></li>
 			    <li id="menu-item-1833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1833"><a href="<?= HOME ?>about&tab=contact">CONTACT</a></li>

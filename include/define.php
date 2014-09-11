@@ -10,7 +10,10 @@
  *
  * DESC: This define all important parameters used in a system
  */
-defined('ENVIRONMENT') ? NULL : define('ENVIRONMENT', 'development');
+
+$environment =$_SERVER["REMOTE_ADDR"]=='127.0.0.1' ? 'development' : 'production';
+
+defined('ENVIRONMENT') ? NULL : define('ENVIRONMENT', $environment);
 /*
  * ---------------------------------------------------------------
  * ERROR REPORTING
@@ -22,32 +25,32 @@ defined('ENVIRONMENT') ? NULL : define('ENVIRONMENT', 'development');
 if (defined('ENVIRONMENT')) {
     switch (ENVIRONMENT) {
 
-        case 'development':
-            error_reporting(E_ALL);
-            ini_set('display_errors', '1');
-            $server = 'localhost';
-            $dbname = 'inets';
-            $username = 'root';
-            $password = '';
-            $table_prefix = 'inets_';
-            $root_folder = 'inets/';
-            break;
+	case 'development':
+	    error_reporting(E_ALL);
+	    ini_set('display_errors', '1');
+	    $server = 'localhost';
+	    $dbname = 'inets';
+	    $username = 'root';
+	    $password = '';
+	    $table_prefix = 'inets_';
+	    $root_folder = 'inets/';
+	    break;
 
-        case 'testing':
+	case 'testing':
 
-        case 'production':
-            error_reporting(0);
-            $server = 'pdb7.runhosting.com';
-            $dbname = '896128_inets';
-            $username = '896128_inets';
-            $password = 'tabita2011';
-            $table_prefix = '';
-            $root_folder = '';
+	case 'production':
+	    error_reporting(0);
+	    $server = 'pdb7.runhosting.com';
+	    $dbname = '896128_inets';
+	    $username = '896128_inets';
+	    $password = 'tabita2011';
+	    $table_prefix = 'inets_';
+	    $root_folder = '';
 
-            break;
+	    break;
 
-        default:
-            exit('The application environment is not set correctly.');
+	default:
+	    exit('The application environment is not set correctly.');
     }
 }
 
@@ -123,6 +126,4 @@ defined('TABLE_PREFIX') ? NULL : define('TABLE_PREFIX', $table_prefix);
 /**
  * --define payment costs
  */
-
-
 ?>
