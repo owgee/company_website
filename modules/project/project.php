@@ -1,74 +1,152 @@
-<div class="text-heading">
-    <h1> <span class="highlight">Our </span> Custom Projects</h1>
-    <p>We base on both <span>Enterprise and Client solutions</span></p>
-</div>
-<div class="container">
-    <div class="row">
-	<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+<?php
+if (!empty($_GET)) {
+    switch ($_GET['pid']) {
+        case 1:
+            $title = "Free prayer request";
+            $type = "Online platform for prayer requests";
+            $client = "olorphons church";
+            $date = "2013";
+            $link = '<a href="http://www.freeprayer-request.com" target="_blank">http://www.freeprayer-request.com</a>';
+            $description = "";
+            break;
+        case 2:
 
-	    <p class="agree-text">We are proud that most of our products are being used by different government and private institutions, and in different community.<br>
-		All we focus is to bring reliable solution for now and for the feature</p>
-	</div>
+
+            $title = "Tanzania Government constitution reform";
+            $type = "SMS subscription application";
+            $client = "Tanzania costitutional reform";
+            $date = "2012";
+            $link = '';
+            $description = "";
+            break;
+        case 3:
+
+            $title = "Hotleo news feed";
+            $type = "SMS subscription application";
+            $client = "Tanzania costitutional reform";
+            $date = "2012";
+            $link = '<a href="http://www.hotleo.com" target="_blank">http://www.hotleo.com</a>';
+            $description = "";
+            break;
+        case 4:
+
+            $title = "KaribuSMS application";
+            $type = "SMS subscription application";
+            $client = "Tanzania costitutional reform";
+            $date = "2014";
+            $link = '<a href="http://www.karibusms.com" target="_blank">http://www.karibusms.com</a>';
+            $description = "";
+            break;
+        default:
+            break;
+    }
+}
+?>
+<div id="pageloader" class="container">        
+    <div id="projects" class="entry-single pageloader_inner wrapper dark-text">
+
+        <!-- PROJECT TITLE + TAGS -->
+        <div class="slidecontent-bi col-md-10 col-md-offset-1">
+            <!-- BEGIN: ABOUT TITLE --> 
+            <div class="section-title smallmargin">
+                <h2 id="title"><?= $title ?></h2>
+                <div class="divider-small">
+                    <div class="divider colored"></div>
+                </div>
+
+                <div class="project-title-bi">
+                    <div class="project-cn">
+                        <p><span class="cl">Type: </span><?= $type ?></p>
+                        <p><span class="cl">Client: </span><?= $client ?></p>						
+                        <p><span class="cl"><?= $link != '' ? 'Link' : " Date" ?>: </span><?= $link != '' ? $link : $date ?></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECT SLIDER GOES HERE -->
+        <div class="col-md-10 col-md-offset-1">
+
+            <!-- ADD A CLASS "light" BEFORE THE FLEXSLIDER IF YOU WANT WHITE ARROWS NAV -->
+            <div class="light">
+                <!-- Flex Slider 01 -->
+                <div id="proj_slider01" class="flexslider">
+                    <ul class="slides">
+                        <li><img src="media/images/portfolio/p2.jpg" alt=""></li>
+                        <li><img src="media/images/portfolio/p22.jpg" alt=""></li>
+                        <li><img src="media/images/portfolio/p23.jpg" alt=""></li>
+                        <li><img src="media/images/portfolio/p24.jpg" alt=""></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECT DESCRIPTION + SHARES -->
+        <div class="bigimg-desc">
+
+            <!-- PROJECT DESCRIPTION -->
+            <div class="col-md-7 col-md-offset-1">
+                <h4 class="text-left">Project Description</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus sapien augue, sit amet accumsan magna elementum at. Aenean sagittis sapien sit amet molestie dapibus. Integer magna neque, accumsan sit amet mi condimentum, pharetra tempor mi....<span class="read-more-content"> Aenean eget turpis sed lacus consequat suscipit. Vivamus bibendum iaculis est, convallis elementum nunc fermentum vel. Praesent rhoncus malesuada augue, vel feugiat enim rutrum ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices commodo lacus, ac elementum est tincidunt vitae. Cras et consectetur est. Aliquam rutrum magna turpis, non congue felis tincidunt ut. Donec porttitor tellus sed diam vehicula, et fermentum ligula rutrum. Nullam feugiat, lorem sit amet molestie vulputate, diam mauris cursus sapien, eu consectetur nibh nulla a lectus. Cras sit amet massa eget eros facilisis tempor nec eget erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque suscipit, enim ac sodales pretium, lorem tortor ultrices ante, a sagittis lorem nulla sed mauris.</span><a href="javascript:;" class="read-more-toggle"> Read More</a></p>
+            </div>
+
+            <!-- SHARES -->
+            <div class="col-md-3">
+                <h4>Share</h4>
+                <div class="socialdiv colored">
+                    <ul>
+                        <li>
+                            <a class="e-mail" href="mailto:someone@example.com?Subject=Hello%20again" target="_blank">
+                                <div class="tooltip-desc">
+                                    <span class="arrow-down"></span>
+                                    <span class="social-name">E-Mail</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="facebook" href="#" target="_blank">
+                                <div class="tooltip-desc">
+                                    <span class="arrow-down"></span>
+                                    <span class="social-name">Facebook</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="pinterest" href="#" target="_blank">
+                                <div class="tooltip-desc">
+                                    <span class="arrow-down"></span>
+                                    <span class="social-name">Pinterest</span>
+                                </div>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="twitter" href="#" target="_blank">
+                                <div class="tooltip-desc">
+                                    <span class="arrow-down"></span>
+                                    <span class="social-name">Twitter</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dribbble" href="#" target="_blank">
+                                <div class="tooltip-desc">
+                                    <span class="arrow-down"></span>
+                                    <span class="social-name">Dribbble</span>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END: PROJECT DESCRIPTION + SHARES -->
     </div>
-</div>
-<section id="features-list" class="section dark">
-    <div class="container animated fadeInDown visible" data-animation="fadeInDown">
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-office-44 icon-active"></i>
-		<span class="h7">Constitution Reform</span>
-		<p class="thin">This project was used by Tanzania constitution reform to collect and analyze views from Tanzanians via SMS </p>
-	    </article>
-	</div>                       
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-shopping-18 icon-active"></i>
-		<span class="h7">Inventory Management</span>
-		<p class="thin">Allows merchandise organizations to manage their stocks/inventories and help to automate documentation, selling and reporting. </p>
-	    </article>
-	</div>             
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-seo-icons-27 icon-active"></i>
-		<span class="h7"><a href="http://www.karibusms.com" target="_blank">karibuSMS</a></span>
-		<p class="thin">Advertising and promotion, SMS platform, that let you send SMS notifications easily to customers inform them about your services/products.</p>
-	    </article>
-	</div>             
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-office-24 icon-active"></i>
-		<span class="h7"><a href="http://www.hotleo.com" target="_blank">Hotleo</a></span>
-		<p class="thin">This is a web application that automatically fetches real time news from all reputable sources including BBC, CNN and Aljazeer and display them in one for someone to easily read. </p>
-	    </article>
-	</div>             
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-graphic-design-13 icon-active"></i>
-		<span class="h7">
-		    <a href="<?= HOME ?>project&sec=prepaid_metering">Prepaid Energy Meter Remote Recharging</a> </span>
-		<p class="thin">A system that will allow keypad prepaid meters to remotely recharge and receive SMS notification via their phones without being in physical contact or nearby a meter </p>
-	    </article>
-	</div>             
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-arrows-37 icon-active"></i>
-		<span class="h7"><a href="http://www.freeprayer-request.com" target="_blank">Prayer Request</a></span>
-		<p class="thin">Online prayer request application that allow people to share prayer and pray one another.  </p>
-	    </article>
-	</div>             
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-badges-votes-14 icon-active"></i>
-		<span class="h7">Local project management</span>
-		<p class="thin">For small and medium projects management for local government authorities and private use. Features available includes, users tracking, financial management, project statistics etc Learn more </p>
-	    </article>
-	</div>             
-	<div class="col-md-3 col-sm-6 col-xs-12">
-	    <article class="center">	
-		<i class="icon icon-badges-votes-16 icon-active"></i>
-		<span class="h7"><a href="http://www.unnett.com" target="_blank">Unnett</a></span>
-		<p class="thin">Online social network which joins university students into one platform of sharing information, lecture notes and online discussions. </p>
-	    </article>
-	</div>           
-    </div>
-</section>
+</div> <!-- END #pageloader -->

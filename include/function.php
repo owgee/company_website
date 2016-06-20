@@ -5,12 +5,12 @@
  *
  *  desc:: PUT ALL FUNCTIONS WHICH YOU THINK ARE IMPORTANT
  */
+
 /**
  *
  * @param class name $class_name load all database classes
  *
  */
-set_error_handler('errorHandler');
 
 function redirect_to($location = NULL) {
     if ($location != NULL) {
@@ -18,13 +18,15 @@ function redirect_to($location = NULL) {
         exit;
     }
 }
+
 function header_state($title){
      return isset($_GET['pg']) && $_GET['pg']==$title? ' class="active"':'';
 }
+
 function __autoload($class_name) {
 
     $class_name = strtolower($class_name);
-    $path = RT . "include/library/{$class_name}.php";
+    $path = RT . "persistance/database/tables/{$class_name}.php";
     if (file_exists($path)) {
         require_once ($path);
     } else {
@@ -64,11 +66,24 @@ function js_media($media_name, $option = '') {
 }
 
 /**
- * load jquery ui
+ * 
+ * @param Image name $image_name This is a name of image in media folder
+ * @param integer $height  height of your image/icon
+ * @param integer $width  width of your image/icon
+ * @param string $title  title of your image
+ * @param string $alt  alt name of your image
+ * @return string image <img src="'.$path.'" height="'.$height.'" width="'.$width.'" title="'.$title.'" alt="'.$alt.'" />
+ * @example image('icon/ajax-loader.gif') give me an image
  */
-function jquery_ui() {
-    echo '<link type="text/css" href="persistance/plugins/jquery-ui-1.8.22.custom/css/custom-theme/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
-	 <script type="text/javascript" src="persistance/plugins/jquery-ui-1.8.22.custom/js/jquery-ui-1.8.22.custom.min.js"></script>';
+function image($image_name, $height = '', $width = '', $title = '', $alt = '', $option = '') {
+
+    $path = 'media/images/' . $image_name;
+    if (file_exists($path)) {
+        $image = '<img src="' . $path . '" height="' . $height . '" width="' . $width . '" title="' . $title . '" alt="' . $alt . '"  ' . $option . ' />';
+    } else {
+        $image = 'Icon in media/images/' . $image_name . ' does not exist';
+    }
+    return $image;
 }
 
 /**
@@ -104,7 +119,7 @@ function error_record($message, $result, $json = FALSE) {
     $headers .= "MIME-Version: 1.0\n";
     $headers .= "Content-Type: text/html; charset=iso-8859-1";
 
-    mail('swillae@yahoo.com,ynasson@gmail.com', "We got an error", $message . '<br/>' . $result, $headers);
+    mail('swillae@yahoo.com,ynasson@gmail.com,embalamaj1@gmail.com', "We got an error", $message . '<br/>' . $result, $headers);
 
     global $ses_user;
 
@@ -121,60 +136,15 @@ function error_record($message, $result, $json = FALSE) {
  <li>Error variable: <strong>" . $result . print_r(error_get_last()) . "</strong> </li>
 </ul>";
 
-   // write_file($file_path, $msg);
-//
-//    echo $json == FALSE ? $message : json_encode(array(
-//                'error' => '<div class="error">' . $message . '</div>'
-//    ));
-}
+    write_file($file_path, $msg);
 
-//this records errors that occurs in files or systems, its useful much
-
-function errorHandler($errno, $errmsg, $filename, $linenum, $vars) {
-    // timestamp for the error entry
-    $dt = date("Y-M-d H:i:s");
-
-    // define an assoc array of error string
-    // in reality the only entries we should
-    // consider are E_WARNING, E_NOTICE, E_USER_ERROR,
-    // E_USER_WARNING and E_USER_NOTICE
-    $errortype = array(
-        E_ERROR => 'Error',
-        E_WARNING => 'Warning',
-        E_PARSE => 'Parsing Error',
-        E_NOTICE => 'Notice',
-        E_CORE_ERROR => 'Core Error',
-        E_CORE_WARNING => 'Core Warning',
-        E_COMPILE_ERROR => 'Compile Error',
-        E_COMPILE_WARNING => 'Compile Warning',
-        E_USER_ERROR => 'User Error',
-        E_USER_WARNING => 'User Warning',
-        E_USER_NOTICE => 'User Notice',
-        E_STRICT => 'Runtime Notice',
-        E_RECOVERABLE_ERROR => 'Catchable Fatal Error'
-    );
-    // set of errors for which a var trace will be saved
-    $user_errors = array(E_USER_ERROR, E_USER_WARNING, E_USER_NOTICE);
-
-    $err = "<br/><br/><ul>\n";
-    $err .= "\t<li>date time " . $dt . "</li>\n";
-    $err .= "\t<li>errornum " . $errno . "</li>\n";
-    $err .= "\t<li>errortype " . $errortype[$errno] . "</li>\n";
-    $err .= "\t<li>error msg: " . $errmsg . "</li>\n";
-    $err .= "\t<li>File name: " . $filename . "</li>\n";
-    $err .= "\t<li>Line no: " . $linenum . "</li>\n";
-
-    if (in_array($errno, $user_errors)) {
-        $err .= "\t<li>var trace: " . wddx_serialize_value($vars, "Variables") . "</li>\n";
+    if ($json == FALSE) {
+        echo $message;
+    } else {
+        echo json_encode(array(
+            'error' => '<div class="error">' . $message . '</div>'
+        ));
     }
-    $err .= "</ul>\n\n";
-
-
-    // for testing
-    // echo $err;
-    // save to the error log, and e-mail me if there is a critical user error
-    error_log($err, 3, RT . "media/doc/errors/php_error_log.html");
- 
 }
 
 /**
@@ -302,82 +272,6 @@ function remove_invisible_characters($str, $url_encoded = TRUE) {
  */
 function make_links_clickable($text) {
     return preg_replace('!(((f|ht)tp(s)?://)[-a-zA-Zа-яА-Я()0-9@:%_+.~#?&;//=]+)!i', '<a href="$1">$1</a>', $text);
-}
-
-/**
- * @uses Ping https://www.google.co.tz with port number 443
- * @return boolean TRUE if there is internet connection
- */
-function is_internet_connection() {
-
-    $fp = @fsockopen("https://www.google.co.tz/", 443, $errno, $errstr, 10);
-    if (!$fp) {
-        $connected = FALSE;
-    } else {
-        $connected = TRUE;
-    }
-    return $connected;
-}
-
-/**
- * Returns an encrypted & utf8-encoded
- */
-function encrypt($pure_string, $encryption_key) {
-    $iv_size = mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_ECB);
-    $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
-    $encrypted_string = mcrypt_encrypt(MCRYPT_BLOWFISH, $encryption_key, utf8_encode($pure_string), MCRYPT_MODE_ECB, $iv);
-    return $encrypted_string;
-}
-
-/**
- * Returns decrypted original string
- */
-function decrypt($encrypted_string, $encryption_key) {
-    $iv_size = mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_ECB);
-    $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
-    $decrypted_string = mcrypt_decrypt(MCRYPT_BLOWFISH, $encryption_key, $encrypted_string, MCRYPT_MODE_ECB, $iv);
-    return $decrypted_string;
-}
-
-function google_translate() {
-    $google_object = '<div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit() {
-       new google.translate.TranslateElement({pageLanguage: "en", includedLanguages: "en,sw", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, "google_translate_element");
-   }
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>';
-
-    return $google_object;
-}
-
-function google_analytic() {
-    $google_analytic = "<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-36757013-2', 'auto');
-  ga('send', 'pageview');
-
-</script>";
-    return$google_analytic;
-}
-
-function check_user_status() {
-
-    global $ses_user;
-
-    if ($ses_user->messaging_type == 0 && $ses_user->imei == '') {
-        //promt user to download android app here
-        echo '<div class="alert alert-warning alert-block" style="text-align:center;"> '
-        . '<button type="button" class="close" data-dismiss="alert">×</button> '
-        . '<h4><i class="fa fa-bell-alt"></i>Warning!</h4> '
-        . '<p>Your android phone is not connected with karibuSMS yet. <br/>'
-                . '<a href="http://goo.gl/msamgD" target="_blank">Click here to download your app </a><br/>'
-                . 'and then open to login in your phone to connect it with karibuSMS</p> '
-        . '</div>';
-    }
-}
-function load_plugin($name) {
-    include_once 'persistance/plugins/'.$name;
 }
 ?>
 

@@ -10,7 +10,9 @@
  *
  * DESC: This define all important parameters used in a system
  */
-$environment = $_SERVER["REMOTE_ADDR"] == '127.0.0.1' ? 'development' : 'development';
+
+
+$environment = ($_SERVER["REMOTE_ADDR"]=='127.0.0.1'|| '::1') ? 'development' : 'production';
 
 defined('ENVIRONMENT') ? NULL : define('ENVIRONMENT', $environment);
 /*
@@ -25,28 +27,25 @@ if (defined('ENVIRONMENT')) {
     switch (ENVIRONMENT) {
 
 	case 'development':
-	    error_reporting(E_ALL);
-	    ini_set('display_errors', '1');
+	    
 	    $server = 'localhost';
 	    $dbname = 'inets';
 	    $username = 'root';
 	    $password = 'tabita';
-	    $table_prefix = '';
+	    $table_prefix = 'inets_';
 	    $root_folder = 'inetswebsite/';
-	    $column_prefix = FALSE;
 	    break;
 
 	case 'testing':
 
 	case 'production':
-	    error_reporting(0);
+	   
 	    $server = 'pdb7.runhosting.com';
-	    $dbname = '896128_karibu';
-	    $username = '896128_karibu';
+	    $dbname = '896128_inets';
+	    $username = '896128_inets';
 	    $password = 'tabita2011';
-	    $table_prefix = 'karibu_';
+	    $table_prefix = 'inets_';
 	    $root_folder = '';
-	    $column_prefix = FALSE;
 	    break;
 
 	default:
@@ -56,12 +55,10 @@ if (defined('ENVIRONMENT')) {
 
 /**
  * 
- * --define PROJECT TITLE 
+ * --define PROJECT TITLE  >>>>>SHOULD NOT EXCEED 1O CHARACTERS
  * 
  */
-defined('TITLE') ? NULL : define('TITLE', 'Inets Company Limited');
-
-
+defined('TITLE') ? NULL : define('TITLE', 'karibuSMS');
 
 
 
@@ -122,29 +119,4 @@ defined('DB_PASSWORD') ? NULL : define('DB_PASSWORD', $password);
  */
 defined('TABLE_PREFIX') ? NULL : define('TABLE_PREFIX', $table_prefix);
 
-/**
- * --define database table colunm prefix
- */
-defined('COLUMN_PREFIX') ? NULL : define('COLUMN_PREFIX', $column_prefix);
-
-/**
- * --define our encryption key
- */
-defined('ENCRYPTION_KEY') ? NULL : define('ENCRYPTION_KEY', "kjbksbdbnsbdkkdskj");
-
-/**
- * --define password cookie
- */
-defined('PASS_COOKIE') ? NULL : define('PASS_COOKIE', substr(sha1(TITLE . 'id'), 10));
-
-
-/**
- * --define phone number cookie
- */
-defined('PHONE_COOKIE') ? NULL : define('PHONE_COOKIE', substr(sha1(TABLE_PREFIX . 'id'), 10));
-
-/**
- * --define company contact
- */
-defined('COMPANY_CONTACTS') ? NULL : define('COMPANY_CONTACTS', '+255 759 55 33 55');
 ?>

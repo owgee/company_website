@@ -16,12 +16,14 @@
     if (isset($_GET['pg']) && $_GET['pg'] != '') {
         $page = $_GET['pg'];
         $url = input::url();
+
         if (file_exists($url)) {
             include($url);
         } else {
             include('404.php');
         }
     } else {
+
 
         include('modules/landing/landing.php');
     }
@@ -48,4 +50,15 @@ loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure"
 /* custom configuration goes here (www.olark.com/documentation) */
 olark.identify('2410-929-10-9362');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2410-929-10-9362/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 <!-- end olark code -->
+<!--    <div id="google_translate_element"></div><script type="text/javascript">
+     function googleTranslateElementInit() {
+         new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,sw', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+     }
+ </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    -->
+    <?php
+    if (isset($ses_user)) {
+        echo '<input type="hidden" id="token" value="' . sha1(md5(date('Y'))) . '"/>';
+    }
+    ?>
 </body>
