@@ -12,7 +12,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'username', 'email', 'password','first_name','second_name','address'
+        'username', 'email', 'password','first_name','second_name','address','phone_number'
     ];
     protected $primaryKey = 'user_id';
 

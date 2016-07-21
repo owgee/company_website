@@ -19,9 +19,13 @@ class CreatePortfolioTable extends Migration {
 			$table->string('imageurl', 100);
 			$table->text('descriptions');
 			$table->integer('client_id');
-			$table->integer('user_id');
 			$table->datetimetz('uploaded_at')->nullable();
 			$table->datetimetz('updated_at')->nullable();
+		});
+		Schema::table('portfolio', function ($table) {
+
+			$table->integer('user_id')->unsigned();
+			$table->foreign('user_id')->references('id')->on('users');
 		});
 	}
 

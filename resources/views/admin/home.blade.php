@@ -9,7 +9,7 @@
                 <div class="panel-heading">{{trans('main.dashboard')}}</div>
 
                 <div class="panel-body text-capitalize">
-                    {{trans('main.dear')}} {{Auth::user()->name}}, {{trans('main.welcome')}}!
+                    {{trans('main.dear')}} {{Auth::user()->first_name}}, {{trans('main.welcome')}}!
                 </div>
             </div>
         </div>
