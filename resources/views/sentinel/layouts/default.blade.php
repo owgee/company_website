@@ -35,7 +35,6 @@
 	</head>
 
 	<body>
-		
 
 		<!-- Navbar -->
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -54,7 +53,7 @@
 					<li {!! (Request::is('users*') ? 'class="active"' : '') !!}><a href="{{ action('\\Sentinel\Controllers\UserController@index') }}">Users</a></li>
 					<li {!! (Request::is('groups*') ? 'class="active"' : '') !!}><a href="{{ action('\\Sentinel\Controllers\GroupController@index') }}">Groups</a></li>
 					  <li {!! (Request::is('portfolio*') ? 'class="active"' : '') !!}><a href="{{ action('AdminController@index') }}">Portfolio</a></li>
-					  <li {!! (Request::is('clients*') ? 'class="active"' : '') !!}><a href="{{ action('AdminController@index') }}">Clients</a></li>
+					  <li {!! (Request::is('clients*') ? 'class="active"' : '') !!}><a href="{{ action('ClientsController@index') }}">Clients</a></li>
 				@endif
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">

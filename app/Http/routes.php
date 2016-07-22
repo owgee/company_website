@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/admin', function () {
-    return view('welcome');
-});
+
+
+    Route::get('/admin', function () {
+        return view('welcome');
+    });
 //Route::get('/', function () {
 //    return view('website.home');
 //});
@@ -21,13 +23,14 @@ Route::get('/admin', function () {
 //Route::auth();
 
 //Route::get('/home', 'HomeController@index');
-$api = app('Dingo\Api\Routing\Router');
-$api->version('v1', function ($api) {
+    $api = app('Dingo\Api\Routing\Router');
+    $api->version('v1', function ($api) {
 //    $api->get('users/{id}', 'UserController@show');
-});
-Route::get('/', array('as' => 'home', function()
-{
-    return View::make('welcome');
-}));
+    });
 
-Route::resource('/portfolio','AdminController');
+    Route::get('/', array('as' => 'home', function () {
+        return View::make('welcome');
+    }));
+
+    Route::resource('/portfolio', 'AdminController',['middleware' => 'SentinelAdmin']);
+    Route::resource('/clients', 'ClientsController',['middleware' => 'SentinelAdmin']);

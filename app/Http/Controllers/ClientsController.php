@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Portfolio;
+use App\Models\Client;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class AdminController extends Controller
+
+
+class ClientsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +19,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return request()->all();
-        $portfolios = Portfolio::all();
-        return view('sentinel.portfolio.index',['portfolios'=>$portfolios]);
+        //
+        $clients = Client::all();
+        return view('sentinel.clients.index',['clients'=>$clients]);
     }
 
     /**
@@ -30,7 +33,7 @@ class AdminController extends Controller
     {
         //
 
-        return view('sentinel.portfolio.create');
+        return view('sentinel.clients.create');
     }
 
     /**
@@ -41,7 +44,16 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+         $user_id= \Sentry::getUser()->id;
+
+         $client = new Client($request->all());
+         $client->user_id = $user_id;
+         if($client->save())
+             return response()->json("Success");
+
+
+
     }
 
     /**

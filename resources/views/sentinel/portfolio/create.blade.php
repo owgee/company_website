@@ -12,16 +12,16 @@ Create New User
     <div class="col-md-4 col-md-offset-4">
         <form method="POST" action="{{ route('sentinel.users.store') }}" accept-charset="UTF-8">
 
-            <h2>Create New User</h2>
+            <h2>Create New Portfolio</h2>
 
-            <div class="form-group {{ ($errors->has('username')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="Username" name="username" type="text"  value="{{ Request::old('username') }}">
-                {{ ($errors->has('username') ? $errors->first('username') : '') }}
+            <div class="form-group {{ ($errors->has('portfolioname')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Name" name="portfolioname" type="text"  value="{{ Request::old('portfolioname') }}">
+                {{ ($errors->has('portfolioname') ? $errors->first('portfolioname') : '') }}
             </div>
 
-            <div class="form-group {{ ($errors->has('email')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="E-mail" name="email" type="text"  value="{{ Request::old('email') }}">
-                {{ ($errors->has('email') ? $errors->first('email') : '') }}
+            <div class="form-group {{ ($errors->has('client')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="E-mail" name="client" type="text"  value="{{ Request::old('client') }}">
+                {{ ($errors->has('client') ? $errors->first('client') : '') }}
             </div>
 
             <div class="form-group {{ ($errors->has('password')) ? 'has-error' : '' }}">
@@ -41,7 +41,7 @@ Create New User
             </div>
 
             <input name="_token" value="{{ csrf_token() }}" type="hidden">
-            <input class="btn btn-primary" value="Create" type="submit">
+            <input class="btn btn-primary form-control" value="Create" type="submit">
 
         </form>
     </div>

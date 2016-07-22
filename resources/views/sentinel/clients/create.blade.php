@@ -3,45 +3,39 @@
 {{-- Web site Title --}}
 @section('title')
 @parent
-Create New User
+Clients
 @stop
 
 {{-- Content --}}
 @section('content')
 <div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <form method="POST" action="{{ route('sentinel.users.store') }}" accept-charset="UTF-8">
+        <form method="POST" action="{{ route('clients.store') }}" accept-charset="UTF-8">
 
-            <h2>Create New User</h2>
+            <h2>Create New Client</h2>
 
-            <div class="form-group {{ ($errors->has('username')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="Username" name="username" type="text"  value="{{ Request::old('username') }}">
-                {{ ($errors->has('username') ? $errors->first('username') : '') }}
+            <div class="form-group {{ ($errors->has('clientname')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Name" name="clientname" type="text"  value="{{ Request::old('clientname') }}">
+                {{ ($errors->has('clientname') ? $errors->first('clientname') : '') }}
             </div>
 
-            <div class="form-group {{ ($errors->has('email')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="E-mail" name="email" type="text"  value="{{ Request::old('email') }}">
-                {{ ($errors->has('email') ? $errors->first('email') : '') }}
+            <div class="form-group {{ ($errors->has('clientweburl')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Website URL" name="clientweburl" type="text"  value="{{ Request::old('clientweburl') }}">
+                {{ ($errors->has('clientweburl') ? $errors->first('clientweburl') : '') }}
             </div>
 
-            <div class="form-group {{ ($errors->has('password')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="Password" name="password" value="" type="password">
-                {{ ($errors->has('password') ?  $errors->first('password') : '') }}
+            <div class="form-group {{ ($errors->has('pasclientimgurlsword')) ? 'has-error' : '' }}">
+                <input placeholder="Client Logo" name="clientimgurl" value="" type="file">
+                {{ ($errors->has('clientimgurl') ?  $errors->first('clientimgurl') : '') }}
             </div>
 
-            <div class="form-group {{ ($errors->has('password_confirmation')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="Confirm Password" name="password_confirmation" value="" type="password">
-                {{ ($errors->has('password_confirmation') ?  $errors->first('password_confirmation') : '') }}
-            </div>
-
-            <div class="form-group">
-                <label class="checkbox">
-                    <input name="activate" value="activate" type="checkbox"> Activate
-                </label>
+            <div class="form-group {{ ($errors->has('clientdescription')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Description" name="clientdescription" value="" type="text">
+                {{ ($errors->has('clientdescription') ?  $errors->first('clientdescription') : '') }}
             </div>
 
             <input name="_token" value="{{ csrf_token() }}" type="hidden">
-            <input class="btn btn-primary" value="Create" type="submit">
+            <input class="btn btn-primary form-control" value="Create" type="submit">
 
         </form>
     </div>

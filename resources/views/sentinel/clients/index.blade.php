@@ -12,10 +12,10 @@
         <div class='page-header'>
             <div class='btn-toolbar pull-right'>
                 <div class='btn-group'>
-                    <a class='btn btn-primary' href="{{ route('sentinel.users.create') }}">Create User</a>
+                    <a class='btn btn-primary' href="{{ route('clients.create') }}">Create New Client</a>
                 </div>
             </div>
-            <h1>Current Users</h1>
+            <h1>Current Clients</h1>
         </div>
     </div>
 
@@ -23,36 +23,38 @@
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead>
-                <th>User</th>
+                <th>Client</th>
                 <th>Status</th>
                 <th>Options</th>
                 </thead>
                 <tbody>
-                @foreach ($users as $user)
+                @if(!$clients->isEmpty())
+                @foreach ($clients as $client)
                     <tr>
-                        <td><a href="{{ route('sentinel.users.show', array($user->hash)) }}">{{ $user->email }}</a></td>
-                        <td>{{ $user->status }} </td>
+                        <td><a href="{{ route('sentinel.users.show', array($client->hash)) }}">{{ $client->email }}</a></td>
+                        <td>{{ $client->status }} </td>
                         <td>
-                            <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.edit', array($user->hash)) }}'">Edit</button>
-                            @if ($user->status != 'Suspended')
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.suspend', array($user->hash)) }}'">Suspend</button>
+                            <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.edit', array($client->hash)) }}'">Edit</button>
+                            @if ($client->status != 'Suspended')
+                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.suspend', array($client->hash)) }}'">Suspend</button>
                             @else
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unsuspend', array($user->hash)) }}'">Un-Suspend</button>
+                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unsuspend', array($client->hash)) }}'">Un-Suspend</button>
                             @endif
-                            @if ($user->status != 'Banned')
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.ban', array($user->hash)) }}'">Ban</button>
+                            @if ($client->status != 'Banned')
+                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.ban', array($client->hash)) }}'">Ban</button>
                             @else
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unban', array($user->hash)) }}'">Un-Ban</button>
+                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unban', array($client->hash)) }}'">Un-Ban</button>
                             @endif
-                            <button class="btn btn-default action_confirm" href="{{ route('sentinel.users.destroy', array($user->hash)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
+                            <button class="btn btn-default action_confirm" href="{{ route('sentinel.users.destroy', array($client->hash)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
                         </td>
                     </tr>
                 @endforeach
+                    @endif
                 </tbody>
             </table>
         </div>
     </div>
     <div class="row">
-        {!! $users->render() !!}
+        {{--{!! $clients->render() !!}--}}
     </div>
 @stop
