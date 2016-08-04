@@ -1,0 +1,273 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.header{
+    border-radius: 0;
+}
+
+
+.bottom-footer{
+
+    background-color: white;
+    padding: 0;
+    clear: both;
+}
+
+.home{
+    margin-top: 50px;
+}
+.top-image{
+    margin-top: 15px;
+}
+
+.logo-small {
+    color:#00b3ee;
+    font-size: 70px;
+    align-content: center;
+    margin-left: 90px;
+}
+.portfolio{
+    background-color:#5b7e92;
+    height:300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.technology{
+    background-color:#303346;
+}
+
+.tech-images{
+    width: 200px;
+    height: 100px;
+}
+
+.set_image_center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 8px;
+
+}
+
+.bg-grey {
+    background-color: white;
+}
+.bg-partner{
+    background-color:#303346;
+}
+.logo-small {
+
+    font-size: 50px;
+    margin-right: 80px;
+}
+.logo {
+
+    font-size: 200px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.thumbnail a img  {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.slideanim {visibility:visible;
+
+}
+
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
+
+.partner{
+    color: #f5f5f5;
+}
+
+
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #00b3ee;
+}
+.carousel-indicators li {
+    border-color: #00b3ee;
+}
+.carousel-indicators li.active {
+    background-color: #00b3ee;
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span {
+    font-style: normal;
+}
+
+.contact{
+
+    margin-top: 100px;
+    background-color:white;
+}
+.socials-networks{
+    background-color: #00b3ff;
+    height: 100px;
+    margin-top: 100px;
+
+}
+#contact{
+    margin-top: 100px;
+    background-color:white;
+}
+
+.jumbotron{
+    background-color:#5b7e92;
+    color:#f5f5f5 ;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+#jumbotron-top{
+    margin-top: 40px;
+}
+.bg-portfolio{
+    background-color:white;
+
+}
+.port{
+    height: 400px;
+}
+.nav-list  li a{
+   color: #000000;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+#btn-submit{
+    background-color: #00b3ee;
+    color: white;
+    font-size: 15px
+
+}
+.icon-bar{
+    background-color:white;
+
+}
+
+/*about us */
+.culture{
+    background-color: #515151;
+    color: #f5f5f5;
+}
+.advantage{
+
+    background-color: #433954;
+
+}
+.vision{
+
+}
+.history{
+    background-color: white;
+    color: #303030;
+}
