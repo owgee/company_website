@@ -9,47 +9,42 @@ Groups
 {{-- Content --}}
 @section('content')
 <div class="row">
-    <div class='page-header'>
-        <div class='btn-toolbar pull-right'>
-            <div class='btn-group'>
-                <a class='btn btn-primary' href="{{ route('sentinel.groups.create') }}">Create Group</a>
-            </div>
-        </div>
-        <h1>Available Groups</h1>
+    <div class="col l10 m10 s10">
+        <h2>Available Groups</h2>
+    </div>
+    <div class="col l2 m2 s2">
+        <a class="btn-floating btn-large waves-effect waves-light red title-button" href="{{ route('sentinel.groups.create') }}"><i class="mdi-content-add"></i></a>
     </div>
 </div>
-
 <div class="row">
-    <div class="table-responsive">
-        <table class="table table-striped table-hover">
-            <thead>
-                <th>Name</th>
-                <th>Permissions</th>
-                <th>Options</th>
-            </thead>
-            <tbody>
-            @foreach ($groups as $group)
-                <tr>
-                    <td><a href="{{ route('sentinel.groups.show', $group->hash) }}">{{ $group->name }}</a></td>
-                    <td>
-                        <?php
-                            $permissions = $group->getPermissions();
-                            $keys = array_keys($permissions);
-                            $last_key = end($keys);
-                        ?>
-                        @foreach ($permissions as $key => $value)
-                            {{ ucfirst($key) . ($key == $last_key ? '' : ', ') }}
-                        @endforeach
-                    </td>
-                    <td>
-                        <button class="btn btn-default" onClick="location.href='{{ route('sentinel.groups.edit', [$group->hash]) }}'">Edit</button>
-                        <button class="btn btn-default action_confirm {{ ($group->name == 'Admins') ? 'disabled' : '' }}" type="button" data-token="{{ csrf_token() }}" data-method="delete" href="{{ route('sentinel.groups.destroy', [$group->hash]) }}">Delete</button>
-                    </td>
-                </tr>
-            @endforeach
-            </tbody>
-        </table>
-    </div>
+    <table class="hoverable">
+        <thead>
+            <th>Name</th>
+            <th>Permissions</th>
+            <th>Options</th>
+        </thead>
+        <tbody>
+        @foreach ($groups as $group)
+            <tr>
+                <td><a href="{{ route('sentinel.groups.show', $group->hash) }}">{{ $group->name }}</a></td>
+                <td>
+                    <?php
+                        $permissions = $group->getPermissions();
+                        $keys = array_keys($permissions);
+                        $last_key = end($keys);
+                    ?>
+                    @foreach ($permissions as $key => $value)
+                        {{ ucfirst($key) . ($key == $last_key ? '' : ', ') }}
+                    @endforeach
+                </td>
+                <td>
+                    <a href="{{ route('sentinel.groups.edit', [$group->hash]) }}" class="btn red lighten-1"><i class="mdi-content-create left"></i>Edit</a>
+                    <a href="{{ route('sentinel.groups.destroy', [$group->hash]) }}" class="btn action_confirm {{ ($group->name == 'Admins') ? 'disabled' : 'red lighten-1' }}" data-token="{{ Session::getToken() }}" data-method="delete"><i class="mdi-content-remove-circle left"></i>Delete</a>
+                 </td>
+            </tr>
+        @endforeach
+        </tbody>
+    </table>
 </div>
 <div class="row">
     {!! $groups->render() !!}

@@ -31,8 +31,8 @@
                 @if(!$clients->isEmpty())
                 @foreach ($clients as $client)
                     <tr>
-                        <td><a href="{{ route('sentinel.users.show', array($client->hash)) }}">{{ $client->email }}</a></td>
-                        <td>{{ $client->status }} </td>
+                        <td><a href="{{ route('sentinel.users.show', array($client->hash)) }}">{{ $client->clientname }}</a></td>
+                        <td>{{ $client->clientimgurl }} </td>
                         <td>
                             <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.edit', array($client->hash)) }}'">Edit</button>
                             @if ($client->status != 'Suspended')
@@ -40,12 +40,7 @@
                             @else
                                 <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unsuspend', array($client->hash)) }}'">Un-Suspend</button>
                             @endif
-                            @if ($client->status != 'Banned')
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.ban', array($client->hash)) }}'">Ban</button>
-                            @else
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unban', array($client->hash)) }}'">Un-Ban</button>
-                            @endif
-                            <button class="btn btn-default action_confirm" href="{{ route('sentinel.users.destroy', array($client->hash)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
+                            <button class="btn btn-default action_confirm" href="{{ action('ClientsController@destroy', array($client->hash)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
                         </td>
                     </tr>
                 @endforeach

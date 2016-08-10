@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Client;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
 
@@ -16,7 +17,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return request()->all();
+
         $portfolios = Portfolio::all();
         return view('sentinel.portfolio.index',['portfolios'=>$portfolios]);
     }
@@ -29,8 +30,8 @@ class AdminController extends Controller
     public function create()
     {
         //
-
-        return view('sentinel.portfolio.create');
+        $clients = Client::all();
+        return view('sentinel.portfolio.create',['clients'=>$clients]);
     }
 
     /**
@@ -41,7 +42,11 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $portfolio = new Portfolio($request->all());
+        $portfolio->user()->associate(\Sentry::getUser()->id);
+        $portfolio->client()->associate(Client::find(1)->value('client_id'));
+        if($portfolio->save())
+            return redirect('portfolio')->with('status', 'Portfolio Created!');
     }
 
     /**
@@ -63,7 +68,9 @@ class AdminController extends Controller
      */
     public function edit($id)
     {
-        //
+
+        $portfolio = Portfolio::find($id);
+        return view('sentinel.portfolio.edit',['portfolio'=>$portfolio]);
     }
 
     /**
@@ -75,7 +82,10 @@ class AdminController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+         $portfolio = Portfolio::find($id);
+        if($portfolio->update($request->except('_token','_method','action')))
+            return response()->redirectTo('portfolio')->with(['status'=>'Fine']);
+        return response()->redirectTo('portfolio');
     }
 
     /**
@@ -86,6 +96,11 @@ class AdminController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $p=Portfolio::find($id);
+        if($p && $p->delete()){
+            return redirect('portfolio')->with('success', 'Successfully deleted');
+        }else{
+            return redirect('portfolio')->with('error', 'Failed to delete! ');
+        }
     }
 }

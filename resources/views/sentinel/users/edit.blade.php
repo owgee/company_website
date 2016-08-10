@@ -24,43 +24,41 @@ Edit Profile
     }
 ?>
 
-<div class="row">
-    <div class='page-header'>
-        <h1>
-            Edit
-            @if ($isProfileUpdate)
-                Your
-            @else
-                {{ $user->email }}'s
-            @endif
-            Account
-        </h1>
-    </div>
-</div>
+<h3>Edit
+@if ($isProfileUpdate)
+	Your
+@else
+	{{ $user->email }}'s
+@endif
+Account</h3>
+<div class="divider"></div>
+
+<?php $customFields = config('sentinel.additional_user_fields'); ?>
 
 @if (! empty($customFields))
 <div class="row">
-    <h4>Profile</h4>
-    <div class="well">
-        <form method="POST" action="{{ $profileFormAction }}" accept-charset="UTF-8" class="form-horizontal" role="form">
+    <div class="col l6 offset-l3 m8 offset-m2 s12">
+        <form method="POST" action="{{ $profileFormAction }}" accept-charset="UTF-8" role="form">
             <input name="_method" value="PUT" type="hidden">
             <input name="_token" value="{{ csrf_token() }}" type="hidden">
 
+            <h4>Profile</h4>
+
             @foreach(config('sentinel.additional_user_fields') as $field => $rules)
-            <div class="form-group {{ ($errors->has($field)) ? 'has-error' : '' }}" for="{{ $field }}">
-                <label for="{{ $field }}" class="col-sm-2 control-label">{{ ucwords(str_replace('_',' ',$field)) }}</label>
-                <div class="col-sm-10">
-                    <input class="form-control" name="{{ $field }}" type="text" value="{{ Request::old($field) ? Request::old($field) : $user->$field }}">
-                    {{ ($errors->has($field) ? $errors->first($field) : '') }}
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="{{ $field }}" name="{{ $field }}" type="text" class="validate" value="{{ Request::old($field) ? Request::old($field) : $user->$field }}">
+                        <label for="{{ $field }}">{{ ucwords(str_replace('_',' ',$field)) }}</label>
+                        {{ ($errors->has($field) ? $errors->first($field) : '') }}
+                    </div>
                 </div>
-            </div>
             @endforeach
 
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    <input class="btn btn-primary" value="Submit Changes" type="submit">
-                </div>
-            </div>
+            <p>
+                <button class="btn waves-effect waves-light red" type="submit" name="action">Save Changes
+                    <i class="mdi-content-send right"></i>
+                </button>
+            </p>
 
         </form>
     </div>
@@ -69,63 +67,67 @@ Edit Profile
 
 @if (Sentry::getUser()->hasAccess('admin') && ($user->hash != Sentry::getUser()->hash))
 <div class="row">
-    <h4>Group Memberships</h4>
-    <div class="well">
-        <form method="POST" action="{{ route('sentinel.users.memberships', $user->hash) }}" accept-charset="UTF-8" class="form-horizontal" role="form">
+    <div class="col l6 offset-l3 m8 offset-m2 s12">
+        <form method="POST" action="{{ route('sentinel.users.memberships', $user->hash) }}" accept-charset="UTF-8" role="form">
+            <input name="_token" value="{{ csrf_token() }}" type="hidden">
 
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    @foreach($groups as $group)
-                        <label class="checkbox-inline">
-                            <input type="checkbox" name="groups[{{ $group->name }}]" value="1" {{ ($user->inGroup($group) ? 'checked' : '') }}> {{ $group->name }}
-                        </label>
-                    @endforeach
-                </div>
-            </div>
+            <h4>Group Memberships</h4>
 
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    <input name="_token" value="{{ csrf_token() }}" type="hidden">
-                    <input class="btn btn-primary" value="Update Memberships" type="submit">
-                </div>
-            </div>
+            @foreach($groups as $group)
+                <p>
+                    <input type="checkbox" id="groups[{{ $group->name }}]" name="groups[{{ $group->name }}]" value="1" {{ ($user->inGroup($group) ? 'checked' : '') }} />
+                    <label for="groups[{{ $group->name }}]">{{ $group->name }}</label>
+                </p>
+            @endforeach
 
-        </form>
-    </div>
+            <p>
+                <button class="btn waves-effect waves-light red" type="submit" name="action">Update Memberships
+                    <i class="mdi-content-send right"></i>
+                </button>
+            </p>
+    </form>
 </div>
 @endif
-
 <div class="row">
-    <h4>Change Password</h4>
-    <div class="well">
-        <form method="POST" action="{{ $passwordFormAction }}" accept-charset="UTF-8" class="form-inline" role="form">
+    <div class="col l6 offset-l3 m8 offset-m2 s12">
+        <form method="POST" action="{{ $passwordFormAction }}" accept-charset="UTF-8" role="form">
+            <input name="_token" value="{{ csrf_token() }}" type="hidden">
+
+            <h4>Change Password</h4>
 
             @if(! Sentry::getUser()->hasAccess('admin'))
-            <div class="form-group {{ $errors->has('oldPassword') ? 'has-error' : '' }}">
-                <label for="oldPassword" class="sr-only">Old Password</label>
-                <input class="form-control" placeholder="Old Password" name="oldPassword" value="" id="oldPassword" type="password">
-            </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="oldPassword" name="oldPassword" type="password" class="validate">
+                        <label for="oldPassword">Old Password</label>
+                        {{ ($errors->has('oldPassword') ? '<br />' . $errors->first('oldPassword') : '') }}
+                    </div>
+                </div>
             @endif
 
-            <div class="form-group {{ $errors->has('newPassword') ? 'has-error' : '' }}">
-                <label for="newPassword" class="sr-only">New Password</label>
-                <input class="form-control" placeholder="New Password" name="newPassword" value="" id="newPassword" type="password">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="newPassword" name="newPassword" type="password" class="validate">
+                    <label for="newPassword">New Password</label>
+                    {{ ($errors->has('newPassword') ? '<br />' . $errors->first('newPassword') : '') }}
+                </div>
             </div>
 
-            <div class="form-group {{ $errors->has('newPassword_confirmation') ? 'has-error' : '' }}">
-                <label for="newPassword_confirmation" class="sr-only">Confirm New Password</label>
-                <input class="form-control" placeholder="Confirm New Password" name="newPassword_confirmation" value="" id="newPassword_confirmation" type="password">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="newPassword_confirmation" name="newPassword_confirmation" type="password" class="validate">
+                    <label for="newPassword_confirmation">New Password</label>
+                    {{ ($errors->has('newPassword_confirmation') ? '<br />' . $errors->first('newPassword_confirmation') : '') }}
+                </div>
             </div>
 
-            <input name="_token" value="{{ csrf_token() }}" type="hidden">
-            <input class="btn btn-primary" value="Change Password" type="submit">
-
-            {{ ($errors->has('oldPassword') ? '<br />' . $errors->first('oldPassword') : '') }}
-            {{ ($errors->has('newPassword') ?  '<br />' . $errors->first('newPassword') : '') }}
-            {{ ($errors->has('newPassword_confirmation') ? '<br />' . $errors->first('newPassword_confirmation') : '') }}
+            <p>
+                <button class="btn waves-effect waves-light red" type="submit" name="action">Change Password
+                    <i class="mdi-content-send right"></i>
+                </button>
+            </p>
 
         </form>
-
     </div>
 </div>
 @stop

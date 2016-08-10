@@ -3,33 +3,41 @@
 {{-- Web site Title --}}
 @section('title')
 @parent
-Reset Password
+Forgot Password
 @stop
 
 {{-- Content --}}
 @section('content')
 <div class="row">
-    <div class="col-md-4 col-md-offset-4">
+    <div class="col l6 offset-l3 m8 offset-m2 s12">
         <form method="POST" action="{{ route('sentinel.reset.password', [$hash, $code]) }}" accept-charset="UTF-8">
+            <input name="_token" value="{{ csrf_token() }}" type="hidden">
 
             <h2>Reset Your Password</h2>
 
-            <div class="form-group {{ ($errors->has('password')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="New Password" name="password" type="password" />
-                {{ ($errors->has('password') ? $errors->first('password') : '') }}
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" name="password" type="password" class="validate">
+                    <label for="password">New Password</label>
+                    {{ ($errors->has('password') ? '<br />' . $errors->first('password') : '') }}
+                </div>
             </div>
 
-            <div class="form-group {{ ($errors->has('password_confirmation')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="Confirm Password" name="password_confirmation" type="password" />
-                {{ ($errors->has('password_confirmation') ? $errors->first('password_confirmation') : '') }}
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password_confirmation" name="password_confirmation" type="password" class="validate">
+                    <label for="password_confirmation">New Password</label>
+                    {{ ($errors->has('password_confirmation') ? '<br />' . $errors->first('password_confirmation') : '') }}
+                </div>
             </div>
 
-            <input name="_token" value="{{ csrf_token() }}" type="hidden">
-
-            <input class="btn btn-primary" value="Reset Password" type="submit">
+            <p>
+                <button class="btn waves-effect waves-light red" type="submit" name="action">Reset Password
+                    <i class="mdi-content-send right"></i>
+                </button>
+            </p>
 
         </form>
-  	</div>
+    </div>
 </div>
-
 @stop

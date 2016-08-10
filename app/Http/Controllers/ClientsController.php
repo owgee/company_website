@@ -50,7 +50,7 @@ class ClientsController extends Controller
          $client = new Client($request->all());
          $client->user_id = $user_id;
          if($client->save())
-             return response()->json("Success");
+             return redirect('index')->with('status', 'Client Created!');
 
 
 
@@ -98,6 +98,6 @@ class ClientsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return $id;
     }
 }
