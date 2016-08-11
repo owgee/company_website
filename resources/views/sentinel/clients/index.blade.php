@@ -12,7 +12,7 @@
         <div class='page-header'>
             <div class='btn-toolbar pull-right'>
                 <div class='btn-group'>
-                    <a class='btn btn-primary' href="{{ route('clients.create') }}">Create New Client</a>
+                    <a class='btn btn-primary' href="{{ route('admin.clients.create') }}">Create New Client</a>
                 </div>
             </div>
             <h1>Current Clients</h1>
@@ -25,6 +25,7 @@
             <table class="table table-striped table-hover">
                 <thead>
                 <th>Client</th>
+                <th>Description</th>
                 <th>Status</th>
                 <th>Options</th>
                 </thead>
@@ -33,15 +34,16 @@
                 @foreach ($clients as $client)
                     <tr>
                         <td><a href="{{ route('sentinel.users.show', array($client->client_id)) }}">{{ $client->clientname }}</a></td>
+                        <td>{{ $client->clientdescription }} </td>
                         <td>{{ $client->clientimgurl }} </td>
                         <td>
-                            <button class="btn btn-default" type="button" onClick="location.href='{{ route('clients.edit', array($client->client_id)) }}'">Edit</button>
+                            <button class="btn btn-default" type="button" onClick="location.href='{{ route('admin.clients.edit', array($client->client_id)) }}'">Edit</button>
                             {{--@if ($client->status != 'Suspended')--}}
                                 {{--<button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.suspend', array($client->hash)) }}'">Suspend</button>--}}
                             {{--@else--}}
                                 {{--<button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unsuspend', array($client->hash)) }}'">Un-Suspend</button>--}}
                             {{--@endif--}}
-                            <button class="btn btn-default action_confirm" href="{{ route('clients.destroy', array($client->client_id)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
+                            <button class="btn btn-default action_confirm" href="{{ route('admin.clients.destroy', array($client->client_id)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
                         </td>
                     </tr>
                 @endforeach

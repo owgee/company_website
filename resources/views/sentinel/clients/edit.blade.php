@@ -22,7 +22,7 @@
         <div class="divider"></div>
         <div class="row">
                 <div class="col-md-4 col-md-offset-4">
-                    <form method="POST" action="{{ route('clients.update',['id'=>$client->client_id]) }}" accept-charset="UTF-8">
+                    <form method="POST" action="{{ route('admin.clients.update',['id'=>$client->client_id]) }}" accept-charset="UTF-8">
                         <input name="_method" value="PUT" type="hidden">
                         <input name="_token" value="{{ csrf_token() }}" type="hidden">
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns: xmlns: xmlns: xmlns: xmlns:>
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -55,6 +55,7 @@
 					<li {!! (Request::is('groups*') ? 'class="active"' : '') !!}><a href="{{ action('\\Sentinel\Controllers\GroupController@index') }}">Groups</a></li>
 					  <li {!! (Request::is('portfolio*') ? 'class="active"' : '') !!}><a href="{{ action('AdminController@index') }}">Portfolio</a></li>
 					  <li {!! (Request::is('clients*') ? 'class="active"' : '') !!}><a href="{{ action('ClientsController@index') }}">Clients</a></li>
+					  <li {!! (Request::is('home*') ? 'class="active"' : '') !!}><a href="{{ action('PageController@home') }}">Website</a></li>
 				@endif
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">

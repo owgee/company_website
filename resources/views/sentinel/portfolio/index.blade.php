@@ -13,7 +13,7 @@
             <div class='btn-toolbar pull-right'>
                 <div class='btn-group'>
 
-                    <a class='btn btn-primary' href="{{ route('portfolio.create') }}" >New Portfolio</a>
+                    <a class='btn btn-primary' href="{{ route('admin.portfolio.create') }}" >New Portfolio</a>
                 </div>
                 @if (session('status'))
 
@@ -35,10 +35,10 @@
                 @if(!$portfolios->isEmpty())
                 @foreach ($portfolios as $portfolio)
                     <tr>
-                        <td><a href="{{ route('portfolio.show', array($portfolio->portfolio_id)) }}">{{ $portfolio->portfolioname }}</a></td>
+                        <td><a href="{{ route('admin.portfolio.show', array($portfolio->portfolio_id)) }}">{{ $portfolio->portfolioname }}</a></td>
                         <td>{{ $portfolio->description }} </td>
                         <td>
-                            <a class="btn btn-default" type="button" href="{{ route('portfolio.edit', array($portfolio->portfolio_id)) }}">Edit</a>
+                            <a class="btn btn-default" type="button" href="{{ route('admin.portfolio.edit', array($portfolio->portfolio_id)) }}">Edit</a>
                             <button class="btn btn-default action_confirm" href="{{ action('AdminController@destroy', array($portfolio->portfolio_id)) }}" data-token="{{ Session::getToken() }}" data-method="DELETE">Delete</button>
                         </td>
                     </tr>

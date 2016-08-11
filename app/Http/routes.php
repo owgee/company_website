@@ -13,6 +13,9 @@
 
 
 Route::auth();
+Route::get('/', function () {
+    return view('index');
+});
 
 Route::get('/home', 'PageController@home')->name('home');
 Route::get('/about' ,'PageController@about')->name('about');
@@ -45,7 +48,7 @@ Route::get('/database','ServiceController@database')->name('database');
 Route::get('/website','ServiceController@website')->name('website');
 
 
-
+Route::group(array('prefix' => 'admin'), function () {
     Route::get('/admin', function () {
         return view('welcome');
     });
@@ -65,7 +68,8 @@ Route::get('/website','ServiceController@website')->name('website');
         return View::make('welcome');
     }));
 
-//Route::group(array('middleware' => 'sentry.admin'), function () {
-//    Route::resource('/portfolio', 'AdminController');
-//    Route::resource('/clients', 'ClientsController');
-//});
+    Route::group(array('middleware' => 'sentry.admin'), function () {
+        Route::resource('/portfolio', 'AdminController');
+        Route::resource('/clients', 'ClientsController');
+    });
+});

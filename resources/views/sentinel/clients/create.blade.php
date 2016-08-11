@@ -10,7 +10,7 @@ Clients
 @section('content')
 <div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <form method="POST" action="{{ route('clients.store') }}" accept-charset="UTF-8">
+        <form method="POST" action="{{ route('admin.clients.store') }}" accept-charset="UTF-8">
 
             <h2>Create New Client</h2>
 
