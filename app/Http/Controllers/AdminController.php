@@ -45,8 +45,9 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
+
         $this->validate($request, [
-            'portfolioname' => 'required|unique:posts|max:255',
+            'portfolioname' => 'required|unique:portfolio|max:255',
             'description' => 'required',
         ]);
         $portfolio = new Portfolio($request->all());
@@ -92,6 +93,7 @@ class AdminController extends Controller
     {
          $portfolio = Portfolio::find($id);
         if($portfolio->update($request->except('_token','_method','action')))
+
             return redirect('portfolio')->with(['success'=>$portfolio->portfolioname.' Successfully updated!']);
         return redirect('portfolio')->with(['error'=>$portfolio->portfolioname.' Not updated!']);
 
@@ -107,9 +109,11 @@ class AdminController extends Controller
     {
         $p=Portfolio::find($id);
         if($p && $p->delete()){
+
             return redirect('portfolio')->with('success', $p->portfolioname.' Successfully deleted');
         }else{
             return redirect('portfolio')->with('error',  $p->portfolioname.' Failed to delete! ');
+
         }
     }
 }

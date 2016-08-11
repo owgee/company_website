@@ -46,9 +46,9 @@ class ClientsController extends Controller
     {
 
         $this->validate($request, [
-            'clientname' => 'required|unique:posts|max:255',
+            'clientname' => 'required|unique:clients|max:255',
             'clientdescription' => 'required',
-            'clientweburl'=> 'required|unique'
+            'clientweburl'=> 'required|unique:clients'
         ]);
          $user_id= \Sentry::getUser()->id;
 
@@ -110,6 +110,7 @@ class ClientsController extends Controller
      */
     public function destroy($id)
     {
+
         $client=Client::find($id);
         if($client && $client->delete()){
             return redirect('clients')->with('success', $client->clientname.' Successfully deleted');
