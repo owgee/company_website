@@ -1,57 +1,38 @@
 @extends(config('sentinel.layout'))
 
-{{-- Web site Title --}}
 @section('title')
-@parent
 Register
 @stop
 
-{{-- Content --}}
 @section('content')
 <div class="row">
-    <div class="col l6 offset-l3 m8 offset-m2 s12">
-        <form method="POST" action="{{ route('sentinel.register.user') }}" accept-charset="UTF-8">
+    <div class="col-md-4 col-md-offset-4">
+        <form method="POST" action="{{ route('sentinel.register.user') }}" accept-charset="UTF-8" id="register-form">
+
+            <h2>Register New Account</h2>
+
+            <div class="form-group {{ ($errors->has('username')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Username" name="username" type="text" value="{{ Request::old('username') }}">
+                {{ ($errors->has('username') ? $errors->first('username') : '') }}
+            </div>
+
+            <div class="form-group {{ ($errors->has('email')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="E-mail" name="email" type="text" value="{{ Request::old('email') }}">
+                {{ ($errors->has('email') ? $errors->first('email') : '') }}
+            </div>
+
+            <div class="form-group {{ ($errors->has('password')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Password" name="password" value="" type="password">
+                {{ ($errors->has('password') ?  $errors->first('password') : '') }}
+            </div>
+
+            <div class="form-group {{ ($errors->has('password_confirmation')) ? 'has-error' : '' }}">
+                <input class="form-control" placeholder="Confirm Password" name="password_confirmation" value="" type="password">
+                {{ ($errors->has('password_confirmation') ?  $errors->first('password_confirmation') : '') }}
+            </div>
+
             <input name="_token" value="{{ csrf_token() }}" type="hidden">
-
-            <h4>Register New Account</h4>
-
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="username" name="username" type="text" class="validate" value="{{ Request::old('username') }}">
-                    <label for="name">Username</label>
-                    {{ ($errors->has('username') ? $errors->first('username') : '') }}
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" name="email" type="text" class="validate" value="{{ Request::old('email') }}">
-                    <label for="name">E-Mail</label>
-                    {{ ($errors->has('email') ? $errors->first('email') : '') }}
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="password" name="password" type="password" class="validate">
-                    <label for="name">Password</label>
-                    {{ ($errors->has('password') ? $errors->first('password') : '') }}
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="password_confirmation" name="password_confirmation" type="password" class="validate">
-                    <label for="name">Confirm Password</label>
-                    {{ ($errors->has('password_confirmation') ? $errors->first('password_confirmation') : '') }}
-                </div>
-            </div>
-
-            <p>
-                <button class="btn waves-effect waves-light red" type="submit" name="action">Register
-                    <i class="mdi-content-send right"></i>
-                </button>
-            </p>
+            <input class="btn btn-primary" value="Register" type="submit">
 
         </form>
     </div>

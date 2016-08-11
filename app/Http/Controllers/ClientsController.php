@@ -45,12 +45,18 @@ class ClientsController extends Controller
     public function store(Request $request)
     {
 
+        $this->validate($request, [
+            'clientname' => 'required|unique:posts|max:255',
+            'clientdescription' => 'required',
+            'clientweburl'=> 'required|unique'
+        ]);
          $user_id= \Sentry::getUser()->id;
 
          $client = new Client($request->all());
          $client->user_id = $user_id;
          if($client->save())
-             return redirect('index')->with('status', 'Client Created!');
+             return redirect('clients')->with('success', 'Client '.$client->clientname.' Created!');
+        return redirect('clients')->with('error', 'Client '.$client->clientname.' Not created!');
 
 
 
@@ -76,6 +82,8 @@ class ClientsController extends Controller
     public function edit($id)
     {
         //
+        $client = Client::find($id);
+        return view('sentinel.clients.edit',['client'=>$client]);
     }
 
     /**
@@ -88,6 +96,10 @@ class ClientsController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $client = Client::find($id);
+        if($client->update($request->except('_token','_method','action')))
+            return redirect('clients')->with(['success'=>$client->portfolioname.' Successfully updated!']);
+        return redirect('clients')->with(['error'=>$client->portfolioname.' Not updated!']);
     }
 
     /**
@@ -98,6 +110,12 @@ class ClientsController extends Controller
      */
     public function destroy($id)
     {
-        return $id;
+
+        $client=Client::find($id);
+        if($client && $client->delete()){
+            return redirect('clients')->with('success', $client->clientname.' Successfully deleted');
+        }else{
+            return redirect('clients')->with('error',  $client->clientname.' Failed to delete! ');
+        }
     }
 }

@@ -18,7 +18,7 @@ class SentinelAdmin
     public function handle($request, Closure $next)
     {
         if(!Sentinel::check())
-            return Redirect::to('/login'); //->with('warning', 'You must be logged in!');
+            return redirect('/login'); //->with('warning', 'You must be logged in!');
 //        elseif(!Sentinel::inRole('admin'))
 //            return Redirect::to('my-account');
 

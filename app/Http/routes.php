@@ -32,5 +32,7 @@
         return View::make('welcome');
     }));
 
-    Route::resource('/portfolio', 'AdminController',['middleware' => 'SentinelAdmin']);
-    Route::resource('/clients', 'ClientsController',['middleware' => 'SentinelAdmin']);
+Route::group(array('middleware' => 'sentry.admin'), function () {
+    Route::resource('/portfolio', 'AdminController');
+    Route::resource('/clients', 'ClientsController');
+});
