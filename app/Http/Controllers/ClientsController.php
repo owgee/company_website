@@ -46,9 +46,9 @@ class ClientsController extends Controller
     {
 
         $this->validate($request, [
-            'clientname' => 'required|unique:posts|max:255',
+            'clientname' => 'required|unique:clients|max:255',
             'clientdescription' => 'required',
-            'clientweburl'=> 'required|unique'
+            'clientweburl'=> 'required|unique:clients'
         ]);
          $user_id= \Sentry::getUser()->id;
 

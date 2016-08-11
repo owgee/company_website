@@ -47,7 +47,7 @@ class AdminController extends Controller
     {
 
         $this->validate($request, [
-            'portfolioname' => 'required|unique:posts|max:255',
+            'portfolioname' => 'required|unique:portfolio|max:255',
             'description' => 'required',
         ]);
         $portfolio = new Portfolio($request->all());
