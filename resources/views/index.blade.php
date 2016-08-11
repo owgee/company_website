@@ -14,19 +14,19 @@
       <span class="glyphicon glyphicon-phone logo-small"></span>
       <h4>Mobile Apps</h4>
       <p>We develop,design and deploy <br/>android,iphone ,windows mobile apps</p>
-      <a href="<?= route('mobile'); ?>">Explore<span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a href="<?= route('mobile'); ?>">Explore</a>
     </div>
     <div class="col-sm-4 slideborder">
       <span class="glyphicon glyphicon-heart logo-small"></span>
       <h4>Payment Integration</h4>
        <p>We develop,design and deploy <br/>android,iphone ,windows mobile apps</p>
-       <a href="<?= route('payment'); ?>">Explore<span class="glyphicon glyphicon-chevron-right"></span></a>
+       <a href="<?= route('payment'); ?>">Explore</a>
     </div>
     <div class="col-sm-4 slideborder">
       <span class="glyphicon glyphicon-lock logo-small"></span>
       <h4>Linux Systems</h4>
        <p>We develop,design and deploy <br/>android,iphone ,windows mobile apps</p>
-       <a href="<?= route('linux'); ?>">Explore<span class="glyphicon glyphicon-chevron-right"></span></a>
+       <a href="<?= route('linux'); ?>">Explore</a>
     </div>
   </div>
   <br><br>
@@ -35,19 +35,19 @@
       <span class="glyphicon glyphicon-leaf logo-small"></span>
       <h4>Enterprise Software</h4>
       <p>We develop,design and deploy <br/>android,iphone ,windows mobile</p>
-      <a href="<?= route('software'); ?>">Explore<span class="glyphicon glyphicon-chevron-right"></span></a>
+      <a href="<?= route('software'); ?>">Explore</a>
     </div>
     <div class="col-sm-4 slideborder">
       <span class="glyphicon glyphicon-certificate logo-small"></span>
       <h4>Database Design</h4>
        <p> We develop,design and deploy <br/>android,iphone ,windows mobile</p>
-       <a href="<?= route('database'); ?>">Explore<span class="glyphicon glyphicon-chevron-right"></span></a>
+       <a href="<?= route('database'); ?>">Explore</a>
     </div>
     <div class="col-sm-4 slideborder">
       <span class="glyphicon glyphicon-wrench logo-small"></span>
       <h4 style="color:#303030;">Website Design</h4>
        <p>We develop,design and deploy <br/>android,iphone ,windows mobile</p>
-       <a href="<?= route('website'); ?>">Explore <span class="glyphicon glyphicon-chevron-right"></span></a>
+       <a href="<?= route('website'); ?>">Explore </a>
     </div>
   </div>
 
@@ -59,7 +59,6 @@
 @include('includes.portfolio')
 
 @include('includes.testimonialslider')
-
 
 @include('includes.technology')
 

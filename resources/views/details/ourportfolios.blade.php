@@ -26,7 +26,7 @@
                                <p>A system that will allow keypad prepaid meters to remotely recharge
                                and receive SMS notification via their phones without being
                                in physical contact or nearby a meter</p>
-                               <a href="<?= route('meter'); ?>" target="_blank">Explore</a>
+                               <a href="#">Explore</a>
                            </div>
                        </div>
                        <div class="col-sm-3">
@@ -106,7 +106,9 @@
 
                   </div>
                      <hr>
-                   @include('includes.footer')
+                   <div class="container-fluid text-center">
+                           @include('includes.footer')
+                           </div>
 
 
 

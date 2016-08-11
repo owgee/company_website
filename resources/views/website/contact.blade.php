@@ -23,6 +23,20 @@
          <p>Want to get in touch sooner? Call<b> +255 655 406 004.</b></p>
          <p>Need more help? You can also <a href="#">contact support</a> </p>
 
+             <p style="color: #0044cc">how to connect us?</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span>Bima Road, 11th Block Mikocheni B,Dar es salaam Tanzania
+                                                                 </p>
+           <p><span class="glyphicon glyphicon-phone"></span>Phone: +255 655 406 004
+                                                                    </p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +255 222 780 228
+
+                                                                               </p>
+           <p><span class="glyphicon glyphicon-envelope"></span>Email: info@inetstz.com
+                                                                       </p>
+           <p><span class="glyphicon glyphicon-home"></span> P.O.Box 32258 Dar es salaam
+
+                                                                                  </p>
+
       </div>
 
       <div class="col-sm-4" style="margin-top: 20px">
@@ -62,8 +76,39 @@
       </div>
 
     </div>
+    <div id="googleMap"></div>
      <hr>
-      @include('includes.footer')
+     <div class="container-fluid text-center">
+            @include('includes.footer')
+            </div>
+
+
+
+    <!-- Add Google Maps -->
+
+    <script>
+    var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+    function initialize() {
+                var mapProp = {
+                center:myCenter,
+                zoom:12,
+                scrollwheel:false,
+                draggable:false,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+              };
+
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+                    var marker = new google.maps.Marker({
+                    position:myCenter
+                    });
+
+                    marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
 
 

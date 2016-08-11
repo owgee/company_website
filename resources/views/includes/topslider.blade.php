@@ -1,5 +1,5 @@
 
-<div  style="margin-top: 58px">
+<div  style="margin-top: 45px">
 
   <div id="myCarousel" class="carousel slide">
     <!-- Indicators -->

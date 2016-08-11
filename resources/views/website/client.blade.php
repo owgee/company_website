@@ -34,7 +34,7 @@
                  <h4>We are proud for our team to be involved in this Government Project again under
                   the Ministry of Trade and Industries in Tanzania</h4>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                 <a class="btn btn-primary" href="http://www.brela.go.tz/" target="_blank">Visit Site  <span class="glyphicon glyphicon-chevron-right"></span></a>
+                 <a class="btn btn-primary" href="http://www.brela.go.tz/" target="_blank">Visit Site</a>
              </div>
          </div>
          <!-- /.row -->
@@ -43,11 +43,7 @@
 
          <!-- Project Two -->
          <div class="row">
-             <div class="col-md-7">
-                 <a href="#">
-                     <img class="img-responsive img-size" src="<?= photo() ?>/pspf.png" alt="">
-                 </a>
-             </div>
+
              <div class="col-md-5">
                  <h3>PSPF Pamoja Nawe</h3>
                  <h4>Smartphone mobile application for PSPF main scheme and supplimentary members</h4>
@@ -58,8 +54,14 @@
                     4. View PSPF news and events.
                     5. View contacts and addresses list.
 .</p>
-                 <a class="btn btn-primary" href="http://pspf-tz.org/" target="_blank">Visit site <span class="glyphicon glyphicon-chevron-right"></span></a>
+                 <a class="btn btn-primary" href="http://pspf-tz.org/" target="_blank">Visit site </a>
              </div>
+
+             <div class="col-md-7">
+                              <a href="#">
+                                  <img class="img-responsive img-size" src="<?= photo() ?>/pspf.png" alt="">
+                              </a>
+                          </div>
          </div>
          <!-- /.row -->
 
@@ -90,17 +92,19 @@
          <!-- Project Four -->
          <div class="row">
 
-             <div class="col-md-7">
-                 <a href="#">
-                     <img class="img-responsive img-size" src="<?= photo() ?>/brsolution.jpg" alt="">
-                 </a>
-             </div>
+
              <div class="col-md-5">
                  <h3>BR Solutions</h3>
                  <h4>contribute to what should</h4>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
 
              </div>
+
+             <div class="col-md-7">
+                              <a href="#">
+                                  <img class="img-responsive img-size" src="<?= photo() ?>/brsolution.jpg" alt="">
+                              </a>
+                          </div>
          </div>
          <!-- /.row -->
 
@@ -117,11 +121,13 @@
                  <h3>Bonag Hotel Resort</h3>
                  <h4>Best hotel</h4>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
-                 <a class="btn btn-primary" href="http://bonaghotel.com/" target="_blank">Visit site <span class="glyphicon glyphicon-chevron-right"></span></a>
+                 <a class="btn btn-primary" href="http://bonaghotel.com/" target="_blank">Visit site </a>
              </div>
          </div>
          <!-- /.row -->
 
          <hr>
 </div>
-@include('includes.footer')
+ <div class="container-fluid text-center">
+        @include('includes.footer')
+        </div>

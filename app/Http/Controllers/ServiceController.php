@@ -9,12 +9,12 @@ use App\Http\Requests;
 class ServiceController extends Controller
 {
     public function software(){
-        return view('website.services');
+        return view('services.software');
 
     }
 
     public function mobile(){
-        return view('website.services');
+        return view('services.mobile');
 
     }
 
@@ -24,7 +24,7 @@ class ServiceController extends Controller
     }
 
     public function linux(){
-        return view('website.services');
+        return view('services.linux');
 
     }
 

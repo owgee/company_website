@@ -14,7 +14,7 @@
 }
 .navbar-nav li a:hover {
     color: #f4511e !important;
-    background-color: #fff !important;
+    background-color: #grey !important;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -22,7 +22,7 @@
 }
 
 .header{
-    border-radius: 0;
+    border-radius:0;
 }
 
 
@@ -69,7 +69,6 @@
 
 
 body {
-    font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
 }
