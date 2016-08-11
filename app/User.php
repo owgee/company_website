@@ -23,16 +23,22 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+
+    protected $table = 'users';
+
+
     public function roles()
     {
         return $this->hasMany(\App\Models\Role::class, 'user_id', 'user_id');
     }
 
-    protected $table = 'users';
-
 
     public function clients()
     {
         return $this->hasMany(\App\Models\Client::class, 'user_id', 'id');
+    }
+
+    public function portfolios() {
+        return $this->hasMany(\App\Models\Portfolio::class, 'user_id', 'id');
     }
 }

@@ -1,3 +1,4 @@
+
 @extends(config('sentinel.layout'))
 
 {{-- Web site Title --}}
@@ -5,7 +6,6 @@
     @parent
     Portfolio
 @stop
-
 {{-- Content --}}
 @section('content')
     <div class="row">
@@ -25,28 +25,18 @@
             <table class="table table-striped table-hover">
                 <thead>
                 <th>Name</th>
-                <th>Nature</th>
+                <th>Description</th>
                 <th>Options</th>
                 </thead>
                 <tbody>
                 @if(!$portfolios->isEmpty())
                 @foreach ($portfolios as $portfolio)
                     <tr>
-                        <td><a href="{{ route('sentinel.users.show', array($portfolio->hash)) }}">{{ $portfolio->email }}</a></td>
-                        <td>{{ $portfolio->status }} </td>
+                        <td><a href="{{ route('portfolio.show', array($portfolio->portfolio_id)) }}">{{ $portfolio->portfolioname }}</a></td>
+                        <td>{{ $portfolio->description }} </td>
                         <td>
-                            <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.edit', array($portfolio->hash)) }}'">Edit</button>
-                            @if ($portfolio->status != 'Suspended')
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.suspend', array($portfolio->hash)) }}'">Suspend</button>
-                            @else
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unsuspend', array($portfolio->hash)) }}'">Un-Suspend</button>
-                            @endif
-                            @if ($portfolio->status != 'Banned')
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.ban', array($portfolio->hash)) }}'">Ban</button>
-                            @else
-                                <button class="btn btn-default" type="button" onClick="location.href='{{ route('sentinel.users.unban', array($portfolio->hash)) }}'">Un-Ban</button>
-                            @endif
-                            <button class="btn btn-default action_confirm" href="{{ route('sentinel.users.destroy', array($portfolio->hash)) }}" data-token="{{ Session::getToken() }}" data-method="delete">Delete</button>
+                            <a class="btn btn-default" type="button" href="{{ route('portfolio.edit', array($portfolio->portfolio_id)) }}">Edit</a>
+                            <button class="btn btn-default action_confirm" href="{{ action('AdminController@destroy', array($portfolio->portfolio_id)) }}" data-token="{{ Session::getToken() }}" data-method="DELETE">Delete</button>
                         </td>
                     </tr>
                 @endforeach

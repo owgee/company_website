@@ -10,6 +10,6 @@
 		<p>To activate your account, <a href="{{ route('sentinel.activate', [$hash, urlencode($code)]) }}">click here.</a></p>
 		<p>Or point your browser to this address: <br /> {{ route('sentinel.activate', [$hash, urlencode($code)]) }} </p>
 		<p>Thank you, <br />
-			~ The INETS Team</p>
+			~The Admin Team</p>
 	</body>
 </html>

@@ -53,5 +53,6 @@ class Kernel extends HttpKernel
         'sentry.admin' => \Sentinel\Middleware\SentryAdminAccess::class,
         'sentry.member' => \Sentinel\Middleware\SentryMember::class,
         'sentry.guest' => \Sentinel\Middleware\SentryGuest::class,
+        'SentinelAdmin' => \App\Http\Middleware\SentinelAdmin::class,
     ];
 }
