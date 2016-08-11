@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+        "rydurham/sentinel": "^2.4"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -16,7 +17,9 @@
         "symfony/dom-crawler": "2.8.*|3.0.*",
         "xethron/migrations-generator": "dev-l5",
         "way/generators": "dev-feature/laravel-five-stable",
-        "user11001/eloquent-model-generator": "~2.0"
+        "user11001/eloquent-model-generator": "~2.0",
+        "tymon/jwt-auth": "0.5.*",
+        "dingo/api": "1.0.x@dev"
     },
     "autoload": {
         "classmap": [

@@ -14,14 +14,14 @@ class CreatePortfolioTable extends Migration {
 	{
 		Schema::create('portfolio', function(Blueprint $table)
 		{
-			$table->integer('portfolio_id')->primary('portfolioprimarykey');
+			$table->integer('portfolio_id', true);
 			$table->string('portfolioname', 100);
 			$table->string('imageurl', 100);
-			$table->text('descriptions');
+			$table->text('description');
 			$table->integer('client_id');
-			$table->integer('user_id');
 			$table->datetimetz('uploaded_at')->nullable();
-			$table->datetimetz('updated_at')->nullable();
+			$table->timestamps();
+			$table->integer('user_id');
 		});
 	}
 

@@ -8,6 +8,7 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\Log;
 
 class Handler extends ExceptionHandler
 {
@@ -33,7 +34,8 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $e)
     {
-        parent::report($e);
+        Log::error( '['.$e->getCode().'] '.$e->getMessage().' on line '.@$e->getTrace()[0]['line'].' of file '.@$e->getTrace()[0]['file']);
+        /*parent::report($e);*/
     }
 
     /**

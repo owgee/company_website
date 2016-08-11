@@ -10,8 +10,11 @@ class Portfolio extends Model {
 
     protected $primaryKey = 'portfolio_id';
     protected $table = 'portfolio';
-    protected $fillable = ['portfolio_id', 'portfolioname', 'imageurl', 'descriptions', 'client_id', 'user_id', 'uploaded_at'];
+    protected $fillable = ['portfolio_id', 'portfolioname', 'imageurl', 'description', 'client_id', 'user_id', 'uploaded_at'];
 
+    public function user() {
+        return $this->belongsTo(\App\Models\User::class, 'user_id', 'id');
+    }
 
     public function client() {
         return $this->belongsTo(\App\Models\Client::class, 'client_id', 'client_id');

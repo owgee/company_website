@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('sentinel.layouts.default')
 
 @section('content')
 <div class="container">
@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Your Application's Landing Page.
+                    Admin Dashboard
                 </div>
             </div>
         </div>

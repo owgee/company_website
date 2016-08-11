@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
 
 Route::auth();
 
@@ -47,3 +43,29 @@ Route::get('/payment','ServiceController@payment')->name('payment');
 Route::get('/linux','ServiceController@linux')->name('linux');
 Route::get('/database','ServiceController@database')->name('database');
 Route::get('/website','ServiceController@website')->name('website');
+
+
+
+    Route::get('/admin', function () {
+        return view('welcome');
+    });
+//Route::get('/', function () {
+//    return view('website.home');
+//});
+
+//Route::auth();
+
+//Route::get('/home', 'HomeController@index');
+    $api = app('Dingo\Api\Routing\Router');
+    $api->version('v1', function ($api) {
+//    $api->get('users/{id}', 'UserController@show');
+    });
+
+    Route::get('/', array('as' => 'home', function () {
+        return View::make('welcome');
+    }));
+
+//Route::group(array('middleware' => 'sentry.admin'), function () {
+//    Route::resource('/portfolio', 'AdminController');
+//    Route::resource('/clients', 'ClientsController');
+//});
