@@ -16,13 +16,26 @@ Route::auth();
 Route::get('/', function () {
     return view('index');
 });
+Route::group(array('prefix' => 'new'), function () {
+    Route::get('/', function () {
+        return view('new_website.home');
+    });
+    Route::group(array('prefix' => 'service'), function () {
+        Route::get('/{service}','PageController@service');
+    });
+    Route::get('/{page}','PageController@open_page');
+
+});
+Route::get('/about_us' ,function(){
+    return view('new_website.about');
+});
 
 Route::get('/home', 'PageController@home')->name('home');
 Route::get('/about' ,'PageController@about')->name('about');
 Route::get('/costech' ,'PageController@costech')->name('costech');
 Route::get('/rigel' ,'PageController@rigel')->name('rigel');
 Route::get('/clients' ,'PageController@clients')->name('clients');
-Route::get('/projects' ,'PageController@projects')->name('projects');
+Route::get('/project' ,'PageController@projects')->name('projects');
 Route::get('/products' ,'PageController@products')->name('products');
 Route::get('/contacts' ,'PageController@contacts')->name('contacts');
 Route::get('/portfolio' ,'PageController@portfolio')->name('portfolio');

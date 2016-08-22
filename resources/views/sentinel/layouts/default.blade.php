@@ -18,6 +18,10 @@
 		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css"> -->
 		<link rel="stylesheet" href="{{ asset('packages/rydurham/sentinel/css/bootstrap-theme.min.css') }}">
 
+		{{--ckeditor--}}
+		<script src="{{url('/')}}/website_assets/js/ckeditor.js"></script>
+		<script src="{{url('/')}}/website_assets/js/sample.js"></script>
+		<link rel="stylesheet" href="{{url('/')}}/website_assets/css/samples.css">
 		<style>
 		@section('styles')
 			body {
@@ -55,7 +59,7 @@
 					<li {!! (Request::is('groups*') ? 'class="active"' : '') !!}><a href="{{ action('\\Sentinel\Controllers\GroupController@index') }}">Groups</a></li>
 					  <li {!! (Request::is('portfolio*') ? 'class="active"' : '') !!}><a href="{{ action('AdminController@index') }}">Portfolio</a></li>
 					  <li {!! (Request::is('clients*') ? 'class="active"' : '') !!}><a href="{{ action('ClientsController@index') }}">Clients</a></li>
-					  <li {!! (Request::is('home*') ? 'class="active"' : '') !!}><a href="{{ action('PageController@home') }}">Website</a></li>
+					  <li {!! (Request::is('home*') ? 'class="active"' : '') !!}><a href="{{ url('new') }}">Website</a></li>
 				@endif
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">
@@ -92,7 +96,10 @@
 		================================================== -->
 		<script src="{{ asset('packages/rydurham/sentinel/js/jquery-2.1.3.min.js') }}"></script>
 		<script src="{{ asset('packages/rydurham/sentinel/js/bootstrap.min.js') }}"></script>
-		<script src="{{ asset('packages/rydurham/sentinel/js/restfulizer.js') }}"></script> 
+		<script src="{{ asset('packages/rydurham/sentinel/js/restfulizer.js') }}"></script>
+		<script type="application/javascript">
+			initSample();
+		</script>
 		<!-- Thanks to Zizaco for the Restfulizer script.  http://zizaco.net  -->
 	</body>
 </html>

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{url('/')}}/css/bootstrap.min.css" crossorigin="anonymous">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
+
     <style>
         body {
             font-family: 'Lato';
@@ -83,5 +84,6 @@
     <script src="{{url('/')}}/js/jquery.min.js" crossorigin="anoseglsefbnymous"></script>
     <script src="{{url('/')}}/js/bootstrap.min.js" crossorigin="anonymous"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
+
 </body>
 </html>

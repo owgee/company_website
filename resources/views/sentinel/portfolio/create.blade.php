@@ -10,7 +10,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-4 col-md-offset-4">
-            <form method="POST" action="{{ route('portfolio.store') }}" accept-charset="UTF-8">
+            <form method="POST" action="{{ route('admin.portfolio.store') }}" accept-charset="UTF-8">
                 <input name="_token" value="{{ csrf_token() }}" type="hidden">
 
                 <h2>Create New Portfolio</h2>
@@ -32,9 +32,12 @@
                 </div>
 
                     <div class="form-group {{ ($errors->has('description')) ? 'has-error' : '' }}">
-                        <input id="description" name="description" placeholder="Portfolio Description" type="text" class="form-control">
+                        {{--<input id="description" name="description" placeholder="Portfolio Description" type="text" class="form-control">--}}
 
-                        {{ ($errors->has('description') ? $errors->first('description') : '') }}
+                        {{--{{ ($errors->has('description') ? $errors->first('description') : '') }}--}}
+                        <div id="editor">
+
+                        </div>
                     </div>
 
 

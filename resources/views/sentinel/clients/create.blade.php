@@ -30,8 +30,10 @@ Clients
             </div>
 
             <div class="form-group {{ ($errors->has('clientdescription')) ? 'has-error' : '' }}">
-                <input class="form-control" placeholder="Description" name="clientdescription" value="" type="text">
-                {{ ($errors->has('clientdescription') ?  $errors->first('clientdescription') : '') }}
+                            <div id="editor">
+
+                    </div>
+
             </div>
 
             <input name="_token" value="{{ csrf_token() }}" type="hidden">
@@ -39,7 +41,8 @@ Clients
 
         </form>
 
-    </div>
+  </div
+>
 </div>
 
 

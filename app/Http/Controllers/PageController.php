@@ -61,4 +61,13 @@ class PageController extends Controller
     public function pspf(){
         return redirect()->away('https://play.google.com/store/apps/details?id=com.pspftz.pspftz&hl=en');
     }
+
+    public function service($service){
+        return view('new_website.services.'.$service);
+    }
+
+    public function open_page($page){
+
+        return view('new_website.'.$page);
+    }
 }

@@ -40,7 +40,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                INETS
+                <img src="website_assets/img/logo_white.png" width="100" height="10">
             </a>
         </div>
 
