@@ -44,17 +44,20 @@
                                     <div class="wpb_text_column ">
                                         <div class="wpb_wrapper">
                                             <h3>Description</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                                                ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                                                dis parturient montes. Etiam facilisis venenatis libero, ac fermentum
-                                                dolor euismod in.</p>
-                                            <ul>
-                                                <li><strong>Client</strong>: ThemeForest</li>
-                                                <li><strong>Date</strong>: September 9, 2014</li>
-                                                <li><strong>URL</strong>: <a href="http://alexandreev.deviantart.com/"
-                                                                             target="_blank">alexandreev.deviantart.com</a>
-                                                </li>
-                                            </ul>
+                                            <p>Mobile applications are also known as Mobile apps.They are software
+                                                programs you can download and access directly using your smartphone or
+                                                another mobile device – like a tablet.
+
+                                                Mobile phone applications, are rapidly gaining popularity in the
+                                                smartphone market, and so is the demand for best Mobile software
+                                                application Development</p>
+                                            {{--<ul>--}}
+                                            {{--<li><strong>Client</strong>: Anyone</li>--}}
+                                            {{--<li><strong>Date</strong>: September 9, 2016</li>--}}
+                                            {{--<li><strong>URL</strong>: <a href="#"--}}
+                                            {{--target="_blank">inetstz.com</a>--}}
+                                            {{--</li>--}}
+                                            {{--</ul>--}}
                                         </div>
                                     </div>
                                     <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
@@ -64,14 +67,14 @@
                                             <div class="w-tabs-list-h">
                                                 <div class="w-tabs-item">
                                                     <div class="w-tabs-item-h"><span
-                                                                class="w-tabs-item-title">Summary</span></div>
+                                                                class="w-tabs-item-title">Why Mobile App?</span></div>
                                                 </div>
                                                 <div class="w-tabs-item">
-                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Extended Info</span>
+                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Application Areas</span>
                                                     </div>
                                                 </div>
                                                 <div class="w-tabs-item active">
-                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Additional Few Things</span>
+                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Types of Solutions</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -81,26 +84,29 @@
                                                 <div class="w-tabs-section">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Summary</h5>
+                                                                    class="w-tabs-section-title">Why Mobile App?</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </div>
                                                     <div class="w-tabs-section-content">
                                                         <div class="w-tabs-section-content-h i-cf">
                                                             <div class="wpb_text_column ">
-                                                                <div class="wpb_wrapper"><p>Lorem ipsum dolor sit amet,
-                                                                        consectetur adipiscing elit. Morbi sagittis, sem
-                                                                        quis lacinia faucibus, orci ipsum gravida
-                                                                        tortor, vel interdum mi sapien ut justo. Nulla
-                                                                        varius consequat magna, id molestie ipsum
-                                                                        volutpat quis.</p>
-                                                                    <blockquote><p>At delectus doloremque dolores
-                                                                            explicabo laudantium minima qui. Animi
-                                                                            aperiam aspernatur atque debitis distinctio
-                                                                            impedit inventore iure labore modi omnis,
-                                                                            optio rerum ut veritatis voluptatum?</p>
+                                                                <div class="wpb_wrapper"><p>Develop the direct marketing
+                                                                        channel for businesses through building of the
+                                                                        close relationship through periodic alerts to
+                                                                        users
+                                                                        Develop direct data storage during registration
+                                                                        and research, this applies to the development
+                                                                        and research companies, companies who register
+                                                                        new members from different places of the world
+                                                                        and hence growth of the membership in the
+                                                                        organization</p>
+                                                                    <blockquote><p>Users of the mobile application
+                                                                            increase the chance for your newsletter to
+                                                                            be read due to a large number and increased
+                                                                            number of smartphone users.</p>
                                                                     </blockquote>
-                                                                    </p></div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -108,45 +114,42 @@
                                                 <div class="w-tabs-section">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Extended Info</h5>
+                                                                    class="w-tabs-section-title">Areas of Application</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </div>
                                                     <div class="w-tabs-section-content">
                                                         <div class="w-tabs-section-content-h i-cf">
                                                             <div class="wpb_text_column ">
-                                                                <div class="wpb_wrapper"><p>Lorem ipsum dolor sit amet,
-                                                                        consectetur adipiscing elit. Morbi sagittis, sem
-                                                                        quis lacinia faucibus, orci ipsum gravida
-                                                                        tortor, vel interdum mi sapien ut justo. Etiam
-                                                                        facilisis venenatis libero, ac fermentum dolor
-                                                                        euismod in. Phasellus placerat egestas varius.
-                                                                        Vivamus eleifend at massa sodales faucibus.
-                                                                        Vestibulum egestas nibh in turpis volutpat
-                                                                        ornare.</p></div>
+                                                                <div class="wpb_wrapper"><p>We at INETS being a
+                                                                        technological company offer the development of
+                                                                        these applications in different fields like
+                                                                        pension funds, hotels and restaurants,
+                                                                        enterprise based applications,banks and
+                                                                        financial institutions,Media based applications
+                                                                        like radio app,television app and , e-commerce
+                                                                        and other customized business applications.</p>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="w-tabs-section active">
+                                                <div class="w-tabs-section">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Additional Few
-                                                                Things</h5>
+                                                                    class="w-tabs-section-title">Mobile Apps Types</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </div>
                                                     <div class="w-tabs-section-content">
                                                         <div class="w-tabs-section-content-h i-cf">
                                                             <div class="wpb_text_column ">
-                                                                <div class="wpb_wrapper"><p>Etiam facilisis venenatis
-                                                                        libero, ac fermentum dolor euismod in. Phasellus
-                                                                        placerat egestas varius. Vivamus eleifend at
-                                                                        massa sodales faucibus. Vestibulum egestas nibh
-                                                                        in turpis volutpat ornare. Ut tempor lacinia
-                                                                        purus, ac gravida tortor suscipit eget. Maecenas
-                                                                        ornare imperdiet. Nullam et faucibus bibendum
-                                                                        ante.</p></div>
+                                                                <div class="wpb_wrapper">
+                                                                    <ul>
+                                                                        <li>Native Applications</li>
+                                                                        <li>Hybrid Applications</li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -156,11 +159,11 @@
                                     </div>
                                     <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
                                         <span class="w-separator-h"><i class="fa fa-star"></i></span></div>
-                                    <div class="w-iconbox iconpos_top size_large style_circle color_light">
-                                        <div class="w-iconbox-icon"><i class="fa fa-star-o"></i></div>
-                                        <h4 class="w-iconbox-title">Award Winner</h4>
-                                        <div class="w-iconbox-text">It&#8217;s a realy great image!</div>
-                                    </div>
+                                    {{--<div class="w-iconbox iconpos_top size_large style_circle color_light">--}}
+                                        {{--<div class="w-iconbox-icon"><i class="fa fa-star-o"></i></div>--}}
+                                        {{--<h4 class="w-iconbox-title">Award</h4>--}}
+                                        {{--<div class="w-iconbox-text">INETS</div>--}}
+                                    {{--</div>--}}
                                 </div>
                             </div>
                         </div>

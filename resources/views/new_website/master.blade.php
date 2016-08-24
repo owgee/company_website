@@ -197,58 +197,59 @@
                     <div id="us_socials-2" class="widget widget_us_socials">
                         <div class="w-socials align_left style_desaturated" style="font-size: 24px;">
                             <div class="w-socials-list">
-                                <div class="w-socials-item facebook"><a class="w-socials-item-link" target="_blank"
-                                                                        href="#"><span
-                                                class="w-socials-item-link-hover"></span></a>
-                                    <div class="w-socials-item-popup"><span>Facebook</span></div>
+                                <div class="w-socials-item facebook">
+                                    <a class="w-socials-item-link" target="_blank" href="https://www.facebook.com/inets">
+                                        <span class="w-socials-item-link-hover"></span>
+                                    </a>
+                                    <div class="w-socials-item-popup">
+                                        <span>Facebook</span>
+                                    </div>
                                 </div>
-                                <div class="w-socials-item twitter"><a class="w-socials-item-link" target="_blank"
-                                                                       href="#"><span
-                                                class="w-socials-item-link-hover"></span></a>
-                                    <div class="w-socials-item-popup"><span>Twitter</span></div>
+                                <div class="w-socials-item twitter">
+                                    <a class="w-socials-item-link" target="_blank" href="https://twitter.com/Inetstz">
+                                        <span class="w-socials-item-link-hover"></span>
+                                    </a>
+                                    <div class="w-socials-item-popup">
+                                        <span>Twitter</span>
+                                    </div>
                                 </div>
-                                <div class="w-socials-item google"><a class="w-socials-item-link" target="_blank"
-                                                                      href="#"><span
-                                                class="w-socials-item-link-hover"></span></a>
-                                    <div class="w-socials-item-popup"><span>Google+</span></div>
+                                <div class="w-socials-item instagram">
+                                    <a class="w-socials-item-link" target="_blank" href="https://www.instagram.com/inetscompany">
+                                        <span class="w-socials-item-link-hover"></span>
+                                    </a>
+                                    <div class="w-socials-item-popup">
+                                        <span>Instagram</span>
+                                    </div>
                                 </div>
-                                <div class="w-socials-item instagram"><a class="w-socials-item-link" target="_blank"
-                                                                         href="#"><span
-                                                class="w-socials-item-link-hover"></span></a>
-                                    <div class="w-socials-item-popup"><span>Instagram</span></div>
+                                <div class="w-socials-item google">
+                                    <a class="w-socials-item-link" target="_blank" href="https://plus.google.com/u/0/b/115817418998123742140/115817418998123742140">
+                                        <span class="w-socials-item-link-hover"></span>
+                                    </a>
+                                    <div class="w-socials-item-popup">
+                                        <span>Google +</span>
+                                    </div>
                                 </div>
+
+                                <div class="w-socials-item linkedin">
+                                    <a class="w-socials-item-link" target="_blank" href="https://www.linkedin.com/company/inets">
+                                        <span class="w-socials-item-link-hover"></span>
+                                    </a>
+                                    <div class="w-socials-item-popup">
+                                        <span>LinkedIn</span>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="in_col-sm-4">
-                   {{--  <div id="recent-posts-3" class="widget widget_recent_entries"><h4>Overall Portfolio</h4>
-                        <ul>
-                            <li>
-                                <a href="../this-is-a-sticky-post/index.html">This is a Sticky Post</a>
-                                <span class="post-date">September 15, 2014</span>
-                            </li>
-                            <li>
-                                <a href="../this-post-looks-beautiful-even-with-long-interesting-title/index.html">This
-                                    Post Looks Beautiful even with Long Interesting Title</a>
-                                <span class="post-date">September 12, 2014</span>
-                            </li>
-                            <li>
-                                <a href="../video-post/index.html">This is a Video Post</a>
-                                <span class="post-date">September 11, 2014</span>
-                            </li>
-                            <li>
-                                <a href="../satisfaction-lies-in-the-effort/index.html">Satisfaction Lies in the
-                                    Effort</a>
-                                <span class="post-date">August 21, 2014</span>
-                            </li>
-                        </ul>
-                    </div> --}}
+
                 </div>
                 <div class="in_col-sm-6">
                     <div id="search-3" class="widget widget_search"><h4>Search Something</h4>
                         <div class="w-form for_search" id="us_form_1">
-                            <form class="w-form-h" autocomplete="off" action="http://zephyr.us-themes.com/"
+                            <form class="w-form-h" autocomplete="off" action="#"
                                   method="get">
                                 <div class="w-form-row for_s">
                                     <div class="w-form-row-label">

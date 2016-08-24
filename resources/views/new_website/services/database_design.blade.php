@@ -17,9 +17,9 @@
             <div class="l-titlebar-content"><h1 itemprop="headline">Database Design</h1></div>
             <div class="g-nav">
                 <div class="g-nav-list"><a class="g-nav-item to_next" title="Creative Project &#8211; Slider"
-                                           href="../creative-project-slider/index.html"></a><a
+                                           href="#"></a><a
                             class="g-nav-item to_prev" title="Creative Project &#8211; Image"
-                            href="../creative-project-image/index.html"></a></div>
+                            href="#"></a></div>
             </div>
         </div>
     </div>
@@ -35,7 +35,6 @@
                                                                                         src="{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg"
                                                                                         class="attachment-large size-large"
                                                                                         alt="Vesper"
-                                                                                        srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg 750w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6-375x500.jpg 375w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6-600x800.jpg 600w"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
                                     </div>
                                 </div>
@@ -45,17 +44,24 @@
                                     <div class="wpb_text_column ">
                                         <div class="wpb_wrapper">
                                             <h3>Description</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                                                ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                                                dis parturient montes. Etiam facilisis venenatis libero, ac fermentum
-                                                dolor euismod in.</p>
-                                            <ul>
-                                                <li><strong>Client</strong>: ThemeForest</li>
-                                                <li><strong>Date</strong>: September 9, 2014</li>
-                                                <li><strong>URL</strong>: <a href="http://alexandreev.deviantart.com/"
-                                                                             target="_blank">alexandreev.deviantart.com</a>
-                                                </li>
-                                            </ul>
+                                            <p>Database management system (DBMS) is a system based solution that allows
+                                                you to organize, store, maintain and retrieve data to get meaningful
+                                                trends, solutions and reports.
+
+                                            <p> With globalization, acquisition & mergers are becoming a day-to-day
+                                                phenomenon increasing the size and scope of businesses to new heights.
+                                                Companies exploit this open-market business environment to cater
+                                                services and products to a wide range of consumers spread across the
+                                                entire world. To withstand in this open-market environment and to keep
+                                                track with consumer's trends, constant and close monitoring of data is
+                                                required.</p>
+                                            {{--<ul>--}}
+                                            {{--<li><strong>Client</strong>: INETS</li>--}}
+                                            {{--<li><strong>Date</strong>: September 9, 2016</li>--}}
+                                            {{--<li><strong>URL</strong>: <a href="#"--}}
+                                            {{--target="_blank">INETS</a>--}}
+                                            {{--</li>--}}
+                                            {{--</ul>--}}
                                         </div>
                                     </div>
                                     <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
@@ -65,14 +71,15 @@
                                             <div class="w-tabs-list-h">
                                                 <div class="w-tabs-item">
                                                     <div class="w-tabs-item-h"><span
-                                                                class="w-tabs-item-title">Summary</span></div>
+                                                                class="w-tabs-item-title">Why Database Design?</span>
+                                                    </div>
                                                 </div>
                                                 <div class="w-tabs-item">
-                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Extended Info</span>
+                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Areas of Application</span>
                                                     </div>
                                                 </div>
                                                 <div class="w-tabs-item active">
-                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Additional Few Things</span>
+                                                    <div class="w-tabs-item-h"><span class="w-tabs-item-title">Types of Databases</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -82,72 +89,66 @@
                                                 <div class="w-tabs-section">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Summary</h5>
+                                                                    class="w-tabs-section-title">Why Database Design?</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </div>
                                                     <div class="w-tabs-section-content">
                                                         <div class="w-tabs-section-content-h i-cf">
                                                             <div class="wpb_text_column ">
-                                                                <div class="wpb_wrapper"><p>Lorem ipsum dolor sit amet,
-                                                                        consectetur adipiscing elit. Morbi sagittis, sem
-                                                                        quis lacinia faucibus, orci ipsum gravida
-                                                                        tortor, vel interdum mi sapien ut justo. Nulla
-                                                                        varius consequat magna, id molestie ipsum
-                                                                        volutpat quis.</p>
+                                                                <div class="wpb_wrapper"><p>Our database design and
+                                                                        development services are targeted both for small
+                                                                        inventory display or a complex integrated system
+                                                                        application such as financial services, telecom
+                                                                        services, etc. We also assist you in selecting
+                                                                        the right technology and the right platform for
+                                                                        designing and developing database application
+                                                                        that will meet the long term vision of your
+                                                                        company.</p>
                                                                     <blockquote><p>At delectus doloremque dolores
                                                                             explicabo laudantium minima qui. Animi
                                                                             aperiam aspernatur atque debitis distinctio
                                                                             impedit inventore iure labore modi omnis,
                                                                             optio rerum ut veritatis voluptatum?</p>
                                                                     </blockquote>
-                                                                    </p></div>
+                                                                    </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="w-tabs-section">
-                                                    <div class="w-tabs-section-header">
-                                                        <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Extended Info</h5>
-                                                            <div class="w-tabs-section-control"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="w-tabs-section-content">
-                                                        <div class="w-tabs-section-content-h i-cf">
-                                                            <div class="wpb_text_column ">
-                                                                <div class="wpb_wrapper"><p>Lorem ipsum dolor sit amet,
-                                                                        consectetur adipiscing elit. Morbi sagittis, sem
-                                                                        quis lacinia faucibus, orci ipsum gravida
-                                                                        tortor, vel interdum mi sapien ut justo. Etiam
-                                                                        facilisis venenatis libero, ac fermentum dolor
-                                                                        euismod in. Phasellus placerat egestas varius.
-                                                                        Vivamus eleifend at massa sodales faucibus.
-                                                                        Vestibulum egestas nibh in turpis volutpat
-                                                                        ornare.</p></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                {{--<div class="w-tabs-section">--}}
+                                                    {{--<div class="w-tabs-section-header">--}}
+                                                        {{--<div class="w-tabs-section-header-h"><h5--}}
+                                                                    {{--class="w-tabs-section-title">Areas of Application</h5>--}}
+                                                            {{--<div class="w-tabs-section-control"></div>--}}
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                    {{--<div class="w-tabs-section-content">--}}
+                                                        {{--<div class="w-tabs-section-content-h i-cf">--}}
+                                                            {{--<div class="wpb_text_column ">--}}
+                                                                {{--<div class="wpb_wrapper"><p></p></div>--}}
+                                                            {{--</div>--}}
+                                                        {{--</div>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
                                                 <div class="w-tabs-section active">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Additional Few
-                                                                Things</h5>
+                                                                    class="w-tabs-section-title">Types of Databases</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </div>
                                                     <div class="w-tabs-section-content">
                                                         <div class="w-tabs-section-content-h i-cf">
                                                             <div class="wpb_text_column ">
-                                                                <div class="wpb_wrapper"><p>Etiam facilisis venenatis
-                                                                        libero, ac fermentum dolor euismod in. Phasellus
-                                                                        placerat egestas varius. Vivamus eleifend at
-                                                                        massa sodales faucibus. Vestibulum egestas nibh
-                                                                        in turpis volutpat ornare. Ut tempor lacinia
-                                                                        purus, ac gravida tortor suscipit eget. Maecenas
-                                                                        ornare imperdiet. Nullam et faucibus bibendum
-                                                                        ante.</p></div>
+                                                                <div class="wpb_wrapper">
+                                                                    <ul>
+                                                                        <li><a href=""></a>PostgreSQL</li>
+                                                                        <li>MySQL</li>
+                                                                        <li>Oracle</li>
+                                                                        <li>MS SQL Server</li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -155,13 +156,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
-                                        <span class="w-separator-h"><i class="fa fa-star"></i></span></div>
-                                    <div class="w-iconbox iconpos_top size_large style_circle color_light">
-                                        <div class="w-iconbox-icon"><i class="fa fa-star-o"></i></div>
-                                        <h4 class="w-iconbox-title">Award Winner</h4>
-                                        <div class="w-iconbox-text">It&#8217;s a realy great image!</div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

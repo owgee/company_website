@@ -63,7 +63,7 @@
                                                 <div class="w-tabs-section active" id="1377359144-1-100"><a
                                                             href="#1377359144-1-100" class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">2011</h5>
+                                                                    class="w-tabs-section-title">2012</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </a>
@@ -80,6 +80,9 @@
                                                                                     and started
                                                                                     it's operation officially in July
                                                                                     2014, 2 years after registration.
+                                                                                <p>A few months later, we were privileged to work with the Ministry of Home Affairs in Tanzania upon the
+                                                                                    implementation of constitutional reform SMS platform.</p>
+                                                                                <p>On 2nd December, INETS members were annouced winners of the <a>Bongosafi</a> <a href="">Sanitation Hackathon</a> in Dar es Salaam under the name "Dream Team".</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -88,14 +91,16 @@
                                                                     <div class="in_column-inner">
                                                                         <div class="wpb_text_column ">
                                                                             <div class="wpb_wrapper">
-                                                                                <h4>In the Beginning</h4>
+                                                                                <h4>Sense of Direction</h4>
                                                                                 <p>When we started, our minds were
                                                                                     highly focused
-                                                                                    on what what ahead of us, on the
+                                                                                    on what was ahead of us, on the
                                                                                     things we couldn't see but
-                                                                                    believed with all our heart, we
-                                                                                    still do.
-                                                                                    Our VISION keeps us focused.
+                                                                                    believed with all our heart, which we
+                                                                                    still do.<br>
+                                                                                    Our VISION keeps us focused.</p>
+                                                                                <p>We started working on our initial projects which include UNNETT, Hotleo and KaribuSMS.</p>
+
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -107,7 +112,7 @@
                                                 <div class="w-tabs-section" id="1377359144-2-22"><a
                                                             href="#1377359144-2-22" class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">2012</h5>
+                                                                    class="w-tabs-section-title">2013</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </a>
@@ -120,8 +125,8 @@
                                                                                     width="548" height="365"
                                                                                     src="website_assets/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg"
                                                                                     class="attachment-large size-large"
-                                                                                    alt="smiling-cute-business-woman"
-                                                                                    srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg 548w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs-500x333.jpg 500w"
+                                                                                    alt="INETS in 2012"
+                                                                                    srcset="website_assets/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg 500w"
                                                                                     sizes="(max-width: 548px) 100vw, 548px"/>
                                                                         </div>
                                                                     </div>
@@ -131,24 +136,9 @@
                                                                         <div class="wpb_text_column ">
                                                                             <div class="wpb_wrapper">
                                                                                 <h4>One year later</h4>
-                                                                                <p>Lorem ipsum dolor sit amet,
-                                                                                    consectetur adipiscing elit. Morbi
-                                                                                    sagittis, sem quis lacinia faucibus,
-                                                                                    orci ipsum gravida tortor, vel
-                                                                                    interdum mi sapien ut justo. Nulla
-                                                                                    varius consequat magna, id molestie
-                                                                                    ipsum volutpat quis. Suspendisse
-                                                                                    consectetur fringilla suctus.</p>
-                                                                                <p>Pellentesque ipsum erat, facilisis ut
-                                                                                    venenatis eu, sodales vel dolor.
-                                                                                    Morbi sagittis, sem quis lacinia
-                                                                                    faucibus, orci ipsum gravida tortor.
-                                                                                    Morbi sagittis, sem quis lacinia
-                                                                                    faucibus, orci ipsum gravida tortor,
-                                                                                    vel interdum mi sapien ut justo.
-                                                                                    Nulla varius consequat magna, id
-                                                                                    molestie ipsum volutpat quis
-                                                                                    suspendisse.</div>
+                                                                                <p>While at the University of Dar es Salaam, some of the founders focused on Software Development industry and got involved
+                                                                                in a couple of projects within and outside campus.</p>
+                                                                                <p></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -159,7 +149,7 @@
                                                 <div class="w-tabs-section" id="1377362430608-5-10"><a
                                                             href="#1377362430608-5-10" class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">2013</h5>
+                                                                    class="w-tabs-section-title">2014</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </a>
@@ -171,23 +161,10 @@
                                                                         <div class="wpb_text_column ">
                                                                             <div class="wpb_wrapper">
                                                                                 <h4>Two Years Later</h4>
-                                                                                <p>Lorem ipsum dolor sit amet,
-                                                                                    consectetur adipiscing elit. Morbi
-                                                                                    sagittis, sem quis lacinia faucibus,
-                                                                                    orci ipsum gravida tortor, vel
-                                                                                    interdum mi sapien ut justo. Nulla
-                                                                                    varius consequat magna, id molestie
-                                                                                    ipsum volutpat quis. Suspendisse
-                                                                                    consectetur fringilla suctus.</p>
-                                                                                <p>Pellentesque ipsum erat, facilisis ut
-                                                                                    venenatis eu, sodales vel dolor.
-                                                                                    Morbi sagittis, sem quis lacinia
-                                                                                    faucibus, orci ipsum gravida tortor.
-                                                                                    Morbi sagittis, sem quis lacinia
-                                                                                    faucibus, orci ipsum gravida tortor,
-                                                                                    vel interdum mi sapien ut justo.
-                                                                                    Lorem ipsum dolor sit amet,
-                                                                                    consectetur adipiscing elit.</div>
+                                                                                <p>We were all getting prepared for our final year at University eagerly waiting to hit graduation
+                                                                                and be full time company workers.</p>
+                                                                                <p>We met for the first time to officially start our operation in July, 2014 at what was then known as
+                                                                            Innovation Space, a free Open Space for IT and Business Minded people in Town at <a href="http://www.costech.or.tz/">COSTECH.</a></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -197,8 +174,8 @@
                                                                                     width="948" height="632"
                                                                                     src="website_assets/uploads/2014/09/photodune-369552-office-s.jpg"
                                                                                     class="attachment-large size-large"
-                                                                                    alt="Office"
-                                                                                    srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/photodune-369552-office-s.jpg 948w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/photodune-369552-office-s-500x333.jpg 500w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/photodune-369552-office-s-600x400.jpg 600w"
+                                                                                    alt="INETS in 2013"
+                                                                                    srcset="website_assets/uploads/2014/09/photodune-369552-office-s.jpg 600w"
                                                                                     sizes="(max-width: 948px) 100vw, 948px"/>
                                                                         </div>
                                                                     </div>
@@ -210,7 +187,7 @@
                                                 <div class="w-tabs-section" id="1377361385075-3-7"><a
                                                             href="#1377361385075-3-7" class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">2014</h5>
+                                                                    class="w-tabs-section-title">2015</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </a>
@@ -223,8 +200,8 @@
                                                                                     width="1024" height="469"
                                                                                     src="website_assets/uploads/2014/09/seagul-1024x469.jpg"
                                                                                     class="attachment-large size-large"
-                                                                                    alt="Seagul"
-                                                                                    srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/seagul-1024x469.jpg 1024w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/seagul-500x229.jpg 500w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/seagul-600x275.jpg 600w"
+                                                                                    alt="INETS in 2014"
+                                                                                    srcset="website_assets/uploads/2014/09/seagul-1024x469.jpg 600w"
                                                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
                                                                         </div>
                                                                     </div>
@@ -234,14 +211,9 @@
                                                                         <div class="wpb_text_column ">
                                                                             <div class="wpb_wrapper">
                                                                                 <h4>Three years later</h4>
-                                                                                <p>Lorem ipsum dolor sit amet,
-                                                                                    consectetur adipiscing elit. Morbi
-                                                                                    sagittis, sem quis lacinia faucibus,
-                                                                                    orci ipsum gravida tortor, vel
-                                                                                    interdum mi sapien ut justo.
-                                                                                    Pellentesque ipsum erat, facilisis
-                                                                                    ut venenatis eu, sodales vel dolor.
-                                                                                    Morbi sagittis, sem quis lacinia.
+                                                                                <p>After six months of Operation, we got a privilege of working with one of the biggest Pension Funds in
+                                                                                    Dar es Salaam and Tanzania; <a href="https://www.pspf-tz.org/website">Public Service Pensions Fund</a> (PSPF),
+                                                                                building an Android Application to be used by Pension Fund members to view their contributions and more.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -250,15 +222,10 @@
                                                                     <div class="in_column-inner">
                                                                         <div class="wpb_text_column ">
                                                                             <div class="wpb_wrapper">
-                                                                                <h4>Our Skills</h4>
-                                                                                <p>Lorem ipsum dolor sit amet,
-                                                                                    consectetur adipiscing elit. Morbi
-                                                                                    sagittis, sem quis lacinia faucibus,
-                                                                                    orci ipsum gravida tortor, vel
-                                                                                    interdum mi sapien ut justo.
-                                                                                    Pellentesque ipsum erat, facilisis
-                                                                                    ut venenatis eu, sodales vel dolor.
-                                                                                    Morbi sagittis, sem quis lacinia.
+                                                                                <h4>More Work</h4>
+                                                                                <p>One month later, we worked with the <a href="http://brela.go.tz/">Business Registrations and Licencing Agency</a> in Tanzania (BRELA)
+                                                                                to build their <a href="https://ors.brela.go.tz">Online Business Names Registration System</a> (OBRS), integrating it with the Payment Systems that
+                                                                                communicated with the major Banks in Tanzania, CRDB and NMB.
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -270,36 +237,33 @@
                                                 <div class="w-tabs-section" id="1377361739055-4-7"><a
                                                             href="#1377361739055-4-7" class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">2015</h5>
+                                                                    class="w-tabs-section-title">2016</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </a>
                                                     <div class="w-tabs-section-content">
                                                         <div class="w-tabs-section-content-h i-cf">
                                                             <div class="g-cols wpb_row offset_medium vc_inner ">
-                                                                <div class="in_col-sm-12 wpb_column in_column_container">
+
+                                                                <div class="in_col-sm-8 wpb_column in_column_container">
                                                                     <div class="in_column-inner">
                                                                         <div class="wpb_text_column ">
                                                                             <div class="wpb_wrapper">
-                                                                                <h4>Halfway Between the Gutter and the
-                                                                                    Stars</h4>
-                                                                                <p>Lorem ipsum dolor sit amet,
-                                                                                    consectetur adipiscing elit. Morbi
-                                                                                    sagittis, sem quis lacinia faucibus,
-                                                                                    orci ipsum gravida tortor, vel
-                                                                                    interdum mi sapien ut justo. Nulla
-                                                                                    varius consequat magna, id molestie
-                                                                                    ipsum volutpat quis. Suspendisse
-                                                                                    consectetur fringilla suctus.
-                                                                                    Pellentesque ipsum erat, facilisis
-                                                                                    ut venenatis eu, sodales vel dolor.
-                                                                                    Morbi sagittis, sem quis lacinia
-                                                                                    faucibus, orci ipsum gravida tortor.
-                                                                                    Morbi sagittis, sem quis lacinia
-                                                                                    faucibus, orci ipsum gravida tortor,
-                                                                                    vel interdum mi sapien ut justo
-                                                                                    varius consequat magna, molestie
-                                                                                    ipsum.</div>
+                                                                                <h4>Now</h4>
+                                                                                <p>Our achievements led to our expansion, growth and continual provision and innovation of new services and software products.
+                                                                            <p>Our clients are our secret of success, we value, respect, serve and put them first in line.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="in_col-sm-4 wpb_column in_column_container">
+                                                                    <div class="in_column-inner">
+                                                                        <div class="w-image  align_center"><img
+                                                                                    width="1024" height="469"
+                                                                                    src="website_assets/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg"
+                                                                                    class="attachment-large size-large"
+                                                                                    alt="INETS in 2014"
+                                                                                    srcset="website_assets/uploads/2014/09/seagul-1024x469.jpg 600w"
+                                                                                    sizes="(max-width: 1024px) 100vw, 1024px"/>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -338,7 +302,7 @@
                                                 <div class="w-person layout_flat" itemscope="itemscope"
                                                      itemtype="https://schema.org/Person">
                                                     <div class="w-person-image"><a class="w-person-link" href="#"><img
-                                                                    src="website_assets/uploads/OG.png"
+                                                                    src="website_assets/uploads/ephraim.png"
                                                                     width="350" height="350" alt="Ephraim Swilla"
                                                                     itemprop="image"></a></div>
                                                     <div class="w-person-content"><a class="w-person-link" href="#"><h4
@@ -354,7 +318,7 @@
                                                 <div class="w-person layout_flat" itemscope="itemscope"
                                                      itemtype="https://schema.org/Person">
                                                     <div class="w-person-image"><a class="w-person-link" href="#"><img
-                                                                    src="website_assets/uploads/OG.png"
+                                                                    src="website_assets/uploads/erick.png"
                                                                     width="350" height="350" alt="Erick Chrysostom"
                                                                     itemprop="image"></a></div>
                                                     <div class="w-person-content"><a class="w-person-link" href="#"><h4
@@ -371,7 +335,7 @@
                                                 <div class="w-person layout_flat" itemscope="itemscope"
                                                      itemtype="https://schema.org/Person">
                                                     <div class="w-person-image"><a class="w-person-link" href="#"><img
-                                                                    src="website_assets/uploads/OG.png"
+                                                                    src="website_assets/uploads/amani.png"
                                                                     width="350" height="350" alt="Amani Mwakilasa"
                                                                     itemprop="image"></a></div>
                                                     <div class="w-person-content"><a class="w-person-link" href="#"><h4
@@ -387,7 +351,7 @@
                                                 <div class="w-person layout_flat" itemscope="itemscope"
                                                      itemtype="https://schema.org/Person">
                                                     <div class="w-person-image"><a class="w-person-link" href="#"><img
-                                                                    src="website_assets/uploads/OG.png"
+                                                                    src="website_assets/uploads/yohana.png"
                                                                     width="350" height="350" alt="Yohana Nasson"
                                                                     itemprop="image"></a></div>
                                                     <div class="w-person-content"><a class="w-person-link" href="#"><h4
@@ -410,13 +374,13 @@
                         <div class="g-cols offset_medium">
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc">
                                 <div class="in_column-inner">
-                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="92"
-                                         data-prefix="" data-suffix="%">
+                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="50"
+                                         data-prefix="" data-suffix="">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number" style="color: #ffffff">
-                                                0%
+                                                0
                                             </div>
-                                            <h6 class="w-counter-title">Positive feedback</h6>
+                                            <h6 class="w-counter-title">15.5 Ltrs Water Bottles </h6>
                                         </div>
                                     </div>
                                 </div>
@@ -436,11 +400,11 @@
                             </div>
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc d2">
                                 <div class="in_column-inner">
-                                    <div class="w-counter size_medium color_primary" data-initial="0" data-target="28"
-                                         data-prefix="$" data-suffix="">
+                                    <div class="w-counter size_medium color_primary" data-initial="0" data-target="30"
+                                         data-prefix="" data-suffix="k Tsh">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number">
-                                                $0
+                                                0
                                             </div>
                                             <h6 class="w-counter-title">Average cost per hour</h6>
                                         </div>
@@ -449,13 +413,13 @@
                             </div>
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc d3">
                                 <div class="in_column-inner">
-                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="573"
+                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="200"
                                          data-prefix="" data-suffix="">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number" style="color: #66ccff">
                                                 0
                                             </div>
-                                            <h6 class="w-counter-title">Pizzas ordered</h6>
+                                            <h6 class="w-counter-title">Wali Plates ordered</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -477,69 +441,52 @@
                                     <div class="w-separator type_short size_large thick_1 style_solid color_border cont_icon">
                                         <span class="w-separator-h"><i class="fa fa-star-o"></i></span></div>
                                     <div class="g-cols wpb_row offset_medium vc_inner ">
-                                        <div class="in_col-sm-4 wpb_column in_column_container">
+                                        <div class="in_col-sm-6 wpb_column in_column_container">
                                             <div class="in_column-inner">
                                                 <div class="w-iconbox iconpos_top size_medium style_circle color_light">
                                                     <div class="w-iconbox-icon"><i class="mdfi_hardware_phonelink"></i>
                                                     </div>
-                                                    <h4 class="w-iconbox-title">Web Development</h4>
-                                                    <div class="w-iconbox-text">Phasellus enim libero, blandit vel
-                                                        sapien vitae, condimentum ultricies magna et.
+                                                    <h4 class="w-iconbox-title">Payment Integration</h4>
+                                                    <div class="w-iconbox-text">Financial Inclusion in SMEs, <br>integration of payment services
+                                                        in NGOs, private Companies and government Institutions.
                                                     </div>
                                                 </div>
                                                 <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
                                                     <span class="w-separator-h"></span></div>
                                                 <div class="w-iconbox iconpos_top size_medium style_circle color_light">
-                                                    <div class="w-iconbox-icon"><i class="mdfi_file_cloud_upload"></i>
-                                                    </div>
-                                                    <h4 class="w-iconbox-title">Cloud Hosting</h4>
-                                                    <div class="w-iconbox-text">Phasellus enim libero, blandit vel
-                                                        sapien vitae, condimentum ultricies magna et.
+                                                    <div class="w-iconbox-icon"><i class="mdfi_social_people"></i></div>
+                                                    <h4 class="w-iconbox-title">Mobile Applications Design</h4>
+                                                    <div class="w-iconbox-text">As the demand for handheld devices increase day after day
+                                                        we put our minds in Development of custom native android applications
+                                                        for most organisations.
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="in_col-sm-4 wpb_column in_column_container">
+                                        <div class="in_col-sm-6 wpb_column in_column_container">
                                             <div class="in_column-inner">
+
                                                 <div class="w-iconbox iconpos_top size_medium style_circle color_light">
-                                                    <div class="w-iconbox-icon"><i class="mdfi_social_people"></i></div>
-                                                    <h4 class="w-iconbox-title">Social Marketing</h4>
-                                                    <div class="w-iconbox-text">Phasellus enim libero, blandit vel
-                                                        sapien vitae, condimentum ultricies magna et.
+                                                    <div class="w-iconbox-icon"><i class="mdfi_file_cloud_upload"></i>
+                                                    </div>
+                                                    <h4 class="w-iconbox-title">Enterprise Software Development</h4>
+                                                    <div class="w-iconbox-text">We develop tailored custom Management Systems for Hotels, Banks, Schools,<br>
+                                                        large institutions and Companies.
                                                     </div>
                                                 </div>
                                                 <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
                                                     <span class="w-separator-h"></span></div>
                                                 <div class="w-iconbox iconpos_top size_medium style_circle color_light">
                                                     <div class="w-iconbox-icon"><i class="mdfi_social_cake"></i></div>
-                                                    <h4 class="w-iconbox-title">Web Design</h4>
-                                                    <div class="w-iconbox-text">Phasellus enim libero, blandit vel
-                                                        sapien vitae, condimentum ultricies magna et.
+                                                    <h4 class="w-iconbox-title">Linux Servers & Database Management</h4>
+                                                    <div class="w-iconbox-text">Since the revolution of Open source Software such as Linux based ones,
+                                                        INETS has set its roots in providing support and systems on Linux based environments which ensure
+                                                        a cheaper means of any business Operations.
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="in_col-sm-4 wpb_column in_column_container">
-                                            <div class="in_column-inner">
-                                                <div class="w-iconbox iconpos_top size_medium style_circle color_light">
-                                                    <div class="w-iconbox-icon"><i class="mdfi_image_color_lens"></i>
-                                                    </div>
-                                                    <h4 class="w-iconbox-title">Graphic Design</h4>
-                                                    <div class="w-iconbox-text">Phasellus enim libero, blandit vel
-                                                        sapien vitae, condimentum ultricies magna et.
-                                                    </div>
-                                                </div>
-                                                <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
-                                                    <span class="w-separator-h"></span></div>
-                                                <div class="w-iconbox iconpos_top size_medium style_circle color_light">
-                                                    <div class="w-iconbox-icon"><i class="mdfi_image_timer"></i></div>
-                                                    <h4 class="w-iconbox-title">Server Optimization</h4>
-                                                    <div class="w-iconbox-text">Phasellus enim libero, blandit vel
-                                                        sapien vitae, condimentum ultricies magna et.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -561,36 +508,25 @@
                                              data-nav="1"><a
                                                     class="w-logos-item style_1 nav_arrows type_carousel cols_5"
                                                     href="#"><img width="500" height="250"
-                                                                  src="website_assets/uploads/2014/09/dlogo-5-500x250.png"
-                                                                  class="attachment-medium size-medium" alt="dlogo-5"/></a>
+                                                src="website_assets/uploads/2014/09/brela-logo-500x250.png"
+                                                class="attachment-medium size-medium"
+                                                alt="BRELA"/></a>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/dlogo-2-500x250.png"
+                                                                           src="website_assets/uploads/2014/09/pspf-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
-                                                                           alt="dlogo-2"/></div>
+                                                                           alt="PSPF"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/dlogo-7-500x250.png"
+                                                                           src="website_assets/uploads/2014/09/mafge-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
-                                                                           alt="dlogo-7"/></div>
+                                                                           alt="MAFGE"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/dlogo-1-500x250.png"
+                                                                           src="website_assets/uploads/2014/09/br-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
-                                                                           alt="dlogo-1"/></div>
+                                                                           alt="BR Solutions"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/dlogo-6-500x250.png"
+                                                                           src="website_assets/uploads/2014/09/pspf-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
-                                                                           alt="dlogo-6"/></div>
-                                            <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/dlogo-4-500x250.png"
-                                                                           class="attachment-medium size-medium"
-                                                                           alt="dlogo-4"/></div>
-                                            <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/dlogo-8-500x250.png"
-                                                                           class="attachment-medium size-medium"
-                                                                           alt="dlogo-8"/></div>
-                                            <a class="w-logos-item style_1 nav_arrows type_carousel cols_5"
-                                               href="#"><img width="500" height="250"
-                                                             src="website_assets/uploads/2014/09/dlogo-3-500x250.png"
-                                                             class="attachment-medium size-medium" alt="dlogo-3"/></a>
+                                                                           alt="PSPF"/></div>
                                         </div>
                                     </div>
                                 </div>

@@ -1,14 +1,18 @@
 @extends('new_website.master')
 @section('content')
+    <script type='text/javascript'
+            src='{{url('/')}}/website_assets/themes/Zephyr/framework/js/gmaps.min62d0.js?ver=4.5.3'></script>
     <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-        <div class="l-titlebar-img" style="background-image: url({{url("/")}}/website_assets/uploads/picjumbo.com_IMG_6037.jpg)"
+        <div class="l-titlebar-img"
+             style="background-image: url({{url("/")}}/website_assets/uploads/picjumbo.com_IMG_6037.jpg)"
              data-img-width="1920" data-img-height="1280"></div>
         <div class="l-titlebar-overlay" style="background-color:rgba(28,28,28,0.3)"></div>
         <div class="l-titlebar-h">
             <div class="l-titlebar-content"><h1 itemprop="headline">Contact</h1></div>
             <div class="g-breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
-                            class="g-breadcrumbs-item" rel="v:url" property="v:title" href="../../index.html">Home</a></span>
-                <span class="g-breadcrumbs-separator"></span>  <span class="g-breadcrumbs-item">Contact</span>
+                            class="g-breadcrumbs-item" rel="v:url" property="v:title"
+                            href="../../index.html">Home</a></span>
+                <span class="g-breadcrumbs-separator"></span> <span class="g-breadcrumbs-item">Contact</span>
             </div>
         </div>
     </div>
@@ -136,7 +140,8 @@
                                         <span class="w-separator-h"></span></div>
                                     <div class="w-iconbox iconpos_left size_tiny style_default color_light">
                                         <div class="w-iconbox-icon"><i class="mdfi_action_home"></i></div>
-                                        <h4 class="w-iconbox-title">Block 11, Bima Road, Mikocheni B, Dar es Salaam, TZ</h4></div>
+                                        <h4 class="w-iconbox-title">Block 11, Bima Road, Mikocheni B, Dar es Salaam,
+                                            TZ</h4></div>
                                     <div class="w-iconbox iconpos_left size_tiny style_default color_light"><a
                                                 class="w-iconbox-link" href="#">
                                             <div class="w-iconbox-icon"><i class="mdfi_content_mail"></i></div>
@@ -152,9 +157,63 @@
                         </div>
                     </div>
                 </section>
-
+                <section class="l-section wpb_row height_auto width_full">
+                    <div class="l-section-h i-cf">
+                        {{--offset_medium,g-cols--}}
+                        <div class="">
+                            <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                <div class="vc_column-inner">
+                                    <div class="w-tabs layout_default accordion type_togglable title_center icon_chevron iconpos_right ">
+                                        <div class="w-tabs-list items_1">
+                                            <div class="w-tabs-list-h">
+                                                <div class="w-tabs-item with_icon"><a href="#map-section"
+                                                                                      class="w-tabs-item-h"><i
+                                                                class="mdfi_maps_place"></i><span
+                                                                class="w-tabs-item-title">VIEW US ON THE MAP</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-tabs-sections">
+                                            <div class="w-tabs-sections-h">
+                                                <div class="w-tabs-section color_custom with_icon no_indents"
+                                                     id="map-section" style="background-color: #ffb03a;color: #ffffff;">
+                                                    <a href="#map-section" class="w-tabs-section-header">
+                                                        <div class="w-tabs-section-header-h"><i
+                                                                    class="mdfi_maps_place"></i><h5
+                                                                    class="w-tabs-section-title">VIEW US ON THE MAP</h5>
+                                                            <div class="w-tabs-section-control"></div>
+                                                        </div>
+                                                    </a>
+                                                    <div class="w-tabs-section-content">
+                                                        <div class="w-tabs-section-content-h i-cf">
+                                                            <div class="w-map" id="us_map_1" style="height: 400px">
+                                                                <div class="w-map-h"></div>
+                                                                <div class="w-map-json"
+                                                                     onclick='return {}'></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
         </div>
     </div>
-
+<script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map-section'), {
+            center: {lat: 36.964, lng: -122.015},
+            zoom: 18,
+            mapTypeId: 'satellite'
+        });
+        map.setTilt(45);
+    }
+</script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js'></script>
 @stop

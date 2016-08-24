@@ -35,7 +35,7 @@
                                                                                         src="{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg"
                                                                                         class="attachment-large size-large"
                                                                                         alt="Vesper"
-                                                                                        srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg 750w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6-375x500.jpg 375w, http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6-600x800.jpg 600w"
+                                                                                        srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg 750w,{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6-375x500.jpg 375w,{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6-600x800.jpg 600w"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
                                     </div>
                                 </div>

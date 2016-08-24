@@ -9,17 +9,13 @@
         <!DOCTYPE HTML>
 <html class="" lang="en-US">
 
-<!-- Mirrored from zephyr.us-themes.com/home-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Aug 2016 16:37:40 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
     <meta charset="UTF-8">
 
     <title>INETS</title>
     <link rel="alternate" type="application/rss+xml" title="INETS website&raquo; Feed"
-          href="../feed/index.html"/>
-    <link rel="alternate" type="application/rss+xml" title="INETS Website &raquo; Comments Feed"
-          href="../comments/feed/index.html"/>
+          href="#"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <meta name="og:title" content="INETS Company Limited">
@@ -33,6 +29,7 @@
           href='{{url('/')}}/website_assets/plugins/revslider/public/assets/css/settings5223.css?ver=5.2.6' type='text/css'
           media='all'/>
           @extends('new_website.custom')
+    <link rel="shortcut icon" href="website_assets/img/favicon.png">
           
     <link rel='stylesheet' id='us-font-1-css'
           href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700%2C400italic&amp;subset=latin&amp;ver=4.5.3'
@@ -58,8 +55,6 @@
     <link rel='https://api.w.org/' href='{{url('/')}}/website_assets/index.html'/>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{url('/')}}/website_assets/wlwmanifest.xml"/>
-    <meta name="generator" content="WordPress 4.5.3"/>
-    <meta name="generator" content="WooCommerce 2.6.4"/>
     <link rel="canonical" href="index.html"/>
     <link rel='shortlink' href='../indexb5fb.html?p=9'/>
     <link rel="alternate" type="application/json+oembed"
@@ -128,7 +123,7 @@
                     <div class="w-socials style_desaturated hover_default ush_socials_1">
                         <div class="w-socials-list">
                             <div class="w-socials-item facebook">
-                                <a class="w-socials-item-link" target="_blank" href="#">
+                                <a class="w-socials-item-link" target="_blank" href="https://www.facebook.com/inets">
                                     <span class="w-socials-item-link-hover"></span>
                                 </a>
                                 <div class="w-socials-item-popup">
@@ -136,7 +131,7 @@
                                 </div>
                             </div>
                             <div class="w-socials-item twitter">
-                                <a class="w-socials-item-link" target="_blank" href="#">
+                                <a class="w-socials-item-link" target="_blank" href="https://twitter.com/Inetstz">
                                     <span class="w-socials-item-link-hover"></span>
                                 </a>
                                 <div class="w-socials-item-popup">
@@ -144,16 +139,24 @@
                                 </div>
                             </div>
                             <div class="w-socials-item instagram">
-                                <a class="w-socials-item-link" target="_blank" href="#">
+                                <a class="w-socials-item-link" target="_blank" href="https://www.instagram.com/inetscompany">
                                     <span class="w-socials-item-link-hover"></span>
                                 </a>
                                 <div class="w-socials-item-popup">
                                     <span>Instagram</span>
                                 </div>
                             </div>
+                            <div class="w-socials-item google">
+                                <a class="w-socials-item-link" target="_blank" href="https://plus.google.com/u/0/b/115817418998123742140/115817418998123742140">
+                                    <span class="w-socials-item-link-hover"></span>
+                                </a>
+                                <div class="w-socials-item-popup">
+                                    <span>Google +</span>
+                                </div>
+                            </div>
 
                             <div class="w-socials-item linkedin">
-                                <a class="w-socials-item-link" target="_blank" href="#">
+                                <a class="w-socials-item-link" target="_blank" href="https://www.linkedin.com/company/inets">
                                     <span class="w-socials-item-link-hover"></span>
                                 </a>
                                 <div class="w-socials-item-popup">
@@ -170,7 +173,7 @@
                 <div class="l-subheader-cell at_left">
                     <div class="w-text ush_text_1">
                         <div class="w-text-h"><a class="w-text-value"
-                                                 href="{{url('new')}}"><img src="{{url("website_assets/img/logo_white.png")}}" width="90" height="5"></a></div>
+                                                 href="{{url('new')}}"><img src="{{url("website_assets/img/logo_white.png")}}" alt="Inets Logo" width="90" height="5"></a></div>
                     </div>
                 </div>
                 <div class="l-subheader-cell at_center"></div>
