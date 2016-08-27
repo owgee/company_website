@@ -14,12 +14,12 @@
 @section('content')
     <div class="l-titlebar imgsize_cover size_large color_alternate">
         <div class="l-titlebar-h">
-            <div class="l-titlebar-content"><h1 itemprop="headline">Enterprise Software Develpment</h1></div>
+            <div class="l-titlebar-content"><h1 itemprop="headline">Enterprise Software Development</h1></div>
             <div class="g-nav">
-                <div class="g-nav-list"><a class="g-nav-item to_next" title="Creative Project &#8211; Slider"
+                <div class="g-nav-list"><a class="g-nav-item to_next" title="Mobile Applications Design"
                                            href="{{url('new/service',['mobile_apps'])}}"></a><a
                             class="g-nav-item to_prev" title="Creative Project &#8211; Image"
-                            href="{{url('new/service',['mobile_apps'])}}"></a></div>
+                            href="{{url('new/service',['database_design'])}}"></a></div>
             </div>
         </div>
     </div>
@@ -32,10 +32,9 @@
                             <div class="in_col-sm-8 wpb_column in_column_container">
                                 <div class="in_column-inner">
                                     <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                                        src="{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg"
+                                                                                        src="{{url('/')}}/website_assets/uploads/enterprise.png"
                                                                                         class="attachment-large size-large"
                                                                                         alt="Vesper"
-                                                                                        srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg 750w,{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6-375x500.jpg 375w,{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6-600x800.jpg 600w"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
                                     </div>
                                 </div>
@@ -107,7 +106,7 @@
                                                                             them, through faster, more accurate access to
                                                                             customers’ information and history.</p>
                                                                     </blockquote>
-                                                                    </p></div>
+                                                                    </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -168,7 +167,7 @@
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
                 <img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"
-                     height="150" alt="Creative Project &#8211; Slider">
+                     height="150" alt="Mobile Application Development">
             </div>
             <div class="l-navigation-item-title">
                 <span>Mobile Apps Design</span>
@@ -178,7 +177,7 @@
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
                 <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Creative Project &#8211; Image">
+                     alt="Database Management">
             </div>
             <div class="l-navigation-item-title">
                 <span>Database Design</span>
@@ -186,4 +185,46 @@
         </a>
     </div>
     </div>
+    <section class="l-section wpb_row height_medium color_alternate" id="clients">
+        <div class="l-section-h i-cf">
+            <div class="g-cols offset_medium">
+                <div class="in_col-sm-12 wpb_column in_column_container animate_afb">
+                    <div class="in_column-inner">
+                        <div class="wpb_text_column ">
+                            <div class="wpb_wrapper">
+                                <h2 style="text-align: center">Our Clients</h2>
+                            </div>
+                        </div>
+                        <div class="w-logos style_1 nav_arrows type_carousel cols_5">
+                            <div class="w-logos-list" data-items="5" data-autoplay="0" data-timeout="3000"
+                                 data-nav="1"><a
+                                        class="w-logos-item style_1 nav_arrows type_carousel cols_5"
+                                        href="#"><img width="500" height="250"
+                                                      src="{{url('/')}}/website_assets/uploads/2014/09/brela-logo-500x250.png"
+                                                      class="attachment-medium size-medium"
+                                                      alt="BRELA"/></a>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="PSPF"/></div>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/mafge-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="MAFGE"/></div>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/br-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="BR Solutions"/></div>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="PSPF"/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @stop

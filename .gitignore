@@ -6,4 +6,4 @@ Homestead.json
 .env
 /nbproject/private/
 /public/template
-/website
+uploads/files/

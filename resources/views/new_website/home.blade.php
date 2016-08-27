@@ -158,7 +158,7 @@
                                                              data-splitin="chars" data-splitout="none"
                                                              data-responsive_offset="on" data-elementdelay="0.05"
                                                              style="z-index: 5; white-space: nowrap;text-transform:left;border-color:rgba(0, 0, 0, 1.00);">
-                                                            We Make What people Need
+                                                            We Make every Second count
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -358,12 +358,12 @@
                                                             </div>
                                                             <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
                                                                 <span class="w-separator-h"></span></div>
-                                                            <div class="w-btn-wrapper align_center"><a
-                                                                        class="w-btn style_raised color_contrast icon_atleft"
-                                                                        href="#more"><i
-                                                                            class="mdfi_navigation_arrow_forward"></i><span
-                                                                            class="w-btn-label">More</span></a>
-                                                            </div>
+                                                            {{--<div class="w-btn-wrapper align_center"><a--}}
+                                                                        {{--class="w-btn style_raised color_contrast icon_atleft"--}}
+                                                                        {{--href="#more"><i--}}
+                                                                            {{--class="mdfi_navigation_arrow_forward"></i><span--}}
+                                                                            {{--class="w-btn-label">More</span></a>--}}
+                                                            {{--</div>--}}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -387,21 +387,24 @@
                                                                     <main class="l-content"
                                                                           itemprop="mainContentOfPage">
                                                                         <section
-                                                                                class="l-section wpb_row height_auto width_full">
+                                                                                class="l-section  height_auto width_full">
                                                                             <div class="l-section-h i-cf">
                                                                                 <div class="g-cols offset_medium">
-                                                                                    <div class="in_col-sm-12 wpb_column in_column_container">
+                                                                                    <div class="in_col-sm-12 layout_default in_column_container link_media animate_revealgrid w-gallery style_simple">
                                                                                         <div class="in_column-inner">
                                                                                             <div class="w-blog layout_tiles cols_3 with_categories"
                                                                                                  itemscope="itemscope"
                                                                                                  itemtype="https://schema.org/Blog">
-                                                                                                <div class="w-blog-list">
+
+                                                                                                <div class="w-blog-list w-gallery-list">
                                                                                                     <article
                                                                                                             class="w-blog-post web-design post-68 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-web-design tag-design tag-music tag-photography-2 tag-video tag-wordpress-2"
                                                                                                             data-id="68"
                                                                                                             data-categories="web-design">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a  class="w-gallery-item order_1 animate_reveal"
+                                                                                                                href="website_assets/uploads/shutterstock_222195604-600x400.jpg"
+                                                                                                                title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -445,7 +448,9 @@
                                                                                                             data-id="72"
                                                                                                             data-categories="social-marketing">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_2 animate_reveal"
+                                                                                                               href="website_assets/uploads/2014/09/port-6-600x400.jpg"
+                                                                                                               title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -487,7 +492,9 @@
                                                                                                             data-id="1497"
                                                                                                             data-categories="wordpress">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_3 animate_reveal"
+                                                                                                               href="website_assets/uploads/port-6-600x400.jpg"
+                                                                                                               title="BRELA - OBRS">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -530,7 +537,9 @@
                                                                                                             data-id="87"
                                                                                                             data-categories="coding">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_4 animate_reveal"
+                                                                                                               href="website_assets/uploads/bonag-600x400.jpg"
+                                                                                                               title="Bonag Hotel">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -573,14 +582,17 @@
                                                                                                             tag-image tag-post-format tag-wordpress-2 post_format-post-format-gallery"
                                                                                                             data-id="1504"
                                                                                                             data-categories="web-design,wordpress">
+
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_5 animate_reveal"
+                                                                                                               href="website_assets/uploads/br-600x400.jpg"
+                                                                                                               title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
                                                                                                                          src="website_assets/uploads/br-600x400.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2"
-                                                                                                                         alt="Some guys"/>
+                                                                                                                         alt="BR Solutions"/>
                                                                                                             <span class="w-blog-post-preview-icon"
                                                                                                                   style="padding-bottom: 66.6667%;"></span>
                                                                                                                 </div>
@@ -606,46 +618,7 @@
                                                                                                                 </div>
                                                                                                                 <div class="w-blog-post-content">
                                                                                                                     <p>
-                                                                                                                        Lorem
-                                                                                                                        ipsum
-                                                                                                                        dolor
-                                                                                                                        sit
-                                                                                                                        amet,
-                                                                                                                        consectetur
-                                                                                                                        adipiscing
-                                                                                                                        elit.
-                                                                                                                        Morbi
-                                                                                                                        sagittis,
-                                                                                                                        sem
-                                                                                                                        quis
-                                                                                                                        lacinia
-                                                                                                                        faucibus,
-                                                                                                                        orci
-                                                                                                                        ipsum
-                                                                                                                        gravida
-                                                                                                                        tortor,
-                                                                                                                        vel
-                                                                                                                        interdum
-                                                                                                                        mi
-                                                                                                                        sapien
-                                                                                                                        ut
-                                                                                                                        justo.
-                                                                                                                        Nulla
-                                                                                                                        varius
-                                                                                                                        consequat
-                                                                                                                        magna,
-                                                                                                                        id
-                                                                                                                        molestie
-                                                                                                                        ipsum
-                                                                                                                        volutpat
-                                                                                                                        quis.
-                                                                                                                        Suspendisse
-                                                                                                                        consectetur
-                                                                                                                        fringilla
-                                                                                                                        suctus.
-                                                                                                                        Pellentesque
-                                                                                                                        ipsum
-                                                                                                                        erat,&#8230;</p>
+                                                                                                                       </p>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -655,7 +628,9 @@
                                                                                                             data-id="82"
                                                                                                             data-categories="photography,social-marketing">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="http://mafge.org">
+                                                                                                            <a class="w-gallery-item order_6 animate_reveal"
+                                                                                                               href="website_assets/uploads/mafge-600x400.jpg"
+                                                                                                               title="MAFGE Website">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -694,13 +669,15 @@
                                                                                                             data-id="286"
                                                                                                             data-categories="photography">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_7 animate_reveal"
+                                                                                                               href="website_assets/uploads/vet-feeds-600x400.jpg"
+                                                                                                               title="Vet Feeds">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
                                                                                                                          src="website_assets/uploads/vet-feeds-600x400.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2 wp-post-image"
-                                                                                                                         alt="Selfie"
+                                                                                                                         alt="Vet Feeds"
                                                                                                                          sizes="(max-width: 600px) 100vw, 600px"/>
                                                                                                             <span class="w-blog-post-preview-icon"
                                                                                                                   style="padding-bottom: 66.6667%;"></span>
@@ -738,7 +715,9 @@
                                                                                                             data-id="1495"
                                                                                                             data-categories="social-marketing">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_8 animate_reveal"
+                                                                                                               href="website_assets/uploads/stay-tz-600x400.jpg"
+                                                                                                               title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -763,10 +742,10 @@
                                                                                                                         2015
                                                                                                                     </time>
                                                                                                             <span class="w-blog-post-meta-category"><a
-                                                                                                                        href="../category/social-marketing/index.html"
+                                                                                                                        href="#"
                                                                                                                         rel="category tag">Mobile App</a></span><span
                                                                                                                             class="w-blog-post-meta-author vcard author hidden"><a
-                                                                                                                                href="../author/admin/index.html"
+                                                                                                                                href="#"
                                                                                                                                 class="fn">INETS</a></span>
                                                                                                                 </div>
                                                                                                                 <div class="w-blog-post-content">
@@ -780,7 +759,9 @@
                                                                                                             data-id="85"
                                                                                                             data-categories="web-design">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_9 animate_reveal"
+                                                                                                               href="website_assets/uploads/karibuSMS-600x400.jpg"
+                                                                                                               title="KaribuSMS">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -809,7 +790,7 @@
                                                                                                                         href="#"
                                                                                                                         rel="category tag">Mobile App</a></span><span
                                                                                                                             class="w-blog-post-meta-author vcard author hidden"><a
-                                                                                                                                href="../author/admin/index.html"
+                                                                                                                                href="#"
                                                                                                                                 class="fn">INETS</a></span>
                                                                                                                 </div>
                                                                                                                 <div class="w-blog-post-content">
@@ -821,9 +802,11 @@
                                                                                                     <article
                                                                                                             class="w-blog-post coding wordpress post-80 post type-post status-publish format-standard has-post-thumbnail hentry category-coding category-wordpress"
                                                                                                             data-id="80"
-                                                                                                            data-categories="coding,wordpress">
+                                                                                                            data-categories="Web System">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_10 animate_reveal"
+                                                                                                               href="website_assets/uploads/shulesoft-600x400.jpg"
+                                                                                                               title="ShuleSoft System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -865,9 +848,11 @@
                                                                                                     <article
                                                                                                             class="w-blog-post photography post-78 post type-post status-publish format-standard has-post-thumbnail hentry category-photography tag-image tag-post-format tag-wordpress-2"
                                                                                                             data-id="78"
-                                                                                                            data-categories="photography">
+                                                                                                            data-categories="Web System">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_11 animate_reveal"
+                                                                                                               href="website_assets/uploads/file-tracking-600x400.jpg"
+                                                                                                               title="File Tracking System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -907,9 +892,11 @@
                                                                                                     <article
                                                                                                             class="w-blog-post wordpress post-75 post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress tag-branding tag-business tag-design tag-image tag-wordpress-2"
                                                                                                             data-id="75"
-                                                                                                            data-categories="wordpress">
+                                                                                                            data-categories="Web System">
                                                                                                         <div class="w-blog-post-h">
-                                                                                                            <a href="#">
+                                                                                                            <a class="w-gallery-item order_12 animate_reveal"
+                                                                                                               href="website_assets/uploads/stock-600x400.jpg"
+                                                                                                               title="Stock Management System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
@@ -941,44 +928,7 @@
                                                                                                                 </div>
                                                                                                                 <div class="w-blog-post-content">
                                                                                                                     <p>
-                                                                                                                        Lorem
-                                                                                                                        ipsum
-                                                                                                                        dolor
-                                                                                                                        sit
-                                                                                                                        amet,
-                                                                                                                        consectetur
-                                                                                                                        adipiscing
-                                                                                                                        elit.
-                                                                                                                        Duis
-                                                                                                                        feugiat
-                                                                                                                        ac
-                                                                                                                        sem
-                                                                                                                        sodales
-                                                                                                                        aliquam.
-                                                                                                                        Proin
-                                                                                                                        vitae
-                                                                                                                        nisi
-                                                                                                                        sit
-                                                                                                                        amet
-                                                                                                                        massa
-                                                                                                                        aliquet
-                                                                                                                        faucibus.
-                                                                                                                        Nam
-                                                                                                                        lacinia
-                                                                                                                        accumsan
-                                                                                                                        tincidunt.
-                                                                                                                        Mauris
-                                                                                                                        facilisis
-                                                                                                                        consectetur
-                                                                                                                        ligula,
-                                                                                                                        in
-                                                                                                                        suscipit
-                                                                                                                        massa
-                                                                                                                        ornare.
-                                                                                                                        Cum
-                                                                                                                        sociis
-                                                                                                                        natoque
-                                                                                                                        penati;</p>
+                                                                                                                       </p>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -1013,60 +963,60 @@
                     <div class="l-section-video">
                         <video loop="loop" autoplay="autoplay" preload="auto"
                                poster="website_assets/uploads/iphone.jpg">
-                            <source type="video/mp4" src="website_assets/uploads/phone.mp4"/>
+                            <source type="video/mp4" src="website_assets/Video/phone.mp4"/>
                             <img src="website_assets/uploads/iphone.jpg" alt=""></video>
                     </div>
                     <div class="l-section-overlay" style="background-color: rgba(0,0,0,0.66)"></div>
-                    <div class="l-section-h i-cf">
-                        <div class="g-cols offset_medium">
-                            <div class="in_col-sm-12 wpb_column in_column_container animate_hfc">
-                                <div class="in_column-inner">
-                                    <div class="wpb_text_column ">
-                                        <div class="wpb_wrapper">
-                                            <h6 id="fancy-title-542546575cba7"
-                                                class="mk-shortcode mk-fancy-title simple-style "
-                                                style="text-align: center">WE WORK HARD TO GIVE YOU</h6>
-                                        </div>
-                                    </div>
-                                    <h2 style="font-size: 45px;color: #ffffff;line-height: 55px;text-align: center;font-family:Raleway;font-weight:200;font-style:normal"
-                                        class="vc_custom_heading">A UNIQUE EXPERIENCE</h2>
-                                    <div class="w-separator type_invisible size_huge thick_1 style_solid color_border cont_none">
-                                        <span class="w-separator-h"></span></div>
-                                    <div class="g-cols wpb_row offset_medium vc_inner ">
-                                        <div class="in_col-sm-3 wpb_column in_column_container">
-                                            <div class="in_column-inner">
-                                                <div class="w-iconbox iconpos_top size_medium style_default color_secondary">
-                                                    <div class="w-iconbox-icon"><i class="fa fa-html5"></i></div>
-                                                    <h4 class="w-iconbox-title">Modern Design</h4></div>
-                                            </div>
-                                        </div>
-                                        <div class="in_col-sm-3 wpb_column in_column_container">
-                                            <div class="in_column-inner">
-                                                <div class="w-iconbox iconpos_top size_medium style_default color_secondary">
-                                                    <div class="w-iconbox-icon"><i class="fa fa-thumbs-o-up"></i>
-                                                    </div>
-                                                    <h4 class="w-iconbox-title">High Quality</h4></div>
-                                            </div>
-                                        </div>
-                                        <div class="in_col-sm-3 wpb_column in_column_container">
-                                            <div class="in_column-inner">
-                                                <div class="w-iconbox iconpos_top size_medium style_default color_secondary">
-                                                    <div class="w-iconbox-icon"><i class="fa fa-tablet"></i></div>
-                                                    <h4 class="w-iconbox-title">Ultra Responsive</h4></div>
-                                            </div>
-                                        </div>
-                                        <div class="in_col-sm-3 wpb_column in_column_container">
-                                            <div class="in_column-inner">
-                                                <div class="w-iconbox iconpos_top size_medium style_default color_secondary">
-                                                    <div class="w-iconbox-icon"><i class="fa fa-star-o"></i></div>
-                                                    <h4 class="w-iconbox-title">Free Updates</h4></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {{--<div class="l-section-h i-cf">--}}
+                        {{--<div class="g-cols offset_medium">--}}
+                            {{--<div class="in_col-sm-12 wpb_column in_column_container animate_hfc">--}}
+                                {{--<div class="in_column-inner">--}}
+                                    {{--<div class="wpb_text_column ">--}}
+                                        {{--<div class="wpb_wrapper">--}}
+                                            {{--<h6 id="fancy-title-542546575cba7"--}}
+                                                {{--class="mk-shortcode mk-fancy-title simple-style "--}}
+                                                {{--style="text-align: center">WE WORK HARD TO GIVE YOU</h6>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                    {{--<h2 style="font-size: 45px;color: #ffffff;line-height: 55px;text-align: center;font-family:Raleway;font-weight:200;font-style:normal"--}}
+                                        {{--class="vc_custom_heading">A UNIQUE EXPERIENCE</h2>--}}
+                                    {{--<div class="w-separator type_invisible size_huge thick_1 style_solid color_border cont_none">--}}
+                                        {{--<span class="w-separator-h"></span></div>--}}
+                                    {{--<div class="g-cols wpb_row offset_medium vc_inner ">--}}
+                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
+                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-html5"></i></div>--}}
+                                                    {{--<h4 class="w-iconbox-title">Modern Design</h4></div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
+                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-thumbs-o-up"></i>--}}
+                                                    {{--</div>--}}
+                                                    {{--<h4 class="w-iconbox-title">High Quality</h4></div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
+                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-tablet"></i></div>--}}
+                                                    {{--<h4 class="w-iconbox-title">Ultra Responsive</h4></div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
+                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-star-o"></i></div>--}}
+                                                    {{--<h4 class="w-iconbox-title">Always Excellent</h4></div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </section>
 
                 <section class="l-section wpb_row height_medium color_secondary">
@@ -1078,7 +1028,7 @@
                                         <div class="w-actionbox-text"><h2>IMAGINE AND SEE</h2></div>
                                         <div class="w-actionbox-controls"><a
                                                     class="w-btn color_white style_raised icon_atleft"
-                                                    href="#"
+                                                    href="{{url('new',['contact_us'])}}"
                                                     style="font-size: 19px;"><i class="fa fa-mobile"></i><span
                                                         class="w-btn-label">Request for Service</span></a></div>
                                     </div>
@@ -1237,7 +1187,7 @@
 @stop
 @section('footer')
     <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
+            src='website_assets/themes/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
 @stop
 
 

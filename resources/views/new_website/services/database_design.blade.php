@@ -17,9 +17,9 @@
             <div class="l-titlebar-content"><h1 itemprop="headline">Database Design</h1></div>
             <div class="g-nav">
                 <div class="g-nav-list"><a class="g-nav-item to_next" title="Creative Project &#8211; Slider"
-                                           href="#"></a><a
+                                           href="{{url('new/service',['enterprise_software'])}}"></a><a
                             class="g-nav-item to_prev" title="Creative Project &#8211; Image"
-                            href="#"></a></div>
+                            href="{{url('new/service',['linux_administration'])}}"></a></div>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
                             <div class="in_col-sm-8 wpb_column in_column_container">
                                 <div class="in_column-inner">
                                     <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                                        src="{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg"
+                                                                                        src="{{url('/')}}/website_assets/uploads/database.png"
                                                                                         class="attachment-large size-large"
                                                                                         alt="Vesper"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
@@ -89,7 +89,8 @@
                                                 <div class="w-tabs-section">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
-                                                                    class="w-tabs-section-title">Why Database Design?</h5>
+                                                                    class="w-tabs-section-title">Why Database
+                                                                Design?</h5>
                                                             <div class="w-tabs-section-control"></div>
                                                         </div>
                                                     </div>
@@ -105,33 +106,32 @@
                                                                         designing and developing database application
                                                                         that will meet the long term vision of your
                                                                         company.</p>
-                                                                    <blockquote><p>At delectus doloremque dolores
-                                                                            explicabo laudantium minima qui. Animi
-                                                                            aperiam aspernatur atque debitis distinctio
-                                                                            impedit inventore iure labore modi omnis,
-                                                                            optio rerum ut veritatis voluptatum?</p>
+                                                                    <blockquote><p>We have a dedicated team of
+                                                                            professionals highly skilled in database
+                                                                            design and development and having expertise
+                                                                            in handling variety of database tools.</p>
                                                                     </blockquote>
-                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 {{--<div class="w-tabs-section">--}}
-                                                    {{--<div class="w-tabs-section-header">--}}
-                                                        {{--<div class="w-tabs-section-header-h"><h5--}}
-                                                                    {{--class="w-tabs-section-title">Areas of Application</h5>--}}
-                                                            {{--<div class="w-tabs-section-control"></div>--}}
-                                                        {{--</div>--}}
-                                                    {{--</div>--}}
-                                                    {{--<div class="w-tabs-section-content">--}}
-                                                        {{--<div class="w-tabs-section-content-h i-cf">--}}
-                                                            {{--<div class="wpb_text_column ">--}}
-                                                                {{--<div class="wpb_wrapper"><p></p></div>--}}
-                                                            {{--</div>--}}
-                                                        {{--</div>--}}
-                                                    {{--</div>--}}
+                                                {{--<div class="w-tabs-section-header">--}}
+                                                {{--<div class="w-tabs-section-header-h"><h5--}}
+                                                {{--class="w-tabs-section-title">Areas of Application</h5>--}}
+                                                {{--<div class="w-tabs-section-control"></div>--}}
                                                 {{--</div>--}}
-                                                <div class="w-tabs-section active">
+                                                {{--</div>--}}
+                                                {{--<div class="w-tabs-section-content">--}}
+                                                {{--<div class="w-tabs-section-content-h i-cf">--}}
+                                                {{--<div class="wpb_text_column ">--}}
+                                                {{--<div class="wpb_wrapper"><p></p></div>--}}
+                                                {{--</div>--}}
+                                                {{--</div>--}}
+                                                {{--</div>--}}
+                                                {{--</div>--}}
+                                                <div class="w-tabs-section">
                                                     <div class="w-tabs-section-header">
                                                         <div class="w-tabs-section-header-h"><h5
                                                                     class="w-tabs-section-title">Types of Databases</h5>

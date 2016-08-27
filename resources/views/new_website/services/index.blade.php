@@ -8,7 +8,7 @@
  */?>
 @section('content')
     <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-        <div class="l-titlebar-img" style="background-image: url(../../wp-content/uploads/download.jpg)"
+        <div class="l-titlebar-img" style="background-image: url(../../website_assets/uploads/download.jpg)"
              data-img-width="2000" data-img-height="1333"></div>
         <div class="l-titlebar-overlay" style="background-color:rgba(17,17,17,0.4)"></div>
         <div class="l-titlebar-h">
@@ -181,7 +181,7 @@
                 </section>
                 <section class="l-section wpb_row height_large color_primary with_img parallax_ver with_overlay">
                     <div class="l-section-img"
-                         style="background-image: url(../../wp-content/uploads/shutterstock_135392420.jpg);"
+                         style="background-image: url(../../website_assets/uploads/shutterstock_135392420.jpg);"
                          data-img-width="1920" data-img-height="1263"></div>
                     <div class="l-section-overlay" style="background-color: rgba(0,0,0,0.5)"></div>
                     <div class="l-section-h i-cf">
@@ -192,7 +192,7 @@
                                         <div class="wpb_wrapper">
                                             <h3 style="text-align: center">Call us today at <a href="#"><strong>+255 22
                                                         278 0228 </strong></a> or Email us at <strong><a
-                                                            href="mailto:service@inetstz.com">service@inetstz
+                                                            href="mailto:info@inetstz.com">info@inetstz
                                                         .com</a></strong>
                                             </h3>
                                             <p style="text-align: center">If you seek truth you will not seek victory by
@@ -213,4 +213,12 @@
             </main>
         </div>
     </div>
+    <script>
+        tag=function(){
+            $('header').addClass("bg_transparent");
+        }
+        $(document).ready(tag);
+
+
+    </script>
 @stop

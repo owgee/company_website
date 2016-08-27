@@ -16,8 +16,10 @@
         <div class="l-titlebar-h">
             <div class="l-titlebar-content"><h1 itemprop="headline">Mobile Applications Design</h1></div>
             <div class="g-nav">
-                <div class="g-nav-list"><a class="g-nav-item to_next" title="Mobile Applications Design"
-                                           href=href="{{url('new/service',['enterprise_software'])}}"></a><a
+                <div class="g-nav-list">
+                    <a class="g-nav-item to_next" title="Mobile Applications Design"
+                       href="{{url('new/service',['payment_integration'])}}"></a>
+                    <a
                             class="g-nav-item to_prev" title="Enterprise Software Design"
                             href="{{url('new/service',['enterprise_software'])}}"></a></div>
             </div>
@@ -195,4 +197,45 @@
         </a>
     </div>
     </div>
+    <section class="l-section wpb_row height_medium color_alternate" id="clients">
+        <div class="l-section-h i-cf">
+            <div class="g-cols offset_medium">
+                <div class="in_col-sm-12 wpb_column in_column_container animate_afb">
+                    <div class="in_column-inner">
+                        <div class="wpb_text_column ">
+                            <div class="wpb_wrapper">
+                                <h2 style="text-align: center">Our Clients</h2>
+                            </div>
+                        </div>
+                        <div class="w-logos style_1 nav_arrows type_carousel cols_5">
+                            <div class="w-logos-list" data-items="5" data-autoplay="0" data-timeout="3000"
+                                 data-nav="1"><a
+                                        class="w-logos-item style_1 nav_arrows type_carousel cols_5"
+                                        href="#"><img width="500" height="250"
+                                                      src="{{url('/')}}/website_assets/uploads/2014/09/brela-logo-500x250.png"
+                                                      class="attachment-medium size-medium"
+                                                      alt="BRELA"/></a>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="PSPF"/></div>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/mafge-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="MAFGE"/></div>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/br-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="BR Solutions"/></div>
+                                <div class="w-logos-item"><img width="500" height="250"
+                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                               class="attachment-medium size-medium"
+                                                               alt="PSPF"/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @stop

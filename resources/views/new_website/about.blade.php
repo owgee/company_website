@@ -1,19 +1,4 @@
 @extends('new_website.master')
-{{--<link rel='stylesheet' id='us-font-1-css'--}}
-{{--href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700%2C400italic&amp;subset=latin&amp;ver=4.5.3'--}}
-{{--type='text/css' media='all'/>--}}
-<link rel='stylesheet' id='us-woocommerce-css' href='website_assets/themes/Zephyr/css/us.woocommerce5589.css?ver=3.4.1'
-      type='text/css' media='all'/>
-<link rel='stylesheet' id='us-base-css' href='website_assets/themes/Zephyr/framework/css/us-base5589.css?ver=3.4.1'
-      type='text/css' media='all'/>
-<link rel='stylesheet' id='us-font-awesome-css'
-      href='website_assets/themes/Zephyr/framework/css/font-awesome4698.css?ver=4.6.3' type='text/css' media='all'/>
-<link rel='stylesheet' id='us-font-mdfi-css' href='website_assets/themes/Zephyr/framework/css/font-mdfi68b3.css?ver=1'
-      type='text/css' media='all'/>
-<link rel='stylesheet' id='us-style-css' href='website_assets/themes/Zephyr/css/style5589.css?ver=3.4.1' type='text/css'
-      media='all'/>
-<link rel='stylesheet' id='us-responsive-css' href='website_assets/themes/Zephyr/css/responsive5589.css?ver=3.4.1'
-      type='text/css' media='all'/>
 <link rel='stylesheet' id='bsf-Defaults-css'
       href='website_assets/uploads/smile_fonts/Defaults/Defaults62d0.css?ver=4.5.3' type='text/css' media='all'/>
 @section('content')
@@ -27,7 +12,7 @@
                             class="g-breadcrumbs-item" rel="v:url" property="v:title"
                             href="/">Home</a></span><span
                         class="g-breadcrumbs-separator"></span> <span
-                        class="g-breadcrumbs-item">WE MAKE YOUR IMAGINATION A REALITY</span></div>
+                        class="g-breadcrumbs-item">WE TURN YOUR IMAGINATION INTO REALITY</span></div>
         </div>
     </div>
     <div class="l-main">
@@ -448,7 +433,14 @@
                                                     </div>
                                                     <h4 class="w-iconbox-title">Payment Integration</h4>
                                                     <div class="w-iconbox-text">Financial Inclusion in SMEs, <br>integration of payment services
-                                                        in NGOs, private Companies and government Institutions.
+                                                        in NGOs, private Co<script>
+                                                            tag=function(){
+                                                                $('header').addClass("bg_transparent");
+                                                            }
+                                                            $(document).ready(tag);
+
+
+                                                        </script>mpanies and government Institutions.
                                                     </div>
                                                 </div>
                                                 <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
@@ -493,7 +485,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="l-section wpb_row height_medium color_alternate">
+                <section class="l-section wpb_row height_medium color_alternate" id="clients">
                     <div class="l-section-h i-cf">
                         <div class="g-cols offset_medium">
                             <div class="in_col-sm-12 wpb_column in_column_container animate_afb">
@@ -543,10 +535,10 @@
                                         <div class="w-actionbox-text"><h2></h2></div>
                                         <div class="w-actionbox-controls">
                                             {{--<a class="w-btn color_white style_raised icon_atleft"--}}
-                                            {{--href="http://themeforest.net/item/zephyr-material-design-theme/9865647?ref=UpSolution"--}}
+                                            {{--href="#"--}}
                                             {{--target="_blank" style="font-size: 19px;"><i--}}
                                             {{--class="mdfi_action_favorite_outline"></i><span--}}
-                                            {{--class="w-btn-label">Take my money!</span></a>--}}
+                                            {{--class="w-btn-label">Send Request</span></a>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -560,22 +552,15 @@
 @stop
 @section('footer')
     <script type='text/javascript'
-            src='website_assets/plugins/woocommerce/assets/js/frontend/cart-fragments.min72e6.js?ver=2.6.4'></script>
+            src='website_assets/themes/framework/js/jquery.parallax5589.js?ver=3.4.1'></script>
     <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/jquery.easing.min62d0.js?ver=4.5.3'></script>
-    <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/jquery.magnific-popupf488.js?ver=1.1.0'></script>
-    <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/jquery.simpleplaceholder62d0.js?ver=4.5.3'></script>
-    <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/imagesloaded62d0.js?ver=4.5.3'></script>
-    <script type='text/javascript' src='website_assets/themes/Zephyr/framework/js/us.core5589.js?ver=3.4.1'></script>
-    <script type='text/javascript' src='website_assets/themes/Zephyr/framework/js/us.widgets5589.js?ver=3.4.1'></script>
-    <script type='text/javascript' src='website_assets/themes/Zephyr/js/us.theme5589.js?ver=3.4.1'></script>
-    <script type='text/javascript' src='website_assets/js/comment-reply.min62d0.js?ver=4.5.3'></script>
-    <script type='text/javascript' src='website_assets/js/wp-embed.min62d0.js?ver=4.5.3'></script>
-    <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/jquery.parallax5589.js?ver=3.4.1'></script>
-    <script type='text/javascript'
-            src='website_assets/themes/Zephyr/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
+            src='website_assets/themes/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
+    <script>
+        tag=function(){
+            $('header').addClass("bg_transparent");
+        }
+        $(document).ready(tag);
+
+
+    </script>
 @stop

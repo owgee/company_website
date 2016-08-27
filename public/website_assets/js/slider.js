@@ -40,7 +40,7 @@ tpj(document).ready(function () {
     } else {
         revapi2 = tpj("#rev_slider_2_1").show().revolution({
             sliderType: "standard",
-            jsFileLocation: "//zephyr.us-themes.com/wp-content/plugins/revslider/public/assets/js/",
+            jsFileLocation: "website_assets/plugins/revslider/public/assets/js/",
             sliderLayout: "auto",
             dottedOverlay: "none",
             delay: 8000,

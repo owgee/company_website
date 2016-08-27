@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('index');
 });
 Route::group(array('prefix' => 'new'), function () {
+
+    Route::group(array('prefix' => 'product'), function () {
+        Route::get('/{product}','PageController@product');
+    });
+    Route::post('/contact','AdminController@contact');
     Route::get('/', function () {
         return view('new_website.home');
     });
@@ -30,44 +35,41 @@ Route::get('/about_us' ,function(){
     return view('new_website.about');
 });
 
-Route::get('/home', 'PageController@home')->name('home');
-Route::get('/about' ,'PageController@about')->name('about');
-Route::get('/costech' ,'PageController@costech')->name('costech');
-Route::get('/rigel' ,'PageController@rigel')->name('rigel');
-Route::get('/clients' ,'PageController@clients')->name('clients');
-Route::get('/project' ,'PageController@projects')->name('projects');
-Route::get('/products' ,'PageController@products')->name('products');
-Route::get('/contacts' ,'PageController@contacts')->name('contacts');
-Route::get('/portfolio' ,'PageController@portfolio')->name('portfolio');
+//Route::get('/home', 'PageController@home')->name('home');
+//Route::get('/about' ,'PageController@about')->name('about');
+//Route::get('/costech' ,'PageController@costech')->name('costech');
+//Route::get('/rigel' ,'PageController@rigel')->name('rigel');
+//Route::get('/clients' ,'PageController@clients')->name('clients');
+//Route::get('/project' ,'PageController@projects')->name('projects');
+//Route::get('/products' ,'PageController@products')->name('products');
+//Route::get('/contacts' ,'PageController@contacts')->name('contacts');
+//Route::get('/portfolio' ,'PageController@portfolio')->name('portfolio');
 
 /**
  * our projects
  */
-Route::get('/karibusms' ,'PageController@karibusms')->name('karibusms');
-Route::get('/prayer' ,'PageController@prayer')->name('prayer');
-Route::get('/hotleo' ,'PageController@hotleo')->name('hotleo');
-Route::get('/meter' ,'PageController@meter')->name('meter');
-Route::get('/pspf' ,'PageController@pspf')->name('pspf');
+//Route::get('/karibusms' ,'PageController@karibusms')->name('karibusms');
+//Route::get('/prayer' ,'PageController@prayer')->name('prayer');
+//Route::get('/hotleo' ,'PageController@hotleo')->name('hotleo');
+//Route::get('/meter' ,'PageController@meter')->name('meter');
+//Route::get('/pspf' ,'PageController@pspf')->name('pspf');
 
 
 /**
  * our services
  */
-Route::get('/software','ServiceController@software')->name('software');
-Route::get('/mobile','ServiceController@mobile')->name('mobile');
-Route::get('/payment','ServiceController@payment')->name('payment');
-Route::get('/linux','ServiceController@linux')->name('linux');
-Route::get('/database','ServiceController@database')->name('database');
-Route::get('/website','ServiceController@website')->name('website');
+//Route::get('/software','ServiceController@software')->name('software');
+//Route::get('/mobile','ServiceController@mobile')->name('mobile');
+//Route::get('/payment','ServiceController@payment')->name('payment');
+//Route::get('/linux','ServiceController@linux')->name('linux');
+//Route::get('/database','ServiceController@database')->name('database');
+//Route::get('/website','ServiceController@website')->name('website');
 
 
 Route::group(array('prefix' => 'admin'), function () {
     Route::get('/admin', function () {
         return view('welcome');
     });
-//Route::get('/', function () {
-//    return view('website.home');
-//});
 
 //Route::auth();
 
