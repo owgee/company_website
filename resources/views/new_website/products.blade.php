@@ -34,7 +34,7 @@
                                                    href="{{url('new/product',['shulesoft'])}}"
                                                    style="background-color: #7e57c2;color: #ffffff;">
                                                     <div class="w-portfolio-item-image"
-                                                         style="background-image: url(../website_assets/uploads/products/shulesoft-600x400.png)">
+                                                         style="background-image: url(../website_assets/uploads/products/shulesoft.png)">
                                                         <img src="../website_assets/uploads/products/shulesoft-600x400.png"
                                                              width="600" height="400"
                                                              alt="ShuleSoft School Management System"/></div>
