@@ -449,12 +449,12 @@
                                                                                                             data-categories="social-marketing">
                                                                                                         <div class="w-blog-post-h">
                                                                                                             <a class="w-gallery-item order_2 animate_reveal"
-                                                                                                               href="website_assets/uploads/logo/port-6-600x400.jpg"
+                                                                                                               href="website_assets/uploads/picjumbo.com_HNCK0082-600x400.jpg"
                                                                                                                title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
-                                                                                                                         src="website_assets/uploads/logo/port-6-600x400.jpg"
+                                                                                                                         src="website_assets/uploads/picjumbo.com_HNCK0082-600x400.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2 wp-post-image"
                                                                                                                          alt="PSPF Pamoja Nawe"/>
                                                                                                             <span class="w-blog-post-preview-icon"
