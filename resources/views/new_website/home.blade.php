@@ -449,12 +449,12 @@
                                                                                                             data-categories="social-marketing">
                                                                                                         <div class="w-blog-post-h">
                                                                                                             <a class="w-gallery-item order_2 animate_reveal"
-                                                                                                               href="website_assets/uploads/2014/09/port-6-600x400.jpg"
+                                                                                                               href="website_assets/uploads/logo/port-6-600x400.jpg"
                                                                                                                title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
-                                                                                                                         src="website_assets/uploads/2014/09/port-6-600x400.jpg"
+                                                                                                                         src="website_assets/uploads/logo/port-6-600x400.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2 wp-post-image"
                                                                                                                          alt="PSPF Pamoja Nawe"/>
                                                                                                             <span class="w-blog-post-preview-icon"
@@ -1141,27 +1141,27 @@
                                         <div class="w-logos-list" data-items="4" data-autoplay="1" data-timeout="3000"
                                              data-nav="0"><a class="w-logos-item style_1 nav_none type_carousel cols_5"
                                                              href="#"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/brela-logo-500x250.png"
+                                                                           src="website_assets/uploads/logo/brela-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
                                                                            alt="BRELA"/></a>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                                           src="website_assets/uploads/logo/pspf-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
                                                                            alt="PSPF"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/mafge-logo-500x250.png"
+                                                                           src="website_assets/uploads/logo/mafge-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
                                                                            alt="MAFGE"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/karibusms-logo-500x250.png"
+                                                                           src="website_assets/uploads/logo/karibusms-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
                                                                            alt="KaribuSMS"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/br-logo-500x250.png"
+                                                                           src="website_assets/uploads/logo/br-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
                                                                            alt="BR Solutions"/></div>
                                             <div class="w-logos-item"><img width="500" height="250"
-                                                                           src="website_assets/uploads/2014/09/staytz-logo-500x250.png"
+                                                                           src="website_assets/uploads/logo/staytz-logo-500x250.png"
                                                                            class="attachment-medium size-medium"
                                                                            alt="StayTz"/></div>
                                             </div>

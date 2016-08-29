@@ -164,8 +164,8 @@
         <a class="l-navigation-item to_next" href="{{url('new/service',['database_design'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Database Design">
+                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
+                     {{--alt="Database Design">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Database Design</span>
@@ -174,8 +174,8 @@
         <a class="l-navigation-item to_prev" href="{{url('new/service',['payment_integration'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Payment Integration">
+                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
+                     {{--alt="Payment Integration">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Payment Integration</span>

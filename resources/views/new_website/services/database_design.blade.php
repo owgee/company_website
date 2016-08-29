@@ -169,8 +169,8 @@
         <a class="l-navigation-item to_next" href="{{url('new/service',['enterprise_software'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Enterprise Software">
+                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
+                     {{--alt="Enterprise Software">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Enterprise Software</span>
@@ -179,8 +179,8 @@
         <a class="l-navigation-item to_prev" href="{{url('new/service',['linux_administration'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Enterprise Software">
+                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
+                     {{--alt="Enterprise Software">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Linux Administration</span>

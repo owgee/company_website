@@ -32,10 +32,10 @@
                             <div class="in_col-sm-8 wpb_column in_column_container">
                                 <div class="in_column-inner">
                                     <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                                        src="{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg"
+                                                                                        src="{{url('/')}}/website_assets/uploads/logo/vesper_by_alexandreev-d79vil6.jpg"
                                                                                         class="attachment-large size-large"
                                                                                         alt="Vesper"
-                                                                                        srcset="http://zephyr.us-themes.com/wp-content/uploads/2014/09/vesper_by_alexandreev-d79vil6.jpg 750w,{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6-375x500.jpg 375w,{{url('/')}}/website_assets/uploads/2014/09/vesper_by_alexandreev-d79vil6-600x800.jpg 600w"
+                                                                                        srcset="http://zephyr.us-themes.com/wp-content/uploads/logo/vesper_by_alexandreev-d79vil6.jpg 750w,{{url('/')}}/website_assets/uploads/logo/vesper_by_alexandreev-d79vil6-375x500.jpg 375w,{{url('/')}}/website_assets/uploads/logo/vesper_by_alexandreev-d79vil6-600x800.jpg 600w"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
                                     </div>
                                 </div>
@@ -184,7 +184,7 @@
         <a class="l-navigation-item to_prev" href="../creative-project-image/index.html">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
+                <img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"
                      alt="Creative Project &#8211; Image">
             </div>
             <div class="l-navigation-item-title">

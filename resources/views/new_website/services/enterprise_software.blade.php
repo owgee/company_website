@@ -166,8 +166,8 @@
         <a class="l-navigation-item to_next" href="{{url('new/service',['mobile_apps'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"
-                     height="150" alt="Mobile Application Development">
+                {{--<img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"--}}
+                     {{--height="150" alt="Mobile Application Development">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Mobile Apps Design</span>
@@ -176,8 +176,8 @@
         <a class="l-navigation-item to_prev" href="{{url('new/service',['database_design'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Database Management">
+                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
+                     {{--alt="Database Management">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Database Design</span>
@@ -200,23 +200,23 @@
                                  data-nav="1"><a
                                         class="w-logos-item style_1 nav_arrows type_carousel cols_5"
                                         href="#"><img width="500" height="250"
-                                                      src="{{url('/')}}/website_assets/uploads/2014/09/brela-logo-500x250.png"
+                                                      src="{{url('/')}}/website_assets/uploads/logo/brela-logo-500x250.png"
                                                       class="attachment-medium size-medium"
                                                       alt="BRELA"/></a>
                                 <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                               src="{{url('/')}}/website_assets/uploads/logo/pspf-logo-500x250.png"
                                                                class="attachment-medium size-medium"
                                                                alt="PSPF"/></div>
                                 <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/mafge-logo-500x250.png"
+                                                               src="{{url('/')}}/website_assets/uploads/logo/mafge-logo-500x250.png"
                                                                class="attachment-medium size-medium"
                                                                alt="MAFGE"/></div>
                                 <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/br-logo-500x250.png"
+                                                               src="{{url('/')}}/website_assets/uploads/logo/br-logo-500x250.png"
                                                                class="attachment-medium size-medium"
                                                                alt="BR Solutions"/></div>
                                 <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
+                                                               src="{{url('/')}}/website_assets/uploads/logo/pspf-logo-500x250.png"
                                                                class="attachment-medium size-medium"
                                                                alt="PSPF"/></div>
                             </div>

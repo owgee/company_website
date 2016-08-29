@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-        <div class="l-titlebar-img" style="background-image: url(../website_assets/uploads/download.png)"
+        <div class="l-titlebar-img" style="background-image: url(../website_assets/uploads/download.jpg)"
              data-img-width="2000" data-img-height="1600"></div>
         <div class="l-titlebar-overlay" style="background-color:rgba(17,17,17,0.4)"></div>
         <div class="l-titlebar-h">

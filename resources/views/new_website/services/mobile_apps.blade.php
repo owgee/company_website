@@ -178,8 +178,8 @@
         <a class="l-navigation-item to_next" href="{{url('new/service',['payment_integration'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"
-                     height="150" alt="Payment Integration">
+                {{--<img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"--}}
+                     {{--height="150" alt="Payment Integration">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Payment Integration</span>
@@ -188,8 +188,8 @@
         <a class="l-navigation-item to_prev" href="{{url('new/service',['enterprise_software'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/2014/09/port-6-150x150.jpg" width="150" height="150"
-                     alt="Enterprise Software">
+                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
+                     {{--alt="Enterprise Software">--}}
             </div>
             <div class="l-navigation-item-title">
                 <span>Enterprise Software</span>
@@ -197,45 +197,4 @@
         </a>
     </div>
     </div>
-    <section class="l-section wpb_row height_medium color_alternate" id="clients">
-        <div class="l-section-h i-cf">
-            <div class="g-cols offset_medium">
-                <div class="in_col-sm-12 wpb_column in_column_container animate_afb">
-                    <div class="in_column-inner">
-                        <div class="wpb_text_column ">
-                            <div class="wpb_wrapper">
-                                <h2 style="text-align: center">Our Clients</h2>
-                            </div>
-                        </div>
-                        <div class="w-logos style_1 nav_arrows type_carousel cols_5">
-                            <div class="w-logos-list" data-items="5" data-autoplay="0" data-timeout="3000"
-                                 data-nav="1"><a
-                                        class="w-logos-item style_1 nav_arrows type_carousel cols_5"
-                                        href="#"><img width="500" height="250"
-                                                      src="{{url('/')}}/website_assets/uploads/2014/09/brela-logo-500x250.png"
-                                                      class="attachment-medium size-medium"
-                                                      alt="BRELA"/></a>
-                                <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
-                                                               class="attachment-medium size-medium"
-                                                               alt="PSPF"/></div>
-                                <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/mafge-logo-500x250.png"
-                                                               class="attachment-medium size-medium"
-                                                               alt="MAFGE"/></div>
-                                <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/br-logo-500x250.png"
-                                                               class="attachment-medium size-medium"
-                                                               alt="BR Solutions"/></div>
-                                <div class="w-logos-item"><img width="500" height="250"
-                                                               src="{{url('/')}}/website_assets/uploads/2014/09/pspf-logo-500x250.png"
-                                                               class="attachment-medium size-medium"
-                                                               alt="PSPF"/></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 @stop
