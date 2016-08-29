@@ -14,7 +14,7 @@
         <div class="l-titlebar-overlay" style="background-color:rgba(17,17,17,0.4)"></div>
         <div class="l-titlebar-h">
             <div class="l-titlebar-content"><h1 itemprop="headline">OUR PRODUCTS</h1>
-                <p>Some of our latest products developed for Corporate companies.</p></div>
+                <p>Some of our latest products developed for Corporate companies & SMEs.</p></div>
         </div>
     </div>
     <div class="l-main">
