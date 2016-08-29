@@ -3,7 +3,7 @@
       href='website_assets/uploads/smile_fonts/Defaults/Defaults62d0.css?ver=4.5.3' type='text/css' media='all'/>
 @section('content')
     <div class="l-titlebar imgsize_cover parallax_ver size_large color_primary">
-        <div class="l-titlebar-img" style="background-image: url(website_assets/uploads/paper-571937_1920.jpg)"
+        <div class="l-titlebar-img" style="background-image: url(website_assets/uploads/about.png)"
              data-img-width="1920" data-img-height="1329"></div>
         <div class="l-titlebar-overlay" style="background-color:rgba(0,0,0,0.1)"></div>
         <div class="l-titlebar-h">
@@ -108,10 +108,10 @@
                                                                     <div class="in_column-inner">
                                                                         <div class="w-image  align_center"><img
                                                                                     width="548" height="365"
-                                                                                    src="website_assets/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg"
+                                                                                    src="website_assets/uploads/about.png"
                                                                                     class="attachment-large size-large"
                                                                                     alt="INETS in 2012"
-                                                                                    srcset="website_assets/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg 500w"
+                                                                                    srcset="website_assets/uploads/about.png"
                                                                                     sizes="(max-width: 548px) 100vw, 548px"/>
                                                                         </div>
                                                                     </div>
@@ -157,10 +157,9 @@
                                                                     <div class="in_column-inner">
                                                                         <div class="w-image  align_center"><img
                                                                                     width="948" height="632"
-                                                                                    src="website_assets/uploads/2014/09/photodune-369552-office-s.jpg"
+                                                                                    src="website_assets/uploads/about.png"
                                                                                     class="attachment-large size-large"
                                                                                     alt="INETS in 2013"
-                                                                                    srcset="website_assets/uploads/2014/09/photodune-369552-office-s.jpg 600w"
                                                                                     sizes="(max-width: 948px) 100vw, 948px"/>
                                                                         </div>
                                                                     </div>
@@ -183,10 +182,9 @@
                                                                     <div class="in_column-inner">
                                                                         <div class="w-image  align_center"><img
                                                                                     width="1024" height="469"
-                                                                                    src="website_assets/uploads/2014/09/seagul-1024x469.jpg"
+                                                                                    src="website_assets/uploads/about.png"
                                                                                     class="attachment-large size-large"
                                                                                     alt="INETS in 2014"
-                                                                                    srcset="website_assets/uploads/2014/09/seagul-1024x469.jpg 600w"
                                                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
                                                                         </div>
                                                                     </div>
@@ -244,10 +242,9 @@
                                                                     <div class="in_column-inner">
                                                                         <div class="w-image  align_center"><img
                                                                                     width="1024" height="469"
-                                                                                    src="website_assets/uploads/2014/09/photodune-202687-smiling-cute-business-woman-with-colleagues-at-the-back-xs.jpg"
+                                                                                    src="website_assets/uploads/about.png"
                                                                                     class="attachment-large size-large"
                                                                                     alt="INETS in 2014"
-                                                                                    srcset="website_assets/uploads/2014/09/seagul-1024x469.jpg 600w"
                                                                                     sizes="(max-width: 1024px) 100vw, 1024px"/>
                                                                         </div>
                                                                     </div>
