@@ -80,7 +80,9 @@
     </noscript>
     @extends('new_website.header_css')
 </head>
-<body class="page page-id-9 page-template-default l-body inets_site Header_Builder header_hor state_default woocommerce-type_2 columns-3 wpb-js-composer js-comp-ver-4.12 vc_responsive"
+
+{{--Put oncontextmenu="return false" on body tag to prevent mouse right click--}}
+<body  class="page page-id-9 page-template-default l-body inets_site Header_Builder header_hor state_default woocommerce-type_2 columns-3 wpb-js-composer js-comp-ver-4.12 vc_responsive"
       itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <div class='l-preloader'>
     <div class='l-preloader-spinner'>
