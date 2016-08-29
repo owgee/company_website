@@ -1,0 +1,10 @@
+
+var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+    var htmlDivCss = ".tp-caption.black,.black{color:#000;text-shadow:none}.tp-caption.zephyr-01,.zephyr-01{font-size:50px;line-height:60px;font-weight:700;font-family:Roboto;color:rgb(255,255,255);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-align:center;text-transform:uppercase;letter-spacing:1px;text-shadow:none}.tp-caption.zephyr-03,.zephyr-03{font-size:66px;line-height:76px;font-weight:700;font-family:Roboto;color:#ffffff;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-align:center;text-transform:uppercase;letter-spacing:2px;text-shadow:none}.tp-caption.zephyr-04,.zephyr-04{font-size:28px;line-height:28px;font-weight:400;font-family:Libre Baskerville;color:#ffffff;font-style:italic;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none;text-shadow:none}.tp-caption.zephyr-05,.zephyr-05{font-size:50px;line-height:60px;font-weight:700;font-family:Roboto;color:#000;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-align:center;text-transform:uppercase;letter-spacing:1px;text-shadow:none}.tp-caption.zephyr-bg,.zephyr-bg{color:rgb(255,255,255);background-color:rgba(10,10,10,0.3);text-decoration:none;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-shadow:none;top:0px;left:0px;right:0px;bottom:0px}";
+    if (htmlDiv) {
+        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+    } else {
+        var htmlDiv = document.createElement("div");
+        htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+        document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+    }

@@ -3,11 +3,7 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
-<<<<<<< HEAD
             <name>inetswebsite</name>
-=======
-            <name>inets</name>
->>>>>>> 105e665c02b48455a8b7bb24141fb67c8c76902f
         </data>
     </configuration>
 </project>
