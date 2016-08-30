@@ -43,15 +43,25 @@
                                 <div class="in_column-inner">
                                     <div class="wpb_text_column ">
                                         <div class="wpb_wrapper">
-                                            <h3>Description</h3>
-                                            <p>Most of our Enterprise Systems that we develop are based on the effective
-                                                requirement capture from the customer, full analysis of the requirements
-                                                and delivery of the targeted software.
+                                            <h3>Introduction</h3>
+					    <p>Enterprise software solutions are software solutions created specifically for corporate organizations and SME to solve specific needs</p>
+					    <p>In INETS we offer custom software solutions that cover all enterprise needs starting from online web applications to offline desktop based applications </p>
+					    <h4>Types of customers we focus</h4>
+                                            <p>INETS provide solutions to number of organizations including
+					    <ul>
+						<li>Government agencies</li>
+						<li>Manufacturing companies</li>
+						<li>Hospitals</li>
+						<li>Education institutions</li>
+						<li>and other SME businesses</li>
+						
+					    </ul>
+					   We do custom development starting from requirement capture from the customer, design stage, development, testing up to commission..
 
-                                            <p> They eliminate repetitive processes and greatly reduce
+<!--                                            <p> They eliminate repetitive processes and greatly reduce
                                                 the need to manually register the information. The systems also
                                                 streamline business processes and make it easier and more efficient for
-                                                companies to collect and manipulate data for different purposes.</p>
+                                                companies to collect and manipulate data for different purposes.</p>-->
                                             {{--<ul>--}}
                                             {{--<li><strong>Client</strong>: INETS</li>--}}
                                             {{--<li><strong>Date</strong>: September 9, 2016</li>--}}
@@ -147,6 +157,8 @@
                                             </div>
                                         </div>
                                     </div>
+				    
+				    
                                     <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
                                         <span class="w-separator-h"><i class="fa fa-star"></i></span></div>
                                     {{--<div class="w-iconbox iconpos_top size_large style_circle color_light">--}}
@@ -154,6 +166,79 @@
                                         {{--<h4 class="w-iconbox-title">Award</h4>--}}
                                         {{--<div class="w-iconbox-text">INETS</div>--}}
                                     {{--</div>--}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+		 <section class="l-section wpb_row height_auto width_full">
+                    <div class="l-section-h i-cf">
+                        <div class="g-cols offset_none">
+                            <div class="in_col-sm-6 wpb_column in_column_container">
+                                <div class="in_column-inner">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+                                            <h2>Why customer trust us</h2>
+                                            <p>
+						Being trusted by reputable organizations is not an easy step, but INETS has a special role inside that create great trust from our customers<br>
+                                                These are;</p>
+                                            <ol>
+                                                <li>Professionalism</li>
+                                                <li>Great care & customer support</li>
+                                                <li>Highly integrity</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    {{--<div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">--}}
+                                        {{--<span class="w-separator-h"></span></div>--}}
+                                    {{--<div class="g-cols wpb_row offset_medium vc_inner ">--}}
+                                        {{--<div class="in_col-sm-4 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-counter size_small color_text" data-initial="0"--}}
+                                                     {{--data-target="456" data-prefix="" data-suffix="">--}}
+                                                    {{--<div class="w-counter-h">--}}
+                                                        {{--<div class="w-counter-number">--}}
+                                                            {{--0--}}
+                                                        {{--</div>--}}
+                                                        {{--<h6 class="w-counter-title">Expected Users</h6>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="in_col-sm-4 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-counter size_small color_primary" data-initial="0"--}}
+                                                     {{--data-target="328" data-prefix="" data-suffix="">--}}
+                                                    {{--<div class="w-counter-h">--}}
+                                                        {{--<div class="w-counter-number">--}}
+                                                            {{--0--}}
+                                                        {{--</div>--}}
+                                                        {{--<h6 class="w-counter-title">Payment Channels Integrated</h6>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<div class="in_col-sm-4 wpb_column in_column_container">--}}
+                                            {{--<div class="in_column-inner">--}}
+                                                {{--<div class="w-counter size_small color_secondary" data-initial="0"--}}
+                                                     {{--data-target="719" data-prefix="" data-suffix="">--}}
+                                                    {{--<div class="w-counter-h">--}}
+                                                        {{--<div class="w-counter-number">--}}
+                                                            {{--0--}}
+                                                        {{--</div>--}}
+                                                        {{--<h6 class="w-counter-title">Schools Covered</h6>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                </div>
+                            </div>
+                           <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
+			       
+                                <div class="in_column-inner">
+                                    <div class="vc_empty_space  blank-column" style="height: 10px"><span
+                                                class="vc_empty_space_inner">Request a Quote Now</span></div>
                                 </div>
                             </div>
                         </div>

@@ -176,32 +176,59 @@
                          itemtype="https://schema.org/SiteNavigationElement"><a class="w-nav-control"
                                                                                 href="javascript:void(0);"></a>
                         <ul class="w-nav-list level_1 hover_simple hidden">
-                            <li id="menu-item-3629"
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children w-nav-item level_1 menu-item-3629">
-                                <a class="w-nav-anchor level_1" href="{{url('new')}}"><span
-                                            class="w-nav-title">HOME</span><span class="w-nav-arrow"></span></a>
-                            </li>
-                            <li id="menu-item-36370"
-                                class="columns_3 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-3637">
-                                <a class="w-nav-anchor level_1" href={{url('about_us')}}><span
-                                            class="w-nav-title">ABOUT US</span><span
-                                            class="w-nav-arrow"></span></a></li>
+                           
+                         
+ <li id="menu-item-3594"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-3594">
+                                <a class="w-nav-anchor level_1" href="{{url('new/about')}}"><span
+                                            class="w-nav-title">About us</span><span class="w-nav-arrow"></span></a>
+                                <ul class="w-nav-list level_2">
+<!--				         <li id="menu-item-3598"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
+                                        <a class="w-nav-anchor level_2" href="{{url('/career')}}"><span
+                                                    class="w-nav-title">Career</span><span
+                                                    class="w-nav-arrow"></span></a></li>-->
+						    
+						     <li id="menu-item-3598"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
+                                        <a class="w-nav-anchor level_2" href="{{url('new/events')}}"><span
+                                                    class="w-nav-title">Events</span><span
+                                                    class="w-nav-arrow"></span></a></li>
+						    
+				    <li id="menu-item-4257"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-4257">
+                                        <a class="w-nav-anchor level_3"
+                                           href="{{url('new/testimonial')}}"><span class="w-nav-title">Testimonials</span><span
+                                                    class="w-nav-arrow"></span></a>
 
+                                    </li>
+                                </ul>
+                            </li>
+			    
                             <li id="menu-item-3594"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-3594">
                                 <a class="w-nav-anchor level_1" href="{{url('new/service',['index'])}}"><span
-                                            class="w-nav-title">SERVICES</span><span class="w-nav-arrow"></span></a>
+                                            class="w-nav-title">Services</span><span class="w-nav-arrow"></span></a>
                                 <ul class="w-nav-list level_2">
+				         <li id="menu-item-3598"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
+                                        <a class="w-nav-anchor level_2" href="{{url('new/service',['enterprise_software'])}}"><span
+                                                    class="w-nav-title">Enterprise Software</span><span
+                                                    class="w-nav-arrow"></span></a></li>
+				    <li id="menu-item-4257"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-4257">
+                                        <a class="w-nav-anchor level_3"
+                                           href="{{url('new/service',['payment_integration'])}}"><span class="w-nav-title">Payment Integration</span><span
+                                                    class="w-nav-arrow"></span></a>
+
+                                    </li>
+				    
                                     <li id="menu-item-3597"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3597">
                                         <a class="w-nav-anchor level_2" href="{{url('new/service',['mobile_apps'])}}"><span
                                                     class="w-nav-title">Mobile Apps</span><span
                                                     class="w-nav-arrow"></span></a></li>
-                                    <li id="menu-item-3598"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
-                                        <a class="w-nav-anchor level_2" href="{{url('new/service',['enterprise_software'])}}"><span
-                                                    class="w-nav-title">Enterprise Software</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                               
                                     <li id="menu-item-3612"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3612">
                                         <a class="w-nav-anchor level_2" href="{{url('new/service',['database_design'])}}"><span
@@ -212,13 +239,7 @@
                                         <a class="w-nav-anchor level_2" href="{{url('new/service',['linux_administration'])}}"><span
                                                     class="w-nav-title">Linux Administration</span><span
                                                     class="w-nav-arrow"></span></a></li>
-                                    <li id="menu-item-4257"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-4257">
-                                        <a class="w-nav-anchor level_3"
-                                           href="{{url('new/service',['payment_integration'])}}"><span class="w-nav-title">Payment Integration</span><span
-                                                    class="w-nav-arrow"></span></a>
-
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             {{--<li id="menu-item-3637"--}}
@@ -231,18 +252,18 @@
                             {{--<li id="menu-item-5294"--}}
                                 {{--class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-5294">--}}
                                 {{--<a class="w-nav-anchor level_1" href="{{url('new',['projects'])}}"><span--}}
-                                            {{--class="w-nav-title">PROJECTS</span><span class="w-nav-arrow"></span></a>--}}
+                                            {{--class="w-nav-title">Projects</span><span class="w-nav-arrow"></span></a>--}}
 
                             {{--</li>--}}
 
                             <li id="menu-item-4760"
                                 class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
-                                <a class="w-nav-anchor level_1" href="{{url('new',['products'])}}"><span class="w-nav-title">PRODUCTS</span><span
+                                <a class="w-nav-anchor level_1" href="{{url('new',['products'])}}"><span class="w-nav-title">Products</span><span
                                             class="w-nav-arrow"></span></a>
                             </li>
                             <li id="menu-item-4759"
                                 class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
-                                <a class="w-nav-anchor level_1" href="{{url('new',['contact_us'])}}"><span class="w-nav-title">CONTACT US</span><span
+                                <a class="w-nav-anchor level_1" href="{{url('new',['contact_us'])}}"><span class="w-nav-title">Contact Us</span><span
                                             class="w-nav-arrow"></span></a></li>
                         </ul>
                         <div class="w-nav-options hidden"

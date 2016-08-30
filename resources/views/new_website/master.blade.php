@@ -116,15 +116,15 @@
             <div class="w-menu ">
                 <div class="w-menu-list"><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../index.html" id="menu-item-3693"><span>Home</span></a><a
+                            href="<?=  url('/privacy')?>" id="menu-item-3693"><span>Privacy</span></a><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../pages/about/index.html" id="menu-item-3615"><span>About</span></a><a
+                            href="<?=  url('/terms_of_use')?>" id="menu-item-3615"><span>Terms of Use</span></a><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../portfolio-3/index.html" id="menu-item-3616"><span>Services</span></a><a
+                            href="<?=url('/copyright')?>" id="menu-item-3616"><span>Copyright</span></a><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../blog-cards-5-columns/index.html" id="menu-item-4384"><span>Portfolio</span></a><a
+                            href="<?=url('/career')?>" id="menu-item-4384"><span>Career</span></a><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../pages/contact/index.html" id="menu-item-3613"><span>Products</span></a></div>
+                            href="<?=url('/products')?>" id="menu-item-3613"><span>Products</span></a></div>
             </div>
             <div class="w-copyright">© <?= date('Y') ?> All rights reserved. INETS Co Ltd
             </div>
