@@ -1,5 +1,5 @@
 @extends('new_website.master')
-
+@section('title', 'Home')
 @section('content')
 
     <div class="l-main">
@@ -61,8 +61,14 @@
                                                              data-splitin="chars" data-splitout="none"
                                                              data-responsive_offset="on" data-elementdelay="0.06"
                                                              style="z-index: 6; white-space: nowrap; color: rgba(255, 255, 255, 1.00);text-transform:left;border-color:rgba(0, 0, 0, 1.00);">
-                                                            We make the World a better place!
+                                                          accept all  payments electronically <br/>
+							  <a
+                                                                        class="w-btn style_raised color_white icon_atleft"
+                                                                        href="<?=url('/new/service/payment_integration')?>"><i
+                                                                            class="fa fa-arrow-down"></i><span
+                                                                            class="w-btn-label">Start Now</span></a>
                                                         </div>
+							
                                                     </li>
 
                                                     <li data-index="rs-5" data-transition="parallaxvertical"
@@ -95,7 +101,7 @@
                                                              data-splitin="chars" data-splitout="none"
                                                              data-responsive_offset="on" data-elementdelay="0.14"
                                                              style="z-index: 5; white-space: nowrap;text-transform:left;border-color:rgba(0, 0, 0, 1.00);">
-                                                            Customer Satisfaction
+                                                            Enterprise Software Solutions
                                                         </div>
 
                                                         <div class="tp-caption zephyr-04   tp-resizeme"
@@ -107,7 +113,7 @@
                                                              data-splitin="none" data-splitout="none"
                                                              data-responsive_offset="on"
                                                              style="z-index: 6; white-space: nowrap;text-transform:left;font-style:italic;border-color:rgba(255, 255, 255, 1.00);">
-                                                            We are Concerned About
+                                                            Know how you can also benefit from our custom software solutions
                                                         </div>
 
                                                         <div class="tp-caption black  " id="slide-5-layer-3"
@@ -121,9 +127,9 @@
                                                              style="z-index: 7; white-space: nowrap;text-transform:left;">
                                                             <div class="w-btn-wrapper align_left"><a
                                                                         class="w-btn style_raised color_white icon_atleft"
-                                                                        href="#more"><i
+                                                                        href="<?=url('/new/service/enterprise_software')?>"><i
                                                                             class="fa fa-arrow-down"></i><span
-                                                                            class="w-btn-label">VIEW MORE</span></a>
+                                                                            class="w-btn-label">See yourself Now</span></a>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -158,9 +164,78 @@
                                                              data-splitin="chars" data-splitout="none"
                                                              data-responsive_offset="on" data-elementdelay="0.05"
                                                              style="z-index: 5; white-space: nowrap;text-transform:left;border-color:rgba(0, 0, 0, 1.00);">
-                                                            We Make every Second count
+                                                            Drive More Customers with <br/> Mobile app for your Business
+							    <br/>
+							    <a
+                                                                        class="w-btn style_raised color_white icon_atleft"
+                                                                        href="<?=url('/new/service/enterprise_software')?>"><i
+                                                                            class="fa fa-arrow-down"></i><span
+                                                                            class="w-btn-label">Learn how</span></a>
                                                         </div>
                                                     </li>
+						    <li data-index="rs-5" data-transition="parallaxvertical"
+                                                        data-slotamount="7" data-hideafterloop="0"
+                                                        data-hideslideonmobile="off" data-easein="default"
+                                                        data-easeout="default" data-masterspeed="500"
+                                                        data-thumb="website_assets/uploads/shutterstock_215536837-100x50.jpg"
+                                                        data-rotate="0" data-saveperformance="off"
+                                                        data-title="Ken Burns Slide" data-param1="" data-param2=""
+                                                        data-param3="" data-param4="" data-param5="" data-param6=""
+                                                        data-param7="" data-param8="" data-param9="" data-param10=""
+                                                        data-description="">
+
+                                                        <img src="website_assets/uploads/shutterstock_215536837.jpg"
+                                                             alt="" title="Sunset" width="1920" height="1190"
+                                                             data-bgposition="left center" data-kenburns="on"
+                                                             data-duration="12000" data-ease="Linear.ease"
+                                                             data-scalestart="120" data-scaleend="99"
+                                                             data-rotatestart="4" data-rotateend="0"
+                                                             data-offsetstart="0 0" data-offsetend="8 0"
+                                                             data-bgparallax="1" class="rev-slidebg" data-no-retina>
+
+
+                                                        <div class="tp-caption zephyr-03   tp-resizeme"
+                                                             id="slide-5-layer-1" data-x="center" data-hoffset="0"
+                                                             data-y="178" data-width="auto" data-height="auto"
+                                                             data-transform_idle=""
+                                                             data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:1000;e:Power4.easeOut;"
+                                                             data-transform_out="opacity:0;s:300;" data-start="1000"
+                                                             data-splitin="chars" data-splitout="none"
+                                                             data-responsive_offset="on" data-elementdelay="0.14"
+                                                             style="z-index: 5; white-space: nowrap;text-transform:left;border-color:rgba(0, 0, 0, 1.00);">
+                                                           Database & Linux Servers
+                                                        </div>
+
+                                                        <div class="tp-caption zephyr-04   tp-resizeme"
+                                                             id="slide-5-layer-2" data-x="center" data-hoffset="0"
+                                                             data-y="150" data-width="auto" data-height="auto"
+                                                             data-transform_idle=""
+                                                             data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:1000;e:Power4.easeOut;"
+                                                             data-transform_out="auto:auto;s:300;" data-start="2200"
+                                                             data-splitin="none" data-splitout="none"
+                                                             data-responsive_offset="on"
+                                                             style="z-index: 6; white-space: nowrap;text-transform:left;font-style:italic;border-color:rgba(255, 255, 255, 1.00);">
+                                                           Get our professional support in installation & configuration  <br/>
+                                                        </div>
+
+                                                        <div class="tp-caption black  " id="slide-5-layer-3"
+                                                             data-x="center" data-hoffset="0" data-y="300"
+                                                             data-width="auto" data-height="auto"
+                                                             data-transform_idle=""
+                                                             data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:1000;e:Power4.easeOut;"
+                                                             data-transform_out="auto:auto;s:300;" data-start="2700"
+                                                             data-splitin="none" data-splitout="none"
+                                                             data-responsive_offset="on" data-captionhidden="on"
+                                                             style="z-index: 7; white-space: nowrap;text-transform:left;">
+                                                            <div class="w-btn-wrapper align_left"><br/><a
+                                                                        class="w-btn style_raised color_white icon_atleft"
+                                                                        href="<?=url('/new/service/mobile_apps')?>"><i
+                                                                            class="fa fa-arrow-down"></i><span
+                                                                            class="w-btn-label">View More</span></a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
                                                 </ul>
                                                 <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
                                                     var htmlDivCss = "";
@@ -449,12 +524,12 @@
                                                                                                             data-categories="social-marketing">
                                                                                                         <div class="w-blog-post-h">
                                                                                                             <a class="w-gallery-item order_2 animate_reveal"
-                                                                                                               href="website_assets/uploads/logo/port-6-600x400.jpg"
+                                                                                                               href="website_assets/uploads/picjumbo.com_HNCK0082-600x400.jpg"
                                                                                                                title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
-                                                                                                                         src="website_assets/uploads/logo/port-6-600x400.jpg"
+                                                                                                                         src="website_assets/uploads/picjumbo.com_HNCK0082-600x400.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2 wp-post-image"
                                                                                                                          alt="PSPF Pamoja Nawe"/>
                                                                                                             <span class="w-blog-post-preview-icon"
@@ -1025,7 +1100,7 @@
                             <div class="in_col-sm-12 wpb_column in_column_container animate_afb">
                                 <div class="in_column-inner">
                                     <div class="w-actionbox color_secondary controls_right">
-                                        <div class="w-actionbox-text"><h2>IMAGINE AND SEE</h2></div>
+                                        <div class="w-actionbox-text"><h2>IMAGINE & SEE</h2></div>
                                         <div class="w-actionbox-controls"><a
                                                     class="w-btn color_white style_raised icon_atleft"
                                                     href="{{url('new',['contact_us'])}}"

@@ -6,6 +6,7 @@
  * Time: 8:27 PM
  */?>
 @extends('new_website.master')
+@section('title', 'Stock/Inventory Manager Application')
 @section('content')
 
 @stop

@@ -5,29 +5,50 @@
  * Date: 11/08/2016
  * Time: 8:58 PM
  */ ?>
-
-        <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html class="" lang="en-US">
-
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
     <meta charset="UTF-8">
-
-    <title>INETS</title>
+    <title>Inets Company - @yield('title')</title>
     <link rel="alternate" type="application/rss+xml" title="INETS website&raquo; Feed"
           href="#"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <meta name="og:title" content="INETS Company Limited">
     <meta name="og:type" content="website">
-    <meta name="theme-color" content="#03A9F4">
+    <meta name="theme-color" content="#03A9F4"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="Title" content="INETS Company Limited � Official Home Page" />
+    <!--<meta name="CorrelationVector" content="MlxRoJqpv0OEKCvu.7" />-->
+    <meta name='description' content='We are Software Development Company that offers online services and focus on enterprise software solutions, Payment System Design & Integration, Mobile applications and Linux Server Configuration' />
+    <meta name="keywords" content="Inets, Inets Company Limited, Software Development Company, Africa Enterprise Software companies , Mobile applications development, Payment System Design and Integration, Africa software development company, Tanzania software development company, Software company in Tanzania,karibuSMS, Hotleo,School Management software (shulesoft), File Tracking software, Stock manager software">
+    <link rel="shortcut icon" href="http://inetstz.com/media/img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 
-    <script   src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#1ac6ff">
+    <meta property="og:locale" content="en_TZ">
+    <meta property="og:site_name" content="Inets Company Limited">
+    <meta property="og:title" content="Inets Company Limited ">
+    <meta property="og:url" content="http://inetstz.com/">
+    <meta property="og:image" content="http://inetstz.com/media/img/logo.png">
+    <meta property="og:description" content="We are Software Development Company that offers online services and focus on enterprise software solutions, Payment System Design & Integration, Mobile applications and Linux Server Configuration">
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@inetstz">
+    <meta name="twitter:title" content="Inets Company Limited">
+    <meta name="twitter:description" content="Software Development Company.">
+    <meta name="twitter:image:src" content="http://inetstz.com/media/img/logo.png">
+    <meta name="twitter:domain" content="http://inetstz.com/">
+    
+    
+    <script   src="{{url('/')}}/js/jquery.min.js" ></script>
     <link rel='stylesheet' id='rs-plugin-settings-css'
           href='{{url('/')}}/website_assets/plugins/revslider/public/assets/css/settings5223.css?ver=5.2.6' type='text/css'
           media='all'/>
-          @extends('new_website.custom')
+         
     <link rel="shortcut icon" href="{{url('/')}}/website_assets/img/favicon.png">
           
     <link rel='stylesheet' id='us-font-1-css'
@@ -48,6 +69,12 @@
           href='{{url('/')}}/website_assets/themes/css/responsive5589.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='bsf-Defaults-css'
           href='{{url('/')}}/website_assets/uploads/smile_fonts/Defaults/Defaults62d0.css' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='bsf-Defaults-css'
+          href='{{url('/')}}/css/custom.css' id='rs-plugin-settings-inline-css' type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='bsf-Defaults-css'
+          href='{{url('/')}}/css/header.css'  type='text/css'
           media='all'/>
     <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jqueryb8ff.js'></script>
     <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
@@ -78,9 +105,10 @@
                 opacity: 1;
             }</style>
     </noscript>
-    @extends('new_website.header_css')
 </head>
-<body class="page page-id-9 page-template-default l-body inets_site Header_Builder header_hor state_default woocommerce-type_2 columns-3 wpb-js-composer js-comp-ver-4.12 vc_responsive"
+
+{{--Put oncontextmenu="return false" on body tag to prevent mouse right click--}}
+<body  class="page page-id-9 page-template-default l-body inets_site Header_Builder header_hor state_default woocommerce-type_2 columns-3 wpb-js-composer js-comp-ver-4.12 vc_responsive"
       itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <div class='l-preloader'>
     <div class='l-preloader-spinner'>
@@ -192,7 +220,7 @@
 						     <li id="menu-item-3598"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
                                         <a class="w-nav-anchor level_2" href="{{url('new/events')}}"><span
-                                                    class="w-nav-title">Events</span><span
+                                                    class="w-nav-title">Micro Blog</span><span
                                                     class="w-nav-arrow"></span></a></li>
 						    
 				    <li id="menu-item-4257"
@@ -272,7 +300,7 @@
                     <div class="w-search layout_fullscreen ush_search_1">
                         <div class="w-search-background"></div>
                         <div class="w-search-form">
-                            <form class="w-search-form-h" autocomplete="off" action=""
+                            <form class="w-search-form-h" autocomplete="off" action="<?=  url('/search')?>"
                                   method="get">
                                 <div class="w-search-form-field"><input type="text" name="s" id="us_form_search_s"
                                                                         placeholder="Type and press enter..."/><span

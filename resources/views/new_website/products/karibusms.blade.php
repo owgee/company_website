@@ -6,6 +6,7 @@
  * Time: 8:27 PM
  */ ?>
 @extends('new_website.master')
+@section('title', 'KaribuSMS Application')
 @section('content')
     <div class="l-titlebar imgsize_cover size_large color_alternate">
         <div class="l-titlebar-h">
@@ -20,8 +21,14 @@
                         <div class="g-cols offset_none">
                             <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394418">
                                 <div class="in_column-inner">
-                                    <div class="vc_empty_space  blank-column" style="height: 10px"><span
-                                                class="vc_empty_space_inner"></span></div>
+                                    <div class="in_column-inner">
+                                        <div class="w-image  align_center animate_afb"><img width="750" height="1000"
+                                                                                            src="{{url('/')}}/website_assets/uploads/background.png"
+                                                                                            class="attachment-large size-large"
+                                                                                            alt="KaribuSMS"
+                                                                                            sizes="(max-width: 750px) 100vw, 750px"/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="in_col-sm-6 wpb_column in_column_container">
@@ -228,6 +235,7 @@
             </div>
         </a>
     </div>
+ @include('new_website/social_footer')
     <script>
         tag = function () {
             $('header').addClass("bg_transparent");

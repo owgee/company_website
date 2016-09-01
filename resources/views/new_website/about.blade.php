@@ -1,4 +1,5 @@
 @extends('new_website.master')
+@section('title', 'About Us')
 <link rel='stylesheet' id='bsf-Defaults-css'
       href='website_assets/uploads/smile_fonts/Defaults/Defaults62d0.css?ver=4.5.3' type='text/css' media='all'/>
 @section('content')
@@ -356,13 +357,13 @@
                         <div class="g-cols offset_medium">
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc">
                                 <div class="in_column-inner">
-                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="50"
+                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="3"
                                          data-prefix="" data-suffix="">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number" style="color: #ffffff">
                                                 0
                                             </div>
-                                            <h6 class="w-counter-title">15.5 Ltrs Water Bottles </h6>
+                                            <h6 class="w-counter-title">International Partners </h6>
                                         </div>
                                     </div>
                                 </div>
@@ -370,38 +371,38 @@
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc d1">
                                 <div class="in_column-inner">
                                     <div class="w-counter size_medium color_secondary" data-initial="0"
-                                         data-target="146" data-prefix="" data-suffix="">
+                                         data-target="9" data-prefix="" data-suffix="">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number">
                                                 0
                                             </div>
-                                            <h6 class="w-counter-title">Projects completed</h6>
+                                            <h6 class="w-counter-title">Internal Projects completed</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc d2">
                                 <div class="in_column-inner">
-                                    <div class="w-counter size_medium color_primary" data-initial="0" data-target="30"
-                                         data-prefix="" data-suffix="k Tsh">
+                                    <div class="w-counter size_medium color_primary" data-initial="0" data-target="16"
+                                         data-prefix="" data-suffix="">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number">
                                                 0
                                             </div>
-                                            <h6 class="w-counter-title">Average cost per hour</h6>
+                                            <h6 class="w-counter-title">Corporate Customers</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="in_col-sm-3 wpb_column in_column_container animate_afc d3">
                                 <div class="in_column-inner">
-                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="200"
+                                    <div class="w-counter size_medium color_custom" data-initial="0" data-target="9"
                                          data-prefix="" data-suffix="">
                                         <div class="w-counter-h">
                                             <div class="w-counter-number" style="color: #66ccff">
                                                 0
                                             </div>
-                                            <h6 class="w-counter-title">Wali Plates ordered</h6>
+                                            <h6 class="w-counter-title">Employees</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -546,6 +547,7 @@
             </main>
         </div>
     </div>
+ @include('new_website/social_footer')
 @stop
 @section('footer')
     <script type='text/javascript'

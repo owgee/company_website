@@ -6,11 +6,7 @@
  * Date: 12/08/2016
  * Time: 12:36 PM
  */?>
-
-<style>
-
-</style>
-
+@section('title', 'Mobile Apps Design & development')
 @section('content')
     <div class="l-titlebar imgsize_cover size_large color_alternate">
         <div class="l-titlebar-h">
@@ -197,4 +193,5 @@
         </a>
     </div>
     </div>
+     @include('new_website/social_footer')
 @stop

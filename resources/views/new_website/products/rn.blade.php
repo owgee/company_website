@@ -6,6 +6,7 @@
  * Time: 8:29 PM
  */ ?>
 @extends('new_website.master')
+@section('title', 'RN Application')
 @section('content')
     <div class="l-titlebar imgsize_cover size_large color_alternate">
         <div class="l-titlebar-h">
@@ -171,6 +172,7 @@
             </div>
         </a>
     </div>
+ @include('new_website/social_footer')
     <script>
         tag = function () {
             $('header').addClass("bg_transparent");

@@ -6,7 +6,7 @@
  * Date: 17/08/2016
  * Time: 2:48 PM
  */?>
-
+@section('title', 'Products')
 @section('content')
     <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
         <div class="l-titlebar-img" style="background-image: url(../website_assets/uploads/download.jpg)"
@@ -34,7 +34,7 @@
                                                    href="{{url('new/product',['shulesoft'])}}"
                                                    style="background-color: #7e57c2;color: #ffffff;">
                                                     <div class="w-portfolio-item-image"
-                                                         style="background-image: url(../website_assets/uploads/products/shulesoft.png)">
+                                                         style="background-image: url(../website_assets/uploads/products/shulesoft-600x400.png)">
                                                         <img src="../website_assets/uploads/products/shulesoft-600x400.png"
                                                              width="600" height="400"
                                                              alt="ShuleSoft School Management System"/></div>
@@ -54,8 +54,8 @@
                                                    href="{{url('new/product',['file_tracking'])}}"
                                                    style="background-color: #ffd54f;color: #2b2420;">
                                                     <div class="w-portfolio-item-image"
-                                                         style="background-image: url(../website_assets/uploads/file_tracking-600x400.png)">
-                                                        <img src="../website_assets/uploads/products/file_tracking-600x400.png"
+                                                         style="background-image: url(../website_assets/uploads/file-tracking-600x400.png)">
+                                                        <img src="../website_assets/uploads/products/file-tracking-600x400.png"
                                                              width="600" height="400"
                                                              alt="Corporate File Tracking System"/></div>
                                                     <div class="w-portfolio-item-meta">
@@ -74,8 +74,8 @@
                                                    href="{{url('new/product',['karibusms'])}}"
                                                    style="background-color: #fff4ea;color: #38291d;">
                                                     <div class="w-portfolio-item-image"
-                                                         style="background-image: url(../website_assets/uploads/products/karibusms-600x400.png">
-                                                        <img src="../website_assets/uploads/products/karibusms-600x400.png"
+                                                         style="background-image: url(../website_assets/uploads/karibuSMS-600x400.jpg)">
+                                                        <img src="../website_assets/uploads/karibuSMS-600x400.jpg"
                                                              width="600" height="400"
                                                              alt="KaribuSMS Bulk SMS Platform"/></div>
                                                     <div class="w-portfolio-item-meta">
@@ -140,7 +140,7 @@
             </main>
         </div>
     </div>
-
+ @include('new_website/social_footer')
     <script>
         tag=function(){
             $('header').addClass("bg_transparent");
