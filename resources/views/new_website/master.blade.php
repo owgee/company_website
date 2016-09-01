@@ -116,15 +116,14 @@
             <div class="w-menu ">
                 <div class="w-menu-list"><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../index.html" id="menu-item-3693"><span>Home</span></a><a
+                            href="{{url('new')}}" id="menu-item-3693"><span>Home</span></a><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../pages/about/index.html" id="menu-item-3615"><span>About</span></a><a
+                            href="{{url('about_us')}}" id="menu-item-3615"><span>About</span></a><a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../portfolio-3/index.html" id="menu-item-3616"><span>Services</span></a><a
+                            href="{{url('new/service',['index'])}}" id="menu-item-3616"><span>Services</span></a>
+                <a
                             class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../blog-cards-5-columns/index.html" id="menu-item-4384"><span>Portfolio</span></a><a
-                            class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-                            href="../pages/contact/index.html" id="menu-item-3613"><span>Products</span></a></div>
+                            href="{{url('new',['products'])}}" id="menu-item-3613"><span>Products</span></a></div>
             </div>
             <div class="w-copyright">© <?= date('Y') ?> All rights reserved. INETS Co Ltd
             </div>
