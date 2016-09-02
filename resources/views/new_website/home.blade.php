@@ -361,7 +361,7 @@
                                                                             <div class="w-iconbox-icon"><i
                                                                                         class="fa fa-money"></i>
                                                                             </div>
-                                                                            <h4 class="w-iconbox-title">Financial Inclusion</h4>
+                                                                            <h4 class="w-iconbox-title">Electronic Payment Integration</h4>
                                                                             <div class="w-iconbox-text">We integrate your web or mobile application with
                                                                                 payment systems using credit cards, banks and mobile money services.
                                                                             </div>

@@ -122,12 +122,14 @@
 <script type='text/javascript'
 src='{{url('/')}}/website_assets/themes/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
 <script type="text/javascript">
-search = function () {
+	search = function () {
 	    var hash = window.location.hash;
-}
+//	    var replaced = $("body").html().replace(/herein/g, 'The ALL new string');
+//	    $("body").html(replaced);
+	}
 $(document).ready(search);
 </script>
 <noscript>
-<div><img src="http://mc.yandex.ru/watch/21110668" style="position:absolute; left:-9999px;" alt=""/></div>
+<div>Please enable Javascript</div>
 </noscript>
 @yield('footer')
