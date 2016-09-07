@@ -160,6 +160,9 @@
                 </section>
             </main>
         </div>
+        <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
+            <span class="w-separator-h"></span></div>
+        @include('website/social_footer')
     </div>
     <div class="l-navigation">
         <a class="l-navigation-item to_next" href="{{url('/service',['enterprise_software'])}}">
@@ -184,7 +187,7 @@
             </div>
         </a>
     </div>
-    @include('website/social_footer')
+
     </div>
 
 @stop

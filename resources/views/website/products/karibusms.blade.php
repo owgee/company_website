@@ -214,20 +214,20 @@
         </div>
     </div>
     <div class="l-navigation">
-        <a class="l-navigation-item to_next" href="{{url('new/product',['file_tracking'])}}">>
+        <a class="l-navigation-item to_next" href="{{url('/product',['file_tracking'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/products/file_tracking-600x400.png" width="150"
+                <img src="{{url('/')}}/website_assets/uploads/file-tracking-600x400.png" width="150"
                      height="150" alt="File Tracking System">
             </div>
             <div class="l-navigation-item-title">
                 <span>File Tracking</span>
             </div>
         </a>
-        <a class="l-navigation-item to_prev" href="{{url('new/product',['rn'])}}">
+        <a class="l-navigation-item to_prev" href="{{url('/product',['rn'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/products/karibusms-600x400.png" width="150" height="150"
+                <img src="{{url('/')}}/website_assets/uploads/karibusms600x400.png" width="150" height="150"
                      alt="Prepaid Energy Meters,Luku,Dar es Salaam">
             </div>
             <div class="l-navigation-item-title">

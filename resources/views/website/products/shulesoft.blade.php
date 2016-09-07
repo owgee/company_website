@@ -274,20 +274,20 @@
         </div>
     </div>
     <div class="l-navigation">
-        <a class="l-navigation-item to_next" href="{{url('new/product',['staytz'])}}">>
+        <a class="l-navigation-item to_next" href="{{url('/product',['staytz'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/products/staytz-600x400.png" width="150"
+                <img src="{{url('/')}}/website_assets/uploads/stay-tz-600x400.png" width="150"
                      height="150" alt="StayTz">
             </div>
             <div class="l-navigation-item-title">
                 <span>StayTz</span>
             </div>
         </a>
-        <a class="l-navigation-item to_prev" href="{{url('new/product',['file_tracking'])}}">
+        <a class="l-navigation-item to_prev" href="{{url('/product',['file_tracking'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/products/file_tracking-600x400.png" width="150"
+                <img src="{{url('/')}}/website_assets/uploads/file-tracking-600x400.png" width="150"
                      height="150"
                      alt="File Tracking System">
             </div>

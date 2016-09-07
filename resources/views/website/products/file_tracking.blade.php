@@ -157,7 +157,7 @@
         </div>
     </div>
     <div class="l-navigation">
-        <a class="l-navigation-item to_next" href="{{url('new/product',['shulesoft'])}}">>
+        <a class="l-navigation-item to_next" href="{{url('/product',['shulesoft'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
                 <img src="{{url('/')}}/website_assets/uploads/products/shulesoft-600x400.png" width="150"
@@ -167,10 +167,10 @@
                 <span>ShuleSoft</span>
             </div>
         </a>
-        <a class="l-navigation-item to_prev" href="{{url('new/product',['karibusms'])}}">
+        <a class="l-navigation-item to_prev" href="{{url('/product',['karibusms'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/products/karibusms-600x400.png" width="150" height="150"
+                <img src="{{url('/')}}/website_assets/uploads/karibuSMS-600x400.jpg" width="150" height="150"
                      alt="KaribuSMS - Bulk SMS, Android application">
             </div>
             <div class="l-navigation-item-title">

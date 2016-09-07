@@ -126,9 +126,10 @@
                     {{--</div>--}}
                 {{--</section>--}}
             </main>
+            @include('website/social_footer')
         </div>
         <div class="l-navigation">
-            <a class="l-navigation-item to_next"  href="{{url('new/product',['rn'])}}">>
+            <a class="l-navigation-item to_next"  href="{{url('/product',['rn'])}}">
                 <div class="l-navigation-item-arrow"></div>
                 <div class="l-navigation-item-preview">
                     <img src="{{url('/')}}/website_assets/uploads/products/rn-600x400.png" width="150"
@@ -138,7 +139,7 @@
                     <span>Prepaid Eenergy Meters</span>
                 </div>
             </a>
-            <a class="l-navigation-item to_prev"  href="{{url('new/product',['shulesoft'])}}">
+            <a class="l-navigation-item to_prev"  href="{{url('/product',['shulesoft'])}}">
                 <div class="l-navigation-item-arrow"></div>
                 <div class="l-navigation-item-preview">
                     <img src="{{url('/')}}/website_assets/uploads/products/shulesoft-600x400.png" width="150" height="150"
@@ -150,7 +151,7 @@
             </a>
         </div>
     </div>
- @include('website/social_footer')
+
     <script>
         tag=function(){
             $('header').addClass("bg_transparent");

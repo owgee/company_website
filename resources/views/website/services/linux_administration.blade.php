@@ -170,8 +170,8 @@
         <a class="l-navigation-item to_prev" href="{{url('/service',['payment_integration'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
-                     {{--alt="Payment Integration">--}}
+                <img src="{{url('/')}}/website_assets/uploads/payment.png" width="150" height="150"
+                     alt="Payment Integration">
             </div>
             <div class="l-navigation-item-title">
                 <span>Payment Integration</span>

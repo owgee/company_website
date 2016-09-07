@@ -62,8 +62,8 @@
 			    <div class="in_column-inner">
 				<div class="wpb_text_column ">
 				    <div class="wpb_wrapper">
-					<h2>Types of electronic Payments solution we provide</h2>
-					<p>These includes </p>
+					<h2>Types of electronic Payment solutions we provide</h2>
+					<p>These include </p>
 					<ul>
 					    <li>Mobile payment systems integration (TigoPesa, M-pesa and Airtel Money). If you want your customers to pay through mobile money services and all money to go directly to your bank account. </li>
 
@@ -77,12 +77,16 @@
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-			    <div class="in_column-inner">
-				<div class="vc_empty_space  blank-column" style="height: 10px"><span
-					class="vc_empty_space_inner"><a href="<?= url('/contact_us') ?>">Contact us now</a> for your request</span>
 
+					<div class="in_column-inner">
+						<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+																			src="{{url('/')}}/website_assets/uploads/payment-types.png"
+																			class="attachment-large size-large"
+																			alt="Payment Types Dar es Salaam,Inets"
+																			sizes="(max-width: 750px) 100vw, 750px"/>
+						</div>
 				</div>
-			    </div>
+
 			</div>
 		    </div>
 		</div>
@@ -94,20 +98,24 @@
 
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-			    <div class="in_column-inner">
-				<div class="vc_empty_space  blank-column" style="height: 10px">
-				    <p>If you still don't accept electronic payment in your organization ?,<a href="<?= url('/contact_us') ?>"> contact us now</a></p>
+
+				<div class="in_column-inner">
+					<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+																		src="{{url('/')}}/website_assets/uploads/companies.png"
+																		class="attachment-large size-large"
+																		alt="Payment Types Dar es Salaam,Inets"
+																		sizes="(max-width: 750px) 100vw, 750px"/>
+					</div>
 				</div>
-			    </div>
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container">
 			    <div class="in_column-inner">
 				<div class="wpb_text_column ">
 				    <div class="wpb_wrapper">
-					<h2>Who can benefits much from our Payment solution</h2>
+					<h2>Who can benefit from using our Payment solution</h2>
 
 					<div class="wpb_wrapper">
-					    <p>This solution is highly beneficial to government institutions, corporate businesses and SME businesses. This includes</p>
+					    <p>This solution is highly beneficial to Government institutions, corporate businesses and SME businesses. This includes</p>
 					    <ul>
 						<li>Ministry and ministry agencies</li>
 						<li>Education institutions</li>
@@ -153,12 +161,14 @@
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-			    <div class="in_column-inner">
-				<div class="vc_empty_space  blank-column" style="height: 10px"><span
-					class="vc_empty_space_inner"><a href="<?= url('/contact_us') ?>">Contact us now</a> for your request</span>
-
+				<div class="in_column-inner">
+					<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+																		src="{{url('/')}}/website_assets/uploads/payment-benefits.png"
+																		class="attachment-large size-large"
+																		alt="Payment Types Dar es Salaam,Inets"
+																		sizes="(max-width: 750px) 100vw, 750px"/>
+					</div>
 				</div>
-			    </div>
 			</div>
 		    </div>
 		</div>
@@ -169,12 +179,14 @@
 		    <div class="g-cols offset_none">
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-			    <div class="in_column-inner">
-				<div class="vc_empty_space  blank-column" style="height: 10px"><span
-					class="vc_empty_space_inner">Do you wish to see how payment system works ? </span>
-				    <button class="btn btn-success">Request a demo here</button>
+				<div class="in_column-inner">
+					<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+																		src="{{url('/')}}/website_assets/uploads/software-processes.png"
+																		class="attachment-large size-large"
+																		alt="Payment Types Dar es Salaam,Inets"
+																		sizes="(max-width: 750px) 100vw, 750px"/>
+					</div>
 				</div>
-			    </div>
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container">
 			    <div class="in_column-inner">
@@ -209,7 +221,7 @@
     <a class="l-navigation-item to_next" href="{{url('/service',['linux_administration'])}}">
 	<div class="l-navigation-item-arrow"></div>
 	<div class="l-navigation-item-preview">
-	    <img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"
+	    <img src="{{url('/')}}/website_assets/uploads/linux.png" width="150"
 		 height="150" alt="Linux Administration">
 	</div>
 	<div class="l-navigation-item-title">
@@ -219,7 +231,7 @@
     <a class="l-navigation-item to_prev" href="{{url('/service',['mobile_apps'])}}">
 	<div class="l-navigation-item-arrow"></div>
 	<div class="l-navigation-item-preview">
-	    <img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"
+	    <img src="{{url('/')}}/website_assets/uploads/karibusms.png" width="150"
 		 height="150" alt="Mobile Apps Design">
 	</div>
 	<div class="l-navigation-item-title">

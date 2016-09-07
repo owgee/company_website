@@ -321,7 +321,7 @@
                                                                             <div class="w-iconbox-icon"><i
                                                                                         class="fa fa-money"></i>
                                                                             </div>
-                                                                            <h4 class="w-iconbox-title">Financial Inclusion</h4>
+                                                                            <h4 class="w-iconbox-title">Electronic Payment Integration</h4>
                                                                             <div class="w-iconbox-text">We integrate your web or mobile application with
                                                                                 payment systems using credit cards, banks and mobile money services.
                                                                             </div>
@@ -1063,7 +1063,7 @@
                                         <div class="w-actionbox-text"><h2>IMAGINE & SEE</h2></div>
                                         <div class="w-actionbox-controls"><a
                                                     class="w-btn color_white style_raised icon_atleft"
-                                                    href="{{url('new',['contact_us'])}}"
+                                                    href="{{url('contact_us')}}"
                                                     style="font-size: 19px;"><i class="fa fa-mobile"></i><span
                                                         class="w-btn-label">Request for Service</span></a></div>
                                     </div>

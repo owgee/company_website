@@ -29,7 +29,7 @@
 				<div class="w-image  align_center animate_afb"><img width="750" height="1000"
 										    src="{{url('/')}}/website_assets/uploads/enterprise.png"
 										    class="attachment-large size-large"
-										    alt="Vesper"
+										    alt="Enterprise Solution"
 										    sizes="(max-width: 750px) 100vw, 750px"/>
 				</div>
 			    </div>
@@ -179,8 +179,8 @@
     <a class="l-navigation-item to_next" href="{{url('/service',['mobile_apps'])}}">
 	<div class="l-navigation-item-arrow"></div>
 	<div class="l-navigation-item-preview">
-	    {{--<img src="{{url('/')}}/website_assets/uploads/shutterstock_112330751-150x150.jpg" width="150"--}}
-	    {{--height="150" alt="Mobile Application Development">--}}
+	    <img src="{{url('/')}}/website_assets/uploads/karibusms.png" width="150"
+	    height="150" alt="Mobile Application Development">
 	</div>
 	<div class="l-navigation-item-title">
 	    <span>Mobile Apps Design</span>
@@ -189,8 +189,8 @@
     <a class="l-navigation-item to_prev" href="{{url('/service',['database_design'])}}">
 	<div class="l-navigation-item-arrow"></div>
 	<div class="l-navigation-item-preview">
-	    {{--<img src="{{url('/')}}/website_assets/uploads/logo/port-6-150x150.jpg" width="150" height="150"--}}
-	    {{--alt="Database Management">--}}
+	    <img src="{{url('/')}}/website_assets/uploads/database.png" width="150" height="150"
+	    alt="Database Management">
 	</div>
 	<div class="l-navigation-item-title">
 	    <span>Database Design</span>
