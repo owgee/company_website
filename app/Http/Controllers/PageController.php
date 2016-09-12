@@ -37,22 +37,24 @@ class PageController extends Controller {
     }
 
     public function product($product) {
-	return view('new_website.products.' . $product);
+	return view('website.products.' . $product);
     }
 
     public function service($service) {
-	return view('new_website.services.' . $service);
+
+	return view('website.services.' . $service);
     }
 
     public function open_page($page) {
-
-	return view('new_website.' . $page);
+		if($page!= ('terms_of_use'|'privacy'|'copyright'))
+	return view('website.' . $page);
+		return view('website.legal.'.$page);
     }
 
     public function search() {
 	$tag = request('s');
 	$content = $this->searchInFiles(strtolower($tag));
-	return view('new_website.search_result', compact('content'));
+	return view('website.search_result', compact('content'));
     }
 
     private function searchInFiles($searchthis) {

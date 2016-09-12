@@ -14,36 +14,23 @@
 
 Route::auth();
 Route::get('/', function () {
-    return view('new_website.home');
+    return view('website.home');
 });
 
-/*All routes designed for the new website, we will reformat later*/
-Route::group(array('prefix' => 'new'), function () {
 
     Route::group(array('prefix' => 'product'), function () {
         Route::get('/{product}', 'PageController@product');
     });
     Route::post('/contact', 'AdminController@contact');
     Route::get('/', function () {
-        return view('new_website.home');
+        return view('website.home');
     });
     Route::group(array('prefix' => 'service'), function () {
         Route::get('/{service}', 'PageController@service');
     });
     Route::get('/{page}', 'PageController@open_page');
 
-});
 
-
-Route::get('/privacy' ,function(){
-    return view('new_website.legal.privacy');
-});
-Route::get('/terms_of_use' ,function(){
-    return view('new_website.legal.terms');
-});
-Route::get('/copyright' ,function(){
-    return view('new_website.legal.copyright');
-});
 Route::get('/search/{tag?}','PageController@search');
 //
 //Route::get('/home', 'PageController@home')->name('home');
@@ -101,7 +88,7 @@ Route::get('/search/{tag?}','PageController@search');
 //});
 
 Route::get('/about_us', function () {
-    return view('new_website.about');
+    return view('website.about');
 });
 
 /*Admin Routes*/
