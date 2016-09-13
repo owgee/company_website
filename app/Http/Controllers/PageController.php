@@ -46,9 +46,12 @@ class PageController extends Controller {
     }
 
     public function open_page($page) {
-		if($page!= ('terms_of_use'|'privacy'|'copyright'))
-	return view('website.' . $page);
-		return view('website.legal.'.$page);
+	if ($page != ('terms_of_use' || 'privacy' || 'copyright')) {
+	    $return = view('website.' . $page);
+	} else {
+	    $return = view('website.legal.' . $page);
+	}
+	return $return;
     }
 
     public function search() {
