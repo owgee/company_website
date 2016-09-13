@@ -46,7 +46,7 @@
     
     <script   src="{{url('/')}}/js/jquery.min.js" ></script>
     <link rel='stylesheet' id='rs-plugin-settings-css'
-          href='{{url('/')}}/website_assets/plugins/revslider/public/assets/css/settings5223.css?ver=5.2.6' type='text/css'
+          href='{{url('/')}}/website_assets/plugins/revslider/public/assets/css/settings5223.css' type='text/css'
           media='all'/>
          
     <link rel="shortcut icon" href="{{url('/')}}/website_assets/img/favicon.png">
@@ -55,15 +55,15 @@
           href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700%2C400italic&amp;subset=latin&amp;ver=4.5.3'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='us-woocommerce-css'
-          href='{{url('/')}}/website_assets/themes/css/us.woocommerce5589.css?ver=3.4.1' type='text/css' media='all'/>
+          href='{{url('/')}}/website_assets/themes/css/us.woocommerce5589.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='us-base-css'
-          href='{{url('/')}}/website_assets/themes/framework/css/us-base5589.css?ver=3.4.1' type='text/css' media='all'/>
+          href='{{url('/')}}/website_assets/themes/framework/css/us-base5589.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='us-font-awesome-css'
-          href='{{url('/')}}/website_assets/themes/framework/css/font-awesome4698.css?ver=4.6.3' type='text/css'
+          href='{{url('/')}}/website_assets/themes/framework/css/font-awesome4698.css' type='text/css'
           media='all'/>
     <link rel='stylesheet' id='us-font-mdfi-css'
-          href='{{url('/')}}/website_assets/themes/framework/css/font-mdfi68b3.css?ver=1' type='text/css' media='all'/>
-    <link rel='stylesheet' id='us-style-css' href='{{url('/')}}/website_assets/themes/css/style5589.css?ver=3.4.1'
+          href='{{url('/')}}/website_assets/themes/framework/css/font-mdfi68b3.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='us-style-css' href='{{url('/')}}/website_assets/themes/css/style5589.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='us-responsive-css'
           href='{{url('/')}}/website_assets/themes/css/responsive5589.css' type='text/css' media='all'/>
@@ -77,7 +77,7 @@
           href='{{url('/')}}/css/header.css'  type='text/css'
           media='all'/>
     <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jqueryb8ff.js'></script>
-    <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jquery-migrate.min330a.js'></script>
     <link rel='https://api.w.org/' href='{{url('/')}}/website_assets/index.html'/>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{url('/')}}/website_assets/wlwmanifest.xml"/>
@@ -91,15 +91,6 @@
           href="website_assets/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen">
     <![endif]-->
 
-    <style type="text/css" data-type="vc_shortcodes-custom-css">
-
-        .vc_custom_1437648405911 {
-            background-image: url(website_assets/uploads/shutterstock_222195604cfeb.jpg) !important;
-        }
-
-        .vc_custom_1437648410628 {
-            background-image: url(website_assets/uploads/shutterstock_122663569.jpg) !important;
-        }</style>
     <noscript>
         <style type="text/css">.wpb_animate_when_almost_visible {
                 opacity: 1;
@@ -195,7 +186,7 @@
                 <div class="l-subheader-cell at_left">
                     <div class="w-text ush_text_1">
                         <div class="w-text-h"><a class="w-text-value"
-                                                 href="{{url('')}}"><img src="{{url("website_assets/img/logo_white.png")}}" alt="Inets Logo" width="90" height="5"></a></div>
+                                                 href="{{url('')}}"><img src="{{url("website_assets/img/logo-white.png")}}" alt="Inets Logo" width="90" height="5"></a></div>
                     </div>
                 </div>
                 <div class="l-subheader-cell at_center"></div>
@@ -240,31 +231,31 @@
                                 <ul class="w-nav-list level_2">
 				         <li id="menu-item-3598"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
-                                        <a class="w-nav-anchor level_2" href="{{url('/service',['enterprise_software'])}}"><span
+                                        <a class="w-nav-anchor level_2" href="{{url('/service',['enterprise-software'])}}"><span
                                                     class="w-nav-title">Enterprise Software</span><span
                                                     class="w-nav-arrow"></span></a></li>
 				    <li id="menu-item-4257"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-4257">
                                         <a class="w-nav-anchor level_3"
-                                           href="{{url('/service',['payment_integration'])}}"><span class="w-nav-title">Payment Integration</span><span
+                                           href="{{url('/service',['payment-integration'])}}"><span class="w-nav-title">Payment Integration</span><span
                                                     class="w-nav-arrow"></span></a>
 
                                     </li>
 				    
                                     <li id="menu-item-3597"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3597">
-                                        <a class="w-nav-anchor level_2" href="{{url('/service',['mobile_apps'])}}"><span
+                                        <a class="w-nav-anchor level_2" href="{{url('/service',['mobile-apps'])}}"><span
                                                     class="w-nav-title">Mobile Apps</span><span
                                                     class="w-nav-arrow"></span></a></li>
                                
                                     <li id="menu-item-3612"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3612">
-                                        <a class="w-nav-anchor level_2" href="{{url('/service',['database_design'])}}"><span
+                                        <a class="w-nav-anchor level_2" href="{{url('/service',['database-design'])}}"><span
                                                     class="w-nav-title">Database Design</span><span
                                                     class="w-nav-arrow"></span></a></li>
                                     <li id="menu-item-3595"
                                         class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3595">
-                                        <a class="w-nav-anchor level_2" href="{{url('/service',['linux_administration'])}}"><span
+                                        <a class="w-nav-anchor level_2" href="{{url('/service',['linux-administration'])}}"><span
                                                     class="w-nav-title">Linux Administration</span><span
                                                     class="w-nav-arrow"></span></a></li>
                                     
@@ -291,7 +282,7 @@
                             </li>
                             <li id="menu-item-4759"
                                 class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
-                                <a class="w-nav-anchor level_1" href="{{url('',['contact_us'])}}"><span class="w-nav-title">Contact Us</span><span
+                                <a class="w-nav-anchor level_1" href="{{url('',['contact-us'])}}"><span class="w-nav-title">Contact Us</span><span
                                             class="w-nav-arrow"></span></a></li>
                         </ul>
                         <div class="w-nav-options hidden"
@@ -300,7 +291,7 @@
                     <div class="w-search layout_fullscreen ush_search_1">
                         <div class="w-search-background"></div>
                         <div class="w-search-form">
-                            <form class="w-search-form-h" autocomplete="off" action="<?=  url('/search')?>"
+                            <form class="w-search-form-h" autocomplete="off" action="<?=  url('/search-result')?>"
                                   method="get">
                                 <div class="w-search-form-field"><input type="text" name="s" id="us_form_search_s"
                                                                         placeholder="Type and press enter..."/><span

@@ -51,11 +51,11 @@
                                             <div class="w-portfolio-item illustration photography size_1x1 animate_reveal"
                                                  data-id="332" data-categories="Files,">
                                                 <a class="w-portfolio-item-anchor"
-                                                   href="{{url('/product',['file_tracking'])}}"
+                                                   href="{{url('/product',['file-tracking'])}}"
                                                    style="background-color: #ffd54f;color: #2b2420;">
                                                     <div class="w-portfolio-item-image"
                                                          style="background-image: url({{url('')}}/website_assets/uploads/file-tracking-600x400.png)">
-                                                        <img src="{{url('')}}/website_assets/uploads/products/file-tracking-600x400.png"
+                                                        <img src="{{url('')}}/website_assets/uploads/file-tracking-600x400.png"
                                                              width="600" height="400"
                                                              alt="Corporate File Tracking System"/></div>
                                                     <div class="w-portfolio-item-meta">
@@ -94,8 +94,8 @@
                                                    href="{{url('/product',['rn'])}}"
                                                    style="background-color: #ff5d44;color: #ffffff;">
                                                     <div class="w-portfolio-item-image"
-                                                         style="background-image: url({{url('')}}/website_assets/uploads/products/rn-600x400.png)">
-                                                        <img src="{{url('')}}/website_assets/uploads/products/rn-600x400.png"
+                                                         style="background-image: url({{url('')}}/website_assets/uploads/rn.png)">
+                                                        <img src="{{url('')}}/website_assets/uploads/rn.png"
                                                              width="600" height="450"
                                                              alt="Remote Prepaid Energy Meters"/></div>
                                                     <div class="w-portfolio-item-meta">
@@ -114,10 +114,10 @@
                                                    href="{{url('/product',['staytz'])}}"
                                                    style="background-color: #7cb342;color: #ffffff;">
                                                     <div class="w-portfolio-item-image"
-                                                         style="background-image: url({{url('')}}/website_assets/uploads/products/staytz-600x400.png)">
-                                                        <img src="{{url('')}}/website_assets/uploads/products/staytz-600x400.png"
+                                                         style="background-image: url({{url('')}}/website_assets/uploads/macbook_staytz.png)">
+                                                        <img src="{{url('')}}/website_assets/uploads/macbook_staytz.png"
                                                              width="600" height="400"
-                                                             alt="Single Project &#8211; Video"/></div>
+                                                             alt="StayTz, Hotels, Lodges in Tanzania, Guest Houses, Dar es Salaam"/></div>
                                                     <div class="w-portfolio-item-meta">
                                                         <div class="w-portfolio-item-meta-h">
                                                             <h2 class="w-portfolio-item-title" style="font-size: 20px">
@@ -139,8 +139,9 @@
                 </section>
             </main>
         </div>
+
+    @include('website/social-footer')
     </div>
- @include('website/social_footer')
     <script>
         tag=function(){
             $('header').addClass("bg_transparent");

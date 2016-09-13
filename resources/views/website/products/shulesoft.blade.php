@@ -277,14 +277,14 @@
         <a class="l-navigation-item to_next" href="{{url('/product',['staytz'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/stay-tz-600x400.png" width="150"
+                <img src="{{url('/')}}/website_assets/uploads/stay-tz-600x400.jpg" width="150"
                      height="150" alt="StayTz">
             </div>
             <div class="l-navigation-item-title">
                 <span>StayTz</span>
             </div>
         </a>
-        <a class="l-navigation-item to_prev" href="{{url('/product',['file_tracking'])}}">
+        <a class="l-navigation-item to_prev" href="{{url('/product',['file-tracking'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
                 <img src="{{url('/')}}/website_assets/uploads/file-tracking-600x400.png" width="150"
@@ -296,7 +296,7 @@
             </div>
         </a>
     </div>
- @include('website/social_footer')
+ @include('website/social-footer')
     <script>
         tag=function(){
             $('header').addClass("bg_transparent");

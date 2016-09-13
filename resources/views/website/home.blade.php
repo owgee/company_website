@@ -28,14 +28,14 @@
                                                         data-slotamount="1" data-hideafterloop="0"
                                                         data-hideslideonmobile="off" data-easein="default"
                                                         data-easFeout="default" data-masterspeed="500"
-                                                        data-thumb="website_assets/uploads/picjumbo.com_HNCK2634-100x50.jpg"
+                                                        data-thumb="website_assets/uploads/slider1.jpg"
                                                         data-rotate="0" data-saveperformance="off"
                                                         data-title="Intro Slide" data-param1="" data-param2=""
                                                         data-param3="" data-param4="" data-param5="" data-param6=""
                                                         data-param7="" data-param8="" data-param9="" data-param10=""
                                                         data-description="">
 
-                                                        <img src="website_assets/uploads/picjumbo.com_HNCK2634.jpg"
+                                                        <img src="website_assets/uploads/slider1.jpg"
                                                              alt="" title="Girl with phone" width="1920"
                                                              height="1280" data-bgposition="center center"
                                                              data-bgfit="cover" data-bgrepeat="no-repeat"
@@ -74,7 +74,7 @@
                                                                     style="z-index: 7; white-space: nowrap;text-transform:left;">
                                                             <div class="w-btn-wrapper align_left"><a
                                                                         class="w-btn style_raised color_white icon_atleft"
-                                                                        href="<?=url('/service/payment_integration')?>"><i
+                                                                        href="<?=url('/service/payment-integration')?>"><i
                                                                             class="fa fa-arrow-down"></i><span
                                                                             class="w-btn-label">Start Now</span></a>
                                                             </div>
@@ -93,7 +93,7 @@
                                                         data-param7="" data-param8="" data-param9="" data-param10=""
                                                         data-description="">
 
-                                                        <img src="website_assets/uploads/shutterstock_215536837.jpg"
+                                                        <img src="website_assets/uploads/inets-bg.jpg"
                                                              alt="" title="Sunset" width="1920" height="1190"
                                                              data-bgposition="left center" data-kenburns="on"
                                                              data-duration="12000" data-ease="Linear.ease"
@@ -138,9 +138,9 @@
                                                              style="z-index: 7; white-space: nowrap;text-transform:left;">
                                                             <div class="w-btn-wrapper align_left"><a
                                                                         class="w-btn style_raised color_white icon_atleft"
-                                                                        href="<?=url('/service/enterprise_software')?>"><i
+                                                                        href="<?=url('/service/enterprise-software')?>"><i
                                                                             class="fa fa-arrow-down"></i><span
-                                                                            class="w-btn-label">See yourself Now</span></a>
+                                                                            class="w-btn-label">View More</span></a>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -159,8 +159,8 @@
                                                         data-param7="" data-param8="" data-param9="" data-param10=""
                                                         data-description="">
 
-                                                        <img src="website_assets/uploads/picjumbo.com_HNCK0082.jpg"
-                                                             alt="" title="Phone" width="1920" height="1280"
+                                                        <img src="website_assets/uploads/mobile-app.jpg"
+                                                             alt="Mobile Application Design" title="Phone" width="1920" height="1280"
                                                              data-bgposition="center center" data-bgfit="cover"
                                                              data-bgrepeat="no-repeat" data-bgparallax="1"
                                                              class="rev-slidebg" data-no-retina>
@@ -189,7 +189,7 @@
                                                              style="z-index: 7; white-space: nowrap;text-transform:left;">
                                                             <div class="w-btn-wrapper align_left">   <a
                                                                         class="w-btn style_raised color_white icon_atleft"
-                                                                        href="<?=url('/service/mobile_ap')?>"><i
+                                                                        href="<?=url('/service/mobile-app')?>"><i
                                                                             class="fa fa-arrow-down"></i><span
                                                                             class="w-btn-label">Learn how</span></a>
                                                             </div>
@@ -288,10 +288,9 @@
                                                                 <span class="w-separator-h"></span></div>
                                                             <div class="w-image  align_center"><img width="715"
                                                                                                     height="510"
-                                                                                                    src="website_assets/uploads/ipaddd.png"
+                                                                                                    src="website_assets/uploads/inets-logo.png"
                                                                                                     class="attachment-large size-large"
-                                                                                                    alt="ipaddd"
-                                                                                                    srcset="website_assets/uploads/ipaddd.png 715w, website_assets/uploads/ipaddd-500x357.png 500w, website_assets/uploads/ipaddd-600x428.png 600w"
+                                                                                                    alt="INETS Company Logo, Tanzania, Dar es Salaam"
                                                                                                     sizes="(max-width: 715px) 100vw, 715px"/>
                                                             </div>
                                                         </div>
@@ -438,12 +437,12 @@
                                                                                                             data-categories="web-design">
                                                                                                         <div class="w-blog-post-h">
                                                                                                             <a  class="w-gallery-item order_1 animate_reveal"
-                                                                                                                href="website_assets/uploads/shutterstock_222195604-600x400.jpg"
+                                                                                                                href="website_assets/uploads/pspf-web.jpg"
                                                                                                                 title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
-                                                                                                                         src="website_assets/uploads/shutterstock_222195604-600x400.jpg"
+                                                                                                                         src="website_assets/uploads/pspf-web.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2 wp-post-image"
                                                                                                                          alt="PSPF Web"
 
@@ -484,14 +483,14 @@
                                                                                                             data-categories="social-marketing">
                                                                                                         <div class="w-blog-post-h">
                                                                                                             <a class="w-gallery-item order_2 animate_reveal"
-                                                                                                               href="website_assets/uploads/picjumbo.com_HNCK0082-600x400.jpg"
+                                                                                                               href="website_assets/uploads/pspf-mobile.jpg"
                                                                                                                title="PSPF Web System">
                                                                                                                 <div class="w-blog-post-preview">
                                                                                                                     <img width="600"
                                                                                                                          height="400"
-                                                                                                                         src="website_assets/uploads/picjumbo.com_HNCK0082-600x400.jpg"
+                                                                                                                         src="website_assets/uploads/pspf-mobile.jpg"
                                                                                                                          class="attachment-tnail-3x2 size-tnail-3x2 wp-post-image"
-                                                                                                                         alt="PSPF Pamoja Nawe"/>
+                                                                                                                         alt="PSPF Pamoja Nawe, Android Application"/>
                                                                                                             <span class="w-blog-post-preview-icon"
                                                                                                                   style="padding-bottom: 66.6667%;"></span>
                                                                                                                 </div>
@@ -991,68 +990,6 @@
                         </div>
                     </div>
                 </section>
-                <section class="l-section wpb_row height_large color_primary with_img with_video with_overlay"
-                         id="more">
-                    <div class="l-section-img" style="background-image: url(website_assets/uploads/iphone.jpg);"
-                         data-img-width="1280" data-img-height="720"></div>
-                    <div class="l-section-video">
-                        <video loop="loop" autoplay="autoplay" preload="auto"
-                               poster="website_assets/uploads/iphone.jpg">
-                            <source type="video/mp4" src="website_assets/Video/phone.mp4"/>
-                            <img src="website_assets/uploads/iphone.jpg" alt=""></video>
-                    </div>
-                    <div class="l-section-overlay" style="background-color: rgba(0,0,0,0.66)"></div>
-                    {{--<div class="l-section-h i-cf">--}}
-                        {{--<div class="g-cols offset_medium">--}}
-                            {{--<div class="in_col-sm-12 wpb_column in_column_container animate_hfc">--}}
-                                {{--<div class="in_column-inner">--}}
-                                    {{--<div class="wpb_text_column ">--}}
-                                        {{--<div class="wpb_wrapper">--}}
-                                            {{--<h6 id="fancy-title-542546575cba7"--}}
-                                                {{--class="mk-shortcode mk-fancy-title simple-style "--}}
-                                                {{--style="text-align: center">WE WORK HARD TO GIVE YOU</h6>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                    {{--<h2 style="font-size: 45px;color: #ffffff;line-height: 55px;text-align: center;font-family:Raleway;font-weight:200;font-style:normal"--}}
-                                        {{--class="vc_custom_heading">A UNIQUE EXPERIENCE</h2>--}}
-                                    {{--<div class="w-separator type_invisible size_huge thick_1 style_solid color_border cont_none">--}}
-                                        {{--<span class="w-separator-h"></span></div>--}}
-                                    {{--<div class="g-cols wpb_row offset_medium vc_inner ">--}}
-                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
-                                            {{--<div class="in_column-inner">--}}
-                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
-                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-html5"></i></div>--}}
-                                                    {{--<h4 class="w-iconbox-title">Modern Design</h4></div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
-                                            {{--<div class="in_column-inner">--}}
-                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
-                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-thumbs-o-up"></i>--}}
-                                                    {{--</div>--}}
-                                                    {{--<h4 class="w-iconbox-title">High Quality</h4></div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
-                                            {{--<div class="in_column-inner">--}}
-                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
-                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-tablet"></i></div>--}}
-                                                    {{--<h4 class="w-iconbox-title">Ultra Responsive</h4></div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                        {{--<div class="in_col-sm-3 wpb_column in_column_container">--}}
-                                            {{--<div class="in_column-inner">--}}
-                                                {{--<div class="w-iconbox iconpos_top size_medium style_default color_secondary">--}}
-                                                    {{--<div class="w-iconbox-icon"><i class="fa fa-star-o"></i></div>--}}
-                                                    {{--<h4 class="w-iconbox-title">Always Excellent</h4></div>--}}
-                                            {{--</div>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                </section>
 
                 <section class="l-section wpb_row height_medium color_secondary">
                     <div class="l-section-h i-cf">
@@ -1063,7 +1000,7 @@
                                         <div class="w-actionbox-text"><h2>IMAGINE & SEE</h2></div>
                                         <div class="w-actionbox-controls"><a
                                                     class="w-btn color_white style_raised icon_atleft"
-                                                    href="{{url('contact_us')}}"
+                                                    href="{{url('contact-us')}}"
                                                     style="font-size: 19px;"><i class="fa fa-mobile"></i><span
                                                         class="w-btn-label">Request for Service</span></a></div>
                                     </div>
@@ -1091,7 +1028,7 @@
                                                 <div class="w-iconbox iconpos_left size_small style_default color_light">
                                                     <div class="w-iconbox-icon"><i class="fa fa-signing"></i></div>
                                                     <h4 class="w-iconbox-title">Integrity</h4>
-                                                    <div class="w-iconbox-text">We mean it when we say we deliver on time. We are whole and competely
+                                                    <div class="w-iconbox-text">We mean it when we say we deliver on time. We are whole and completely
                                                         undivided.
                                                     </div>
                                                 </div>
