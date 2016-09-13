@@ -46,7 +46,7 @@ class PageController extends Controller {
     }
 
     public function open_page($page) {
-	if ($page != ('terms_of_use' || 'privacy' || 'copyright')) {
+	if (!in_array($page, array('terms_of_use', 'privacy', 'copyright'))) {
 	    $return = view('website.' . $page);
 	} else {
 	    $return = view('website.legal.' . $page);
