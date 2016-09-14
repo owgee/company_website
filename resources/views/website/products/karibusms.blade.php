@@ -53,6 +53,11 @@
                                             </ul>
                                         </div>
                                     </div>
+                                    <div class="w-iconbox iconpos_top size_large style_circle color_light">
+                                    <a href='https://play.google.com/store/apps/details?id=com.inets.karibusms&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                                                alt='Get it on Google Play' width="200" height="80"
+                                                src='{{url('/')}}/website_assets/img/google-play-badge.png'/></a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -140,19 +145,25 @@
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                                                 <li>Add contacts
                                                     <ul>
-                                                        <li>For KaribuSMS app press upload tab then enter numbers by separating
+                                                        <li>For KaribuSMS app press upload tab then enter numbers by
+                                                            separating
                                                             with commas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            example 071XXXXXXX, 075XXXXXXX, 068XXXXXXX,after finishing press
+                                                            example 071XXXXXXX, 075XXXXXXX, 068XXXXXXX,after finishing
+                                                            press
                                                             upload contacts button.
                                                         </li>
-                                                        <li>You can also upload customer&rsquo;s contacts from your mobile
-                                                            phonebook by pressing the button of &nbsp;&ldquo;<strong>select from
+                                                        <li>You can also upload customer&rsquo;s contacts from your
+                                                            mobile
+                                                            phonebook by pressing the button of &nbsp;&ldquo;<strong>select
+                                                                from
                                                                 phonebook</strong>&rdquo;. <strong>OR</strong>&nbsp;&nbsp;&nbsp;
                                                         </li>
-                                                        <li>You can also upload excel file having contacts list ( at <strong>karibusms.com</strong>)
+                                                        <li>You can also upload excel file having contacts list ( at
+                                                            <strong>karibusms.com</strong>)
                                                             by clicking people tab then add button
                                                         </li>
-                                                    </ul></li>
+                                                    </ul>
+                                                </li>
                                             </ol>
 
                                             <ol start="6">
@@ -168,47 +179,47 @@
                     </div>
                 </section>
                 {{--<section class="l-section wpb_row height_medium color_alternate">--}}
-                    {{--<div class="l-section-h i-cf">--}}
-                        {{--<div class="g-cols offset_medium">--}}
-                            {{--<div class="in_col-sm-12 wpb_column in_column_container">--}}
-                                {{--<div class="in_column-inner">--}}
-                                    {{--<div class="wpb_text_column ">--}}
-                                        {{--<div class="wpb_wrapper">--}}
-                                            {{--<h2 style="text-align: center;">More About KaribuSMS</h2>--}}
-                                            {{--<p style="text-align: center;"></p>--}}
-                                        {{--</div>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="w-separator type_default size_large thick_1 style_solid color_border cont_icon">--}}
-                                        {{--<span class="w-separator-h"><i class="fa fa-heart-o"></i></span></div>--}}
+                {{--<div class="l-section-h i-cf">--}}
+                {{--<div class="g-cols offset_medium">--}}
+                {{--<div class="in_col-sm-12 wpb_column in_column_container">--}}
+                {{--<div class="in_column-inner">--}}
+                {{--<div class="wpb_text_column ">--}}
+                {{--<div class="wpb_wrapper">--}}
+                {{--<h2 style="text-align: center;">More About KaribuSMS</h2>--}}
+                {{--<p style="text-align: center;"></p>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="w-separator type_default size_large thick_1 style_solid color_border cont_icon">--}}
+                {{--<span class="w-separator-h"><i class="fa fa-heart-o"></i></span></div>--}}
 
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
                 {{--</section>--}}
                 {{--<section class="l-section wpb_row height_auto width_full">--}}
-                    {{--<div class="l-section-h i-cf">--}}
-                        {{--<div class="g-cols offset_none">--}}
-                            {{--<div class="in_col-sm-4 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394431">--}}
-                                {{--<div class="in_column-inner">--}}
-                                    {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
-                                                {{--class="vc_empty_space_inner"></span></div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="in_col-sm-4 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394432">--}}
-                                {{--<div class="in_column-inner">--}}
-                                    {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
-                                                {{--class="vc_empty_space_inner"></span></div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="in_col-sm-4 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394433">--}}
-                                {{--<div class="in_column-inner">--}}
-                                    {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
-                                                {{--class="vc_empty_space_inner"></span></div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
+                {{--<div class="l-section-h i-cf">--}}
+                {{--<div class="g-cols offset_none">--}}
+                {{--<div class="in_col-sm-4 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394431">--}}
+                {{--<div class="in_column-inner">--}}
+                {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
+                {{--class="vc_empty_space_inner"></span></div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="in_col-sm-4 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394432">--}}
+                {{--<div class="in_column-inner">--}}
+                {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
+                {{--class="vc_empty_space_inner"></span></div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--<div class="in_col-sm-4 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394433">--}}
+                {{--<div class="in_column-inner">--}}
+                {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
+                {{--class="vc_empty_space_inner"></span></div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
+                {{--</div>--}}
                 {{--</section>--}}
             </main>
         </div>
@@ -235,7 +246,7 @@
             </div>
         </a>
     </div>
- @include('website/social-footer')
+    @include('website/social-footer')
     <script>
         tag = function () {
             $('header').addClass("bg_transparent");
