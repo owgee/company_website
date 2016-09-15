@@ -262,7 +262,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="l-section wpb_row height_medium color_alternate">
+<!--                <section class="l-section wpb_row height_medium color_alternate">
                     <div class="l-section-h i-cf">
                         <div class="g-cols offset_medium">
                             <div class="in_col-sm-12 wpb_column in_column_container">
@@ -350,7 +350,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>-->
                 <section class="l-section wpb_row height_medium color_custom"
                          style="background-color: #212121; color: #cccccc;">
                     <div class="l-section-h i-cf">
@@ -410,6 +410,7 @@
                         </div>
                     </div>
                 </section>
+                <div class="w-separator"></div>
                 <section class="l-section wpb_row height_medium">
                     <div class="l-section-h i-cf">
                         <div class="g-cols offset_medium">
@@ -524,30 +525,10 @@
                         </div>
                     </div>
                 </section>
-                <section class="l-section wpb_row height_medium color_primary">
-                    <div class="l-section-h i-cf">
-                        <div class="g-cols offset_medium">
-                            <div class="in_col-sm-12 wpb_column in_column_container">
-                                <div class="in_column-inner">
-                                    <div class="w-actionbox color_primary controls_right">
-                                        <div class="w-actionbox-text"><h2></h2></div>
-                                        <div class="w-actionbox-controls">
-                                            {{--<a class="w-btn color_white style_raised icon_atleft"--}}
-                                            {{--href="#"--}}
-                                            {{--target="_blank" style="font-size: 19px;"><i--}}
-                                            {{--class="mdfi_action_favorite_outline"></i><span--}}
-                                            {{--class="w-btn-label">Send Request</span></a>--}}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </main>
         </div>
     </div>
- @include('website/social_footer')
+ @include('website/social-footer')
 @stop
 @section('footer')
     <script type='text/javascript'

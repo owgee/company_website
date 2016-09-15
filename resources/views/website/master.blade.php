@@ -93,7 +93,7 @@
 			class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
 			href="<?= url('/privacy') ?>" id="menu-item-3693"><span>Privacy</span></a><a
 			class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
-			href="<?= url('/terms_of_use') ?>" id="menu-item-3615"><span>Terms of Use</span></a>
+			href="<?= url('/terms-of-use') ?>" id="menu-item-3615"><span>Terms of Use</span></a>
 		    <!--		    <a
 						class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
 						href="<?= url('/copyright') ?>" id="menu-item-3616"><span>Copyright</span></a>-->

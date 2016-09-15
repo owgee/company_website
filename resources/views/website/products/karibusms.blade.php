@@ -214,7 +214,7 @@
         </div>
     </div>
     <div class="l-navigation">
-        <a class="l-navigation-item to_next" href="{{url('/product',['file_tracking'])}}">
+        <a class="l-navigation-item to_next" href="{{url('/product',['file-tracking'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
                 <img src="{{url('/')}}/website_assets/uploads/file-tracking-600x400.png" width="150"
@@ -227,7 +227,7 @@
         <a class="l-navigation-item to_prev" href="{{url('/product',['rn'])}}">
             <div class="l-navigation-item-arrow"></div>
             <div class="l-navigation-item-preview">
-                <img src="{{url('/')}}/website_assets/uploads/karibusms600x400.png" width="150" height="150"
+                <img src="{{url('/')}}/website_assets/uploads/rn.png" width="150" height="150"
                      alt="Prepaid Energy Meters,Luku,Dar es Salaam">
             </div>
             <div class="l-navigation-item-title">
@@ -235,7 +235,7 @@
             </div>
         </a>
     </div>
- @include('website/social_footer')
+ @include('website/social-footer')
     <script>
         tag = function () {
             $('header').addClass("bg_transparent");

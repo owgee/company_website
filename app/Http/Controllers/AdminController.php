@@ -145,7 +145,7 @@ class AdminController extends Controller
                 $array = array();
                 $array['valid'] = 0;
                 $array['message'] = 'Insert a valid email address!';
-                return redirect('new/contact_us')->with('error', 'Input a valid email address!');
+                return redirect('contact-us')->with('error', 'Input a valid email address!');
             }
             else {
                 $array = array();
@@ -160,8 +160,8 @@ class AdminController extends Controller
                  $headers = "From: ".$subscriber_email." <" . $subscriber_email . ">" . "\r\n" . "Reply-To: " . $subscriber_email;
 
                if( mail($emailTo, $subject, $body,$headers))
-                   return redirect('new/contact_us')->with('success', 'Your message has been sent!');
-                return redirect('new/contact_us')->with('error', 'Your message could not be sent!');
+                   return redirect('contact-us')->with('success', 'Your message has been sent!');
+                return redirect('contact-us')->with('error', 'Your message could not be sent!');
             }
 
         }

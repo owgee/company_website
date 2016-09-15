@@ -33,7 +33,7 @@
                                             <div class="in_column-inner">
                                                 <div class="w-iconbox iconpos_left size_medium style_circle color_custom">
                                                     <a class="w-iconbox-link"
-                                                       href="{{url('service',['enterprise_software'])}}">
+                                                       href="{{url('service',['enterprise-software'])}}">
                                                         <div class="w-iconbox-icon"
                                                              style="background-color: #ff7043;box-shadow: 0 0 0 2px #ff7043 inset;color: #ffffff;">
                                                             <i class="fa fa-html5"></i></div>
@@ -50,7 +50,7 @@
                                                     <span class="w-separator-h"></span></div>
                                                 <div class="w-iconbox iconpos_left size_medium style_circle color_custom">
                                                     <a class="w-iconbox-link"
-                                                       href="{{url('service',['database_design'])}}">
+                                                       href="{{url('service',['database-design'])}}">
                                                         <div class="w-iconbox-icon"
                                                              style="background-color: #41baae;box-shadow: 0 0 0 2px #41baae inset;color: #ffffff;">
                                                             <i class="mdfi_device_data_usage"></i></div>
@@ -81,7 +81,7 @@
                                         <div class="in_col-sm-4 wpb_column in_column_container animate_afb d1">
                                             <div class="in_column-inner">
                                                 <div class="w-iconbox iconpos_left size_medium style_circle color_custom">
-                                                    <a class="w-iconbox-link" href="{{url('service',['payment_integration'])}}">
+                                                    <a class="w-iconbox-link" href="{{url('service',['payment-integration'])}}">
                                                         <div class="w-iconbox-icon"
                                                              style="background-color: #80d8ff;box-shadow: 0 0 0 2px #80d8ff inset;color: #ffffff;">
                                                             <i class="mdfi_image_compare"></i></div>
@@ -98,7 +98,7 @@
                                                     <span class="w-separator-h"></span></div>
                                                 <div class="w-iconbox iconpos_left size_medium style_circle color_custom">
                                                     <a class="w-iconbox-link"
-                                                       href="{{url('service',['linux_administration'])}}">
+                                                       href="{{url('service',['linux-administration'])}}">
                                                         <div class="w-iconbox-icon"
                                                              style="background-color: #7e57c2;box-shadow: 0 0 0 2px #7e57c2 inset;color: #ffffff;">
                                                             <i class="mdfi_action_dns"></i></div>
@@ -132,7 +132,7 @@
                                         <div class="in_col-sm-4 wpb_column in_column_container animate_afb d2">
                                             <div class="in_column-inner">
                                                 <div class="w-iconbox iconpos_left size_medium style_circle color_custom">
-                                                    <a class="w-iconbox-link" href="{{url('service',['mobile_apps'])}}">
+                                                    <a class="w-iconbox-link" href="{{url('service',['mobile-apps'])}}">
                                                         <div class="w-iconbox-icon"
                                                              style="background-color: #7cb342;box-shadow: 0 0 0 2px #7cb342 inset;color: #ffffff;">
                                                             <i class="mdfi_notification_play_install"></i></div>
@@ -204,7 +204,7 @@
                                     </div>
                                     <div class="w-btn-wrapper align_center"><a
                                                 class="w-btn style_raised color_secondary icon_atleft"
-                                                href="{{url('new',['contact_us'])}}" style="font-size: 19px;"><i
+                                                href="{{url('new',['contact-us'])}}" style="font-size: 19px;"><i
                                                     class="mdfi_content_mail"></i><span
                                                     class="w-btn-label">Request for Service</span></a></div>
                                 </div>
@@ -216,7 +216,7 @@
         </div>
         <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
             <span class="w-separator-h"></span></div>
-        @include('website/social_footer')
+        @include('website/social-footer')
     </div>
     <script>
         tag=function(){

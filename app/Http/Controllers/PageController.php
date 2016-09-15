@@ -14,21 +14,21 @@ class PageController extends Controller {
 	'new/events',
 	'new/testimonial',
 	'new/service/index',
-	'new/service/enterprise_software',
+	'new/service/enterprise-software',
 	'copyright',
 	'privacy',
-	'terms_of_use',
-	'new/service/database_design',
-	'new/service/linux_administration',
-	'new/service/mobile_apps',
-	'new/service/payment_integration',
-	'new/product/file_tracking',
+	'terms-of-use',
+	'new/service/database-design',
+	'new/service/linux-administration',
+	'new/service/mobile-apps',
+	'new/service/payment-integration',
+	'new/product/file-tracking',
 	'new/product/karibusms',
 	'new/product/rn',
 	'new/product/shulesoft',
 	'new/product/staytz',
-	'new/product/stock_manager',
-	'new/contact_us',
+	'new/product/stock-manager',
+	'new/contact-us',
 	'new/products',
     );
 
@@ -46,18 +46,19 @@ class PageController extends Controller {
     }
 
     public function open_page($page) {
-	if (!in_array($page, array('terms_of_use', 'privacy', 'copyright'))) {
+	if (!in_array($page, array('terms-of-use', 'privacy', 'copyright'))) {
 	    $return = view('website.' . $page);
 	} else {
-	    $return = view('website.legal.' . $page);
+	    $return = view('website.legal.' . str_replace('-','_',$page));
 	}
 	return $return;
     }
 
     public function search() {
+
 	$tag = request('s');
 	$content = $this->searchInFiles(strtolower($tag));
-	return view('website.search_result', compact('content'));
+	return view('website.search-result', compact('content'));
     }
 
     private function searchInFiles($searchthis) {
