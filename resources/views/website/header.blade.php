@@ -71,10 +71,10 @@
           href='{{url('/')}}/website_assets/uploads/smile_fonts/Defaults/Defaults62d0.css' type='text/css'
           media='all'/>
     <link rel='stylesheet' id='bsf-Defaults-css'
-          href='{{url('/')}}/css/custom.css' id='rs-plugin-settings-inline-css' type='text/css'
+          href='{{url('/')}}/css/custom.min.css' id='rs-plugin-settings-inline-css' type='text/css'
           media='all'/>
     <link rel='stylesheet' id='bsf-Defaults-css'
-          href='{{url('/')}}/css/header.css'  type='text/css'
+          href='{{url('/')}}/css/header.min.css'  type='text/css'
           media='all'/>
     <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jqueryb8ff.js'></script>
     <script type='text/javascript' src='{{url("/")}}/website_assets/js/jquery/jquery-migrate.min330a.js'></script>
