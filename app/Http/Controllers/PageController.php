@@ -47,9 +47,9 @@ class PageController extends Controller {
 
     public function open_page($page) {
 	if (!in_array($page, array('terms-of-use', 'privacy', 'copyright'))) {
-	    $return = view('website.' . $page);
+	    $return = view()->exists('website.' . $page) ? view('website.' . $page) :view('errors.404');
 	} else {
-	    $return = view('website.legal.' . str_replace('-','_',$page));
+	    $return = view('website.legal.' . str_replace('-', '_', $page));
 	}
 	return $return;
     }

@@ -117,12 +117,15 @@
                                     {{--</div>--}}
                                 </div>
                             </div>
-                            {{--<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">--}}
-                                {{--<div class="in_column-inner">--}}
-                                    {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
-                                                {{--class="vc_empty_space_inner"></span></div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
+                            <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
+				<div class="in_column-inner">
+				    <div class="vc_empty_space  blank-column" style="height: 10px"><span
+					    class="vc_empty_space_inner">
+					    <a href="http://shulesoft.com/request_demo" target="_blank">Click here</a> to Request a demo. 
+					</span>
+				    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

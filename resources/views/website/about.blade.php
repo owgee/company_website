@@ -351,7 +351,7 @@
                         </div>
                     </div>
                 </section>-->
-                <section class="l-section wpb_row height_medium color_custom"
+<!--                <section class="l-section wpb_row height_medium color_custom"
                          style="background-color: #212121; color: #cccccc;">
                     <div class="l-section-h i-cf">
                         <div class="g-cols offset_medium">
@@ -409,7 +409,8 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>-->
+		<hr/>
                 <div class="w-separator"></div>
                 <section class="l-section wpb_row height_medium">
                     <div class="l-section-h i-cf">

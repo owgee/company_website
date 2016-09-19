@@ -1,36 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    <url>
-	<loc>http://inetstz.com/</loc>
-	<lastmod>2016-07-09</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.1</priority>
-    </url>
-    
-     <url>
-	<loc>http://inetstz.com/</loc>
-	<lastmod>2016-07-09</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.1</priority>
-    </url>
-    
-     <url>
-	<loc>http://inetstz.com/</loc>
-	<lastmod>2016-07-09</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.1</priority>
-    </url>
-    
-     <url>
-	<loc>http://inetstz.com/</loc>
-	<lastmod>2016-07-09</lastmod>
-	<changefreq>monthly</changefreq>
-	<priority>0.1</priority>
-    </url>
+<url>
+  <loc>http://www.inetstz.com/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/about</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/events</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/testimonial</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/service/enterprise-software</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/service/payment-integration</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/service/mobile-apps</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/service/database-design</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/service/linux-administration</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/products</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/contact-us</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/privacy</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/product/shulesoft</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/product/file-tracking</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/product/karibusms</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/product/rn</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.inetstz.com/product/staytz</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>

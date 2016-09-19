@@ -14,7 +14,7 @@
         <div class="l-titlebar-overlay" style="background-color:rgba(17,17,17,0.4)"></div>
         <div class="l-titlebar-h">
             <div class="l-titlebar-content"><h1 itemprop="headline">OUR PRODUCTS</h1>
-                <p>Some of our latest products developed for Corporate companies & SMEs.</p></div>
+                <p>Some of our latest products developed for Corporate companies & SME.</p></div>
         </div>
     </div>
     <div class="l-main">
@@ -42,7 +42,7 @@
                                                         <div class="w-portfolio-item-meta-h">
                                                             <h2 class="w-portfolio-item-title" style="font-size: 20px">
                                                                 ShuleSoft</h2><span
-                                                                    class="w-portfolio-item-text" style="font-size: 13px">Education</span>
+                                                                    class="w-portfolio-item-text" style="font-size: 13px">School Management Platform</span>
                                                             <span class="w-portfolio-item-arrow"></span>
                                                         </div>
                                                     </div>
@@ -62,7 +62,7 @@
                                                         <div class="w-portfolio-item-meta-h">
                                                             <h2 class="w-portfolio-item-title" style="font-size: 20px">
                                                                 File Tracking</h2><span
-                                                                    class="w-portfolio-item-text" style="font-size: 13px">Corporate Files Handling</span>
+                                                                    class="w-portfolio-item-text" style="font-size: 13px">Files Tracking and Records Management Solution</span>
                                                             <span class="w-portfolio-item-arrow"></span>
                                                         </div>
                                                     </div>
@@ -82,7 +82,7 @@
                                                         <div class="w-portfolio-item-meta-h">
                                                             <h2 class="w-portfolio-item-title" style="font-size: 20px">
                                                                 KaribuSMS</h2><span
-                                                                    class="w-portfolio-item-text" style="font-size: 13px">Bulk SMS,CRM</span>
+                                                                    class="w-portfolio-item-text" style="font-size: 13px">Bulk SMS and Contacts Management</span>
                                                             <span class="w-portfolio-item-arrow"></span>
                                                         </div>
                                                     </div>

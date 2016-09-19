@@ -147,7 +147,7 @@
 
 			    </div>
 
-				@include('website/social-footer')
+				
 			</div>
 		    </div>
 		</div>
@@ -155,7 +155,7 @@
 	</main>
     </div>
 
-
+@include('website/social-footer')
 </div>
 <div class="l-navigation">
     <a class="l-navigation-item to_next" href="{{url('/service',['payment-integration'])}}">

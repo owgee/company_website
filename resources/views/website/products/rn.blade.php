@@ -100,11 +100,8 @@
                             </div>
                             <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
                                 <div class="in_column-inner">
-                                    <div class="w-image  align_center animate_afb"><img width="750" height="600"
-                                                                                        src="{{url('/')}}/website_assets/uploads/mobile-areas.png"
-                                                                                        class="attachment-large size-large"
-                                                                                        alt="Payment Types Dar es Salaam,Inets"
-                                                                                        sizes="(max-width: 750px) 100vw, 750px"/>
+                                    <div class="w-image  align_center animate_afb">
+					<p></p>
                                     </div>
                                 </div>
                             </div>

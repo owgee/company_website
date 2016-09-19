@@ -14,7 +14,7 @@
 @section('title', 'Terms of Service')
 @section('content')
 <div class="l-titlebar imgsize_cover size_medium color_alternate">
-    <div class="l-titlebar-h"><div class="l-titlebar-content"><h1 itemprop="headline">Terms of Service </h1></div><div class="g-breadcrumbs" xmlns:v=""><span typeof="v:Breadcrumb"><a class="g-breadcrumbs-item" rel="v:url" property="v:title" href="<?= url('/') ?>">Home</a></span> <span class="g-breadcrumbs-separator"></span> <span typeof="v:Breadcrumb"><a class="g-breadcrumbs-item" rel="v:url" property="v:title" href="<?= url('/terms_of_use') ?>">Terms of Service</a></span></div></div></div>
+    <div class="l-titlebar-h"><div class="l-titlebar-content"><h1 itemprop="headline">Terms of Service </h1></div><div class="g-breadcrumbs" xmlns:v=""><span typeof="v:Breadcrumb"><a class="g-breadcrumbs-item" rel="v:url" property="v:title" href="<?= url('/') ?>">Home</a></span> <span class="g-breadcrumbs-separator"></span> <span typeof="v:Breadcrumb"><a class="g-breadcrumbs-item" rel="v:url" property="v:title" href="<?= url('/terms-of-use') ?>">Terms of Service</a></span></div></div></div>
 <div class="l-main">
     <div class="l-main-h i-cf">
 	<main class="l-content" itemprop="mainContentOfPage">

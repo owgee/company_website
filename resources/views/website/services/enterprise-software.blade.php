@@ -81,9 +81,9 @@
 					<p>These include </p>
 					<ul>
 					    <li>Online Registration Systems</li>
-					    <li><a href="<?= url('/product/stock') ?>">Stock/Inventory Management system</a></li>
+					    <li><a href="http://stockdemo.inetstz.com/login" target="_blank">Stock/Inventory Management system</a></li>
 					    <li><a href="<?= url('/product/shulesoft') ?>">School Management system</a></li>
-					    <li><a href="<?= url('/product/file_tracking') ?>">File tracking software system</a></li>
+					    <li><a href="<?= url('/product/file-tracking') ?>">File tracking software system</a></li>
 					    <li>Hospital Management system</li>
 					    <li>Projects Management System</li>
 					    <li>Human Resource management system</li>
@@ -105,7 +105,7 @@
                     </div>
 
 
-                        <p>Talk to us about the solution you need, we are here for you <a class="w-btn-label" href="<?= url('/contact_us') ?>"> contact us now</a> or view <a href="https://play.google.com/store/apps/details?id=com.pspftz.pspftz" target="_blank">some of our mobile apps</a></p>
+                        <p>Talk to us about the solution you need, we are here for you <a class="w-btn-label" href="<?= url('/contact-us') ?>"> contact us now</a> or view <a href="https://play.google.com/store/apps/details?id=com.pspftz.pspftz" target="_blank">some of our mobile apps</a></p>
 
                 </div>
 			</div>
@@ -185,7 +185,7 @@
                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
                     </div>
 
-                        <p>Click to see some of our prideful customers <a class="w-btn-label" href="<?= url('/contact_us') ?>"> contact us now</a>, view our customer's testimonials <a href="{{url('portfolio')}}"><b> here</b></a></p>
+                        <p>Click to see some of our prideful customers <a class="w-btn-label" href="<?= url('/contact-us') ?>"> contact us now</a>, view our customer's testimonials <a href="{{url('testimonial')}}"><b> here</b></a></p>
 
                 </div>
 			</div>

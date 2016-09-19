@@ -11,6 +11,7 @@
  */
 ?>
 @extends('website.master')
+@section('title', 'Micro Blog')
 @section('content')
     <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
         <div class="l-titlebar-img"
@@ -125,7 +126,7 @@
                                 <div class="in_column-inner">
                                     <div class="wpb_text_column ">
                                         <div class="wpb_wrapper">
-                                            <h2>Launching of <a href="ors.brela.go.tz" target="_blank">OBRS</a> with the
+                                            <h2>Launching of <a href="https://ors.brela.go.tz" target="_blank">OBRS</a> with the
                                                 former Tanzania President, <a
                                                         href="https://en.wikipedia.org/wiki/Jakaya_Kikwete"
                                                         target="_blank">Dr Jakaya Mrisho Kikwete</a></h2>
@@ -214,7 +215,9 @@
             </main>
         </div>
     </div>
-    </div>
+   
+    @include('website/social-footer')
+     </div>
     <script>
         tag = function () {
             $('header').addClass("bg_transparent");

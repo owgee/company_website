@@ -61,7 +61,7 @@
 				<!--Place this tag where you want the +1 button to render.--> 
 				<div class="g-plusone" data-annotation="inline" data-width="300"></div>
 			    </div>
-			    <h6 class="w-counter-title">Google + Funs</h6>
+			    <h6 class="w-counter-title">Google + Fans</h6>
 			</div>
 		    </div>
 		</div>

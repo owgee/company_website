@@ -183,7 +183,7 @@
                                         <div class="w-iconbox-icon"><i class="mdfi_communication_phone"></i></div>
                                         <h4 class="w-iconbox-title">+255 655 406 004</h4></div>
                                     <div class="w-iconbox iconpos_left size_tiny style_default color_light">
-                                        <div class="w-iconbox-icon"><i class="mdfi_action_print"></i></div>
+                                        <div class="w-iconbox-icon"><i class="mdfi_communication_call"></i></div>
                                         <h4 class="w-iconbox-title">+255 22 278 0228</h4></div>
                                 </div>
                             </div>

@@ -10,7 +10,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 <head>
     <meta charset="UTF-8">
-    <title>Inets Company - @yield('title')</title>
+    <title>@yield('title')</title>
     <link rel="alternate" type="application/rss+xml" title="INETS website&raquo; Feed"
           href="#"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
     <meta name="Title" content="INETS Company Limited � Official Home Page" />
     <!--<meta name="CorrelationVector" content="MlxRoJqpv0OEKCvu.7" />-->
     <meta name='description' content='We are Software Development Company that offers online services and focus on enterprise software solutions, Payment System Design & Integration, Mobile applications and Linux Server Configuration' />
-    <meta name="keywords" content="Inets, Inets Company Limited, Software Development Company, Africa Enterprise Software companies , Mobile applications development, Payment System Design and Integration, Africa software development company, Tanzania software development company, Software company in Tanzania,karibuSMS, Hotleo,School Management software (shulesoft), File Tracking software, Stock manager software">
+    <meta name="keywords" content="Inets, Inets Company Limited, Software development company, web development, Web design, custom software, Linux Administration, Database design, Enterprise Software company , Mobile app development, Payment System Design and Integration, Credit & Debit card payment integration, mobile money (m-pesa,tigo-pesa & airtel-money) integration, PayPal payment integration, software development company, Tanzania software development company, Software company in Tanzania">
     <link rel="shortcut icon" href="http://inetstz.com/media/img/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 
@@ -226,7 +226,7 @@
 			    
                             <li id="menu-item-3594"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-3594">
-                                <a class="w-nav-anchor level_1" href="{{url('/service',['index'])}}"><span
+                                <a class="w-nav-anchor level_1" href="#"><span
                                             class="w-nav-title">Services</span><span class="w-nav-arrow"></span></a>
                                 <ul class="w-nav-list level_2">
 				         <li id="menu-item-3598"
@@ -275,10 +275,49 @@
 
                             {{--</li>--}}
 
+			    
+	
+			    
+			    
+			    
                             <li id="menu-item-4760"
-                                class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
+                                class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760  menu-item-has-children">
                                 <a class="w-nav-anchor level_1" href="{{url('',['products'])}}"><span class="w-nav-title">Products</span><span
                                             class="w-nav-arrow"></span></a>
+					    
+					     <ul class="w-nav-list level_2">
+				         <li id="menu-item-3598"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
+                                        <a class="w-nav-anchor level_2" href="{{url('/product',['shulesoft'])}}"><span
+                                                    class="w-nav-title">ShuleSoft</span><span
+                                                    class="w-nav-arrow"></span></a></li>
+				    <li id="menu-item-4257"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-4257">
+                                        <a class="w-nav-anchor level_3"
+                                           href="{{url('/product',['file-tracking'])}}"><span class="w-nav-title">E-Format File Tracking</span><span
+                                                    class="w-nav-arrow"></span></a>
+
+                                    </li>
+				    
+                                    <li id="menu-item-3597"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3597">
+                                        <a class="w-nav-anchor level_2" href="{{url('/product',['karibusms'])}}"><span
+                                                    class="w-nav-title">KaribuSMS</span><span
+                                                    class="w-nav-arrow"></span></a></li>
+                               
+                                    <li id="menu-item-3612"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3612">
+                                        <a class="w-nav-anchor level_2" href="{{url('/product',['rn'])}}"><span
+                                                    class="w-nav-title">Pre-paid Meters</span><span
+                                                    class="w-nav-arrow"></span></a></li>
+                                    <li id="menu-item-3595"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3595">
+                                        <a class="w-nav-anchor level_2" href="{{url('/product',['staytz'])}}"><span
+                                                    class="w-nav-title">StayTZ</span><span
+                                                    class="w-nav-arrow"></span></a></li>
+                                    
+                                </ul>
+				
                             </li>
                             <li id="menu-item-4759"
                                 class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
@@ -299,7 +338,8 @@
                                 <div class="w-search-close"></div>
                             </form>
                         </div>
-                        <a class="w-search-open" href="javascript:void(0);"></a></div>
+                        <!--<a class="w-search-open" href="javascript:void(0);"></a>-->
+		    </div>
 
                 </div>
 

@@ -21,10 +21,10 @@
                         <div class="g-cols offset_none">
                             <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394418">
                                 <div class="in_column-inner">
-                                    <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                                        src="{{url('/')}}/website_assets/uploads/stay-tz-600x400.jpg"
+                                    <div class="w-image  align_center animate_afb"><img 
+                                                                                        src="{{url('/')}}/website_assets/uploads/staytz.jpg"
                                                                                         class="attachment-large size-large"
-                                                                                        alt="ShuleSoft - School Managment System"
+                                                                                        alt="StayTZ Mobile app"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@
                                     <div class="wpb_text_column ">
                                         <div class="wpb_wrapper">
                                             <h2>Hotels, Lodges, Conference Halls & Guest Houses</h2>
-                                            <p>Quickly search for a variety of stay options in Cities and Towns in the
+                                            <p>This android app, allows you to Quickly search for a variety of stay options in Cities and Towns in the
                                                 United Republic of TANZANIA such as Hotels and Lodges, Holiday Homes,
                                                 Apartments, Guesthouses, Halls for Conferences, Meetings, Wedding
                                                 Reception or Social

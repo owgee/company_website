@@ -8,7 +8,7 @@
             <div class="g-cols offset_medium">
                 <div class="in_col-sm-6">
                     <div id="text-7" class="widget widget_text"><h4>About INETS</h4>
-                        <div class="textwidget">We are software development company, design and develop Enterprise applications, payment systems, mobile applications, databases configurations and Linux servers administration.
+                        <div class="textwidget">We are software development company. We design and develop Enterprise applications, payment systems, mobile applications, databases configurations and Linux servers administration.
                         </div>
                     </div>
                     <div id="us_socials-2" class="widget widget_us_socials">
@@ -141,4 +141,13 @@ $(document).ready(search);
 <noscript>
 <div>Please enable Javascript</div>
 </noscript>
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?4DqcIlTboYBPak8L3QdjXRW7YnbWhReK";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
 @yield('footer')

@@ -86,7 +86,8 @@
                                                              style="background-color: #80d8ff;box-shadow: 0 0 0 2px #80d8ff inset;color: #ffffff;">
                                                             <i class="mdfi_image_compare"></i></div>
                                                         <h4 class="w-iconbox-title">Payment Integration</h4></a>
-                                                    <div class="w-iconbox-text">We provide electronic payment solution for your system which covers;
+                                                    <div class="w-iconbox-text">
+							We provide electronic payment solution for your system which covers;
                                                         •	Mobile payment systems integration
                                                         (TigoPesa, M-pesa and Airtel Money).
                                                         •	Integration with local banks for direct transfer of collected funds.
