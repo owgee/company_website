@@ -9,7 +9,11 @@
 @section('title', 'ShuleSoft School Management System')
 @section('content')
 
-    <div class="l-titlebar imgsize_cover size_large color_alternate">
+<div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
+        <div class="l-titlebar-img"
+             style="background-image: url({{url("/")}}/website_assets/img/student.jpg)"
+             data-img-width="1920" data-img-height="1280"></div>
+        <div class="l-titlebar-overlay" style="background-color:rgba(28,28,28,0.3)"></div>
         <div class="l-titlebar-h">
             <div class="l-titlebar-content"><h1 itemprop="headline">ShuleSoft</h1></div>
         </div>
@@ -23,7 +27,7 @@
                             <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394418">
                                 <div class="in_column-inner">
                                     <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                                        src="{{url('/')}}/website_assets/uploads/shulesoft-600x400.jpg"
+                                                                                        src="{{url('/')}}/website_assets/img/shulesoft.jpg"
                                                                                         class="attachment-large size-large"
                                                                                         alt="ShuleSoft - School Managment System"
                                                                                         sizes="(max-width: 750px) 100vw, 750px"/>
