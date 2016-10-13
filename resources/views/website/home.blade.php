@@ -1056,7 +1056,7 @@
 					    <div class="w-iconbox iconpos_left size_small style_default color_light">
 						<div class="w-iconbox-icon"><i class="fa fa-hand-pointer-o"></i>
 						</div>
-						<h4 class="w-iconbox-title">Enthusiastic</h4>
+						<h4 class="w-iconbox-title">Enthusiasm</h4>
 						<div class="w-iconbox-text">Being ambitious is what we need any of us to be. We are in love with what we are doing to achieve high quality, with professional engineering standards, and rely on the feature technology.
 						    priority.</p>
 						</div>
@@ -1069,56 +1069,51 @@
 		    </div>
 		</div>
 	    </section>
-	    <section class="l-section wpb_row height_medium color_alternate" id="clients">
-		<div class="l-section-h i-cf">
-		    <div class="g-cols offset_medium">
-			<div class="in_col-sm-12 wpb_column in_column_container">
-			    <div class="in_column-inner">
-				<div class="wpb_text_column ">
-				    <div class="wpb_wrapper">
-					<h1 style="text-align: center">Our Clients</h1>
-				    </div>
+		<section class="l-section wpb_row height_medium color_alternate" id="clients">
+			<div class="l-section-h i-cf">
+				<div class="g-cols offset_medium">
+					<div class="in_col-sm-12 wpb_column in_column_container animate_afb">
+						<div class="in_column-inner">
+							<div class="wpb_text_column ">
+								<div class="wpb_wrapper">
+									<h2 style="text-align: center">Our Clients</h2>
+								</div>
+							</div>
+							<div class="w-logos style_1 nav_arrows type_carousel cols_5">
+								<div class="w-logos-list" data-items="4" data-autoplay="1" data-timeout="3000"
+									 data-nav="0"><a class="w-logos-item style_1 nav_arrows type_carousel cols_5"
+													 href="#"><img width="500" height="250"
+																   src="website_assets/uploads/logo/brela-logo-500x250.png"
+																   class="attachment-medium size-medium"
+																   alt="BRELA"/></a>
+									<div class="w-logos-item"><img width="500" height="250"
+																   src="website_assets/uploads/logo/pspf-logo-500x250.png"
+																   class="attachment-medium size-medium"
+																   alt="PSPF"/></div>
+									<div class="w-logos-item"><img width="500" height="250"
+																   src="website_assets/uploads/logo/mafge-logo-500x250.png"
+																   class="attachment-medium size-medium"
+																   alt="MAFGE"/></div>
+									<div class="w-logos-item"><img width="500" height="250"
+																   src="website_assets/uploads/logo/karibusms-logo-500x250.png"
+																   class="attachment-medium size-medium"
+																   alt="KaribuSMS"/></div>
+									<div class="w-logos-item"><img width="500" height="250"
+																   src="website_assets/uploads/logo/br-logo-500x250.png"
+																   class="attachment-medium size-medium"
+																   alt="BR Solutions"/></div>
+									<div class="w-logos-item"><img width="500" height="250"
+																   src="website_assets/uploads/logo/staytz-logo-500x250.png"
+																   class="attachment-medium size-medium"
+																   alt="StayTz"/></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="w-separator type_short size_medium thick_1 style_solid color_border cont_icon">
-				    <span class="w-separator-h"><i class="mdfi_action_grade"></i></span></div>
-
-				<div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
-				    <span class="w-separator-h"></span></div>
-				<div class="w-logos style_1 nav_none type_carousel cols_5">
-				    <div class="w-logos-list" data-items="4" data-autoplay="1" data-timeout="3000"
-					 data-nav="0"><a class="w-logos-item style_1 nav_none type_carousel cols_5"
-						    href="#"><img width="500" height="250"
-						      src="website_assets/uploads/logo/brela-logo-500x250.png"
-						      class="attachment-medium size-medium"
-						      alt="BRELA"/></a>
-					<div class="w-logos-item"><img width="500" height="250"
-								       src="website_assets/uploads/logo/pspf-logo-500x250.png"
-								       class="attachment-medium size-medium"
-								       alt="PSPF"/></div>
-					<div class="w-logos-item"><img width="500" height="250"
-								       src="website_assets/uploads/logo/mafge-logo-500x250.png"
-								       class="attachment-medium size-medium"
-								       alt="MAFGE"/></div>
-					<div class="w-logos-item"><img width="500" height="250"
-								       src="website_assets/uploads/logo/karibusms-logo-500x250.png"
-								       class="attachment-medium size-medium"
-								       alt="KaribuSMS"/></div>
-					<div class="w-logos-item"><img width="500" height="250"
-								       src="website_assets/uploads/logo/br-logo-500x250.png"
-								       class="attachment-medium size-medium"
-								       alt="BR Solutions"/></div>
-					<div class="w-logos-item"><img width="500" height="250"
-								       src="website_assets/uploads/logo/staytz-logo-500x250.png"
-								       class="attachment-medium size-medium"
-								       alt="StayTz"/></div>
-				    </div>
-				</div>
-			    </div>
 			</div>
-		    </div>
-		</div>
-		</div>
-	    </section>
+		</section>
+
         </main>
     </div>
  @include('website/social-footer')
