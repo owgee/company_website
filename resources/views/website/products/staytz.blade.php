@@ -160,13 +160,4 @@
             </a>
         </div>
     </div>
-
-    <script>
-        tag = function () {
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop

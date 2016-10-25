@@ -111,7 +111,8 @@
                             <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
                                 <div class="in_column-inner">
                                     <div class="vc_empty_space  blank-column" style="height: 10px"><span
-                                                class="vc_empty_space_inner"></span></div>
+                                                class="vc_empty_space_inner"></span>
+				    </div>
                                 </div>
                             </div>
                         </div>
@@ -247,12 +248,4 @@
         </a>
     </div>
     @include('website/social-footer')
-    <script>
-        tag = function () {
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop

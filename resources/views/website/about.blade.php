@@ -3,19 +3,14 @@
 <link rel='stylesheet' id='bsf-Defaults-css'
     href='{{url('/')}}/website_assets/uploads/smile_fonts/Defaults/Defaults62d0.css?ver=4.5.3' type='text/css' media='all'/>
 @section('content')
-    <div class="l-titlebar imgsize_cover parallax_ver size_large color_primary">
-        <div class="l-titlebar-img" style="background-image: url({{url('')}}/website_assets/uploads/about.png)"
-             data-img-width="1920" data-img-height="1329"></div>
-        <div class="l-titlebar-overlay" style="background-color:rgba(0,0,0,0.1)"></div>
-        <div class="l-titlebar-h">
-            <div class="l-titlebar-content"><h1 itemprop="headline">WE MAKE YOUR IMAGINATION A REALITY</h1></div>
-            <div class="g-breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
-                            class="g-breadcrumbs-item" rel="v:url" property="v:title"
-                            href="/">Home</a></span><span
-                        class="g-breadcrumbs-separator"></span> <span
-                        class="g-breadcrumbs-item">WE TURN YOUR IMAGINATION INTO REALITY</span></div>
-        </div>
+   <div class="l-titlebar imgsize_cover size_large color_alternate">
+       <div class="l-titlebar-img"
+             style="background-image: url({{url("/")}}/website_assets/img/about.jpg)"
+             data-img-width="1920" data-img-height="1280"></div>
+    <div class="l-titlebar-h">
+	<div class="l-titlebar-content"><h1 itemprop="headline">About us</h1></div>
     </div>
+</div>
     <div class="l-main">
         <div class="l-main-h i-cf">
             <main class="l-content" itemprop="mainContentOfPage">
@@ -536,12 +531,4 @@
               src='{{url('/')}}/website_assets/themes/framework/js/jquery.parallax5589.js?ver=3.4.1'></script>
     <script type='text/javascript'
               src='{{url('/')}}/website_assets/themes/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
-    <script>
-        tag=function(){
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop

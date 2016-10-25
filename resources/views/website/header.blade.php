@@ -201,29 +201,15 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-3594">
                                 <a class="w-nav-anchor level_1" href="{{url('/about')}}"><span
                                             class="w-nav-title">About us</span><span class="w-nav-arrow"></span></a>
-                                <ul class="w-nav-list level_2">
-<!--				         <li id="menu-item-3598"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
-                                        <a class="w-nav-anchor level_2" href="{{url('/career')}}"><span
-                                                    class="w-nav-title">Career</span><span
-                                                    class="w-nav-arrow"></span></a></li>-->
-						    
-						     <li id="menu-item-3598"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-3598">
-                                        <a class="w-nav-anchor level_2" href="{{url('/events')}}"><span
-                                                    class="w-nav-title">Micro Blog</span><span
-                                                    class="w-nav-arrow"></span></a></li>
-						    
-				    <li id="menu-item-4257"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-4257">
-                                        <a class="w-nav-anchor level_3"
-                                           href="{{url('/testimonial')}}"><span class="w-nav-title">Testimonials</span><span
-                                                    class="w-nav-arrow"></span></a>
-
-                                    </li>
-                                </ul>
                             </li>
-			    
+			     <li id="menu-item-4759"
+                                class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
+                                <a class="w-nav-anchor level_1" href="{{url('/testimonial')}}"><span class="w-nav-title">Testimonials</span><span
+                                            class="w-nav-arrow"></span></a></li>
+			    <li id="menu-item-4759"
+                                class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-4760">
+                                <a class="w-nav-anchor level_1" href="{{url('/events')}}"><span class="w-nav-title">Events</span><span
+                                            class="w-nav-arrow"></span></a></li>
                             <li id="menu-item-3594"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children w-nav-item level_1 menu-item-3594">
                                 <a class="w-nav-anchor level_1" href="#"><span

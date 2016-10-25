@@ -36,39 +36,39 @@
 			</div>
 
 
-                <div class="in_col-sm-4 wpb_column in_column_container">
-                    <div class="in_column-inner">
-                        <div class="wpb_text_column ">
-                            <div class="wpb_wrapper">
-                                <h3>Introduction</h3>
-                                <p>Enterprise software solutions are software solutions created specifically for corporate organizations and SMEs to solve specific needs</p>
-                                <p>INETS we offers custom Software solutions that cover all enterprise needs starting from online web applications to offline desktop based applications </p>
-                                <h4>Our customers</h4>
-                                <p>INETS provides solutions to a number of organizations including;
-                                <ul>
-                                    <li>Government agencies</li>
-                                    <li>Manufacturing companies</li>
-                                    <li>Educational Institutions</li>
-                                    <li>Banks & Financial institutions</li>
-                                    <li>Hospitals</li>
-                                    <li>and others</li>
+			<div class="in_col-sm-4 wpb_column in_column_container">
+			    <div class="in_column-inner">
+				<div class="wpb_text_column ">
+				    <div class="wpb_wrapper">
+					<h3>Introduction</h3>
+					<p>Enterprise software solutions are software solutions created specifically for corporate organizations and SMEs to solve specific needs</p>
+					<p>INETS we offers custom Software solutions that cover all enterprise needs starting from online web applications to offline desktop based applications </p>
+					<h4>Our customers</h4>
+					<p>INETS provides solutions to a number of organizations including;
+					<ul>
+					    <li>Government agencies</li>
+					    <li>Manufacturing companies</li>
+					    <li>Educational Institutions</li>
+					    <li>Banks & Financial institutions</li>
+					    <li>Hospitals</li>
+					    <li>and others</li>
 
-                                </ul>
-                                Our approach is creating custom Software starting from requirements collection from the customer, Design, Development, Testing, Commissioning and Maintenance.
-                            </div>
-                        </div>
-                        <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
-                            <span class="w-separator-h"><i class="fa fa-star"></i></span></div>
-                        <div class="w-tabs layout_default accordion type_togglable title_left icon_plus iconpos_right ">
-                            <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
-                                <span class="w-separator-h"><i class="fa fa-star"></i></span></div>
+					</ul>
+					Our approach is creating custom Software starting from requirements collection from the customer, Design, Development, Testing, Commissioning and Maintenance.
+				    </div>
+				</div>
+				<div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
+				    <span class="w-separator-h"><i class="fa fa-star"></i></span></div>
+				<div class="w-tabs layout_default accordion type_togglable title_left icon_plus iconpos_right ">
+				    <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_icon">
+					<span class="w-separator-h"><i class="fa fa-star"></i></span></div>
 
-                        </div>
-                    </div>
-                </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
 		</div>
-            </div>
-        </section>
+	    </section>
 
 	    <section class="l-section wpb_row height_auto width_full">
 		<div class="l-section-h i-cf">
@@ -96,18 +96,18 @@
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-                <div class="in_column-inner">
-                    <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                        src="{{url('/')}}/website_assets/uploads/solutions.png"
-                                                                        class="attachment-large size-large"
-                                                                        alt="Payment Types Dar es Salaam,Inets"
-                                                                        sizes="(max-width: 750px) 100vw, 750px"/>
-                    </div>
+			    <div class="in_column-inner">
+				<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+										    src="{{url('/')}}/website_assets/uploads/solutions.png"
+										    class="attachment-large size-large"
+										    alt="Payment Types Dar es Salaam,Inets"
+										    sizes="(max-width: 750px) 100vw, 750px"/>
+				</div>
 
 
-                        <p>Talk to us about the solution you need, we are here for you <a class="w-btn-label" href="<?= url('/contact-us') ?>"> contact us now</a> or view <a href="https://play.google.com/store/apps/details?id=com.pspftz.pspftz" target="_blank">some of our mobile apps</a></p>
+				<p>Talk to us about the solution you need, we are here for you <a class="w-btn-label" href="<?= url('/contact-us') ?>"> contact us now</a> or view <a href="https://play.google.com/store/apps/details?id=com.pspftz.pspftz" target="_blank">some of our mobile apps</a></p>
 
-                </div>
+			    </div>
 			</div>
 		    </div>
 		</div>
@@ -121,18 +121,18 @@
 
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-                <div class="in_column-inner">
-                    <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                        src="{{url('/')}}/website_assets/uploads/reporting.png"
-                                                                        class="attachment-large size-large"
-                                                                        alt="Payment Types Dar es Salaam,Inets"
-                                                                        sizes="(max-width: 750px) 100vw, 750px"/>
-                    </div>
+			    <div class="in_column-inner">
+				<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+										    src="{{url('/')}}/website_assets/uploads/reporting.png"
+										    class="attachment-large size-large"
+										    alt="Payment Types Dar es Salaam,Inets"
+										    sizes="(max-width: 750px) 100vw, 750px"/>
+				</div>
 
 
-                        <p>Want to be a part of the benefiting INETS Customers? <a class="w-btn-label" href="<?= url('/contact-us') ?>"> Let us know</a> or view <a href="https://play.google.com/store/apps/details?id=com.pspftz.pspftz" target="_blank">some of our mobile apps</a></p>
+				<p>Want to be a part of the benefiting INETS Customers? <a class="w-btn-label" href="<?= url('/contact-us') ?>"> Let us know</a> or view <a href="https://play.google.com/store/apps/details?id=com.pspftz.pspftz" target="_blank">some of our mobile apps</a></p>
 
-                </div>
+			    </div>
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container">
 			    <div class="in_column-inner">
@@ -161,33 +161,33 @@
 		    <div class="g-cols offset_none">
 			<div class="in_col-sm-6 wpb_column in_column_container">
 			    <div class="in_column-inner">
-				    <div class="wpb_wrapper">
-					<h2>Why many trust us</h2>
-					<p>
-					    Being trusted by reputable organizations is not easy, INETS has a special niche that creates great trust in our customers<br>
-					    These includes;</p>
-					<ol>
-					    <li>Professionalism</li>
-					    <li>Great care & customer support</li>
-					    <li>Integrity</li>
-					</ol>
-				    </div>
+				<div class="wpb_wrapper">
+				    <h2>Why many trust us</h2>
+				    <p>
+					Being trusted by reputable organizations is not easy, INETS has a special niche that creates great trust in our customers<br>
+					These includes;</p>
+				    <ol>
+					<li>Professionalism</li>
+					<li>Great care & customer support</li>
+					<li>Integrity</li>
+				    </ol>
+				</div>
 
 			    </div>
 			</div>
 			<div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437658268320">
 
-                <div class="in_column-inner">
-                    <div class="w-image  align_center animate_afb"><img width="750" height="1000"
-                                                                        src="{{url('/')}}/website_assets/uploads/trust-us.png"
-                                                                        class="attachment-large size-large"
-                                                                        alt="Payment Types Dar es Salaam,Inets"
-                                                                        sizes="(max-width: 750px) 100vw, 750px"/>
-                    </div>
+			    <div class="in_column-inner">
+				<div class="w-image  align_center animate_afb"><img width="750" height="1000"
+										    src="{{url('/')}}/website_assets/uploads/trust-us.png"
+										    class="attachment-large size-large"
+										    alt="Payment Types Dar es Salaam,Inets"
+										    sizes="(max-width: 750px) 100vw, 750px"/>
+				</div>
 
-                        <p>Click to see some of our prideful customers <a class="w-btn-label" href="<?= url('/contact-us') ?>"> contact us now</a>, view our customer's testimonials <a href="{{url('testimonial')}}"><b> here</b></a></p>
+				<p>Click to see some of our prideful customers <a class="w-btn-label" href="<?= url('/contact-us') ?>"> contact us now</a>, view our customer's testimonials <a href="{{url('testimonial')}}"><b> here</b></a></p>
 
-                </div>
+			    </div>
 			</div>
 		    </div>
 		</div>
@@ -200,7 +200,7 @@
 	<div class="l-navigation-item-arrow"></div>
 	<div class="l-navigation-item-preview">
 	    <img src="{{url('/')}}/website_assets/uploads/karibusms.png" width="150"
-	    height="150" alt="Mobile Application Development">
+		 height="150" alt="Mobile Application Development">
 	</div>
 	<div class="l-navigation-item-title">
 	    <span>Mobile Apps Design</span>
@@ -210,7 +210,7 @@
 	<div class="l-navigation-item-arrow"></div>
 	<div class="l-navigation-item-preview">
 	    <img src="{{url('/')}}/website_assets/uploads/database.png" width="150" height="150"
-	    alt="Database Management">
+		 alt="Database Management">
 	</div>
 	<div class="l-navigation-item-title">
 	    <span>Database Design</span>

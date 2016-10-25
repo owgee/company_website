@@ -13,20 +13,11 @@
 @extends('website.master')
 @section('title', 'Micro Blog')
 @section('content')
-    <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-        <div class="l-titlebar-img"
-             style="background-image: url({{url("/")}}/website_assets/uploads/about.jpg)"
-             data-img-width="1920" data-img-height="1280"></div>
-        <div class="l-titlebar-overlay" style="background-color:rgba(28,28,28,0.3)"></div>
-        <div class="l-titlebar-h">
-            <div class="l-titlebar-content"><h1 itemprop="headline">Some Events</h1></div>
-            <div class="g-breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
-                            class="g-breadcrumbs-item" rel="v:url" property="v:title"
-                            href="<?= url('/') ?>">Home</a></span>
-                <span class="g-breadcrumbs-separator"></span> <span class="g-breadcrumbs-item">Micro blog</span>
-            </div>
-        </div>
+   <div class="l-titlebar imgsize_cover size_large color_alternate">
+    <div class="l-titlebar-h">
+	<div class="l-titlebar-content"><h1 itemprop="headline">Events</h1></div>
     </div>
+</div>
     <div class="l-main">
         <div class="l-main-h i-cf">
             <main class="l-content" itemprop="mainContentOfPage">
@@ -47,13 +38,13 @@
                                 <div class="in_column-inner">
                                     <div class="wpb_text_column ">
                                         <div class="wpb_wrapper">
-                                            <h2>Interview with Tanzania Broadcasting Corporation (TBC)</h2>
+                                            <h2>Interview with <a href="http://www.tbc.go.tz/" target="_blank">Tanzania Broadcasting Corporation (TBC)</a></h2>
                                             <time class="w-blog-post-meta-date date updated">August 30th, 2016</time>
 
 
-                                            <p><br/>TBC after identifying our potential in payment systems design and
-                                                integration, they decided to visit our offices to have an interview with
-                                                us about our technology.
+                                            <p><br/>TBC after knowing our payment systems design and
+                                                integration solution, they decided to visit our offices to have an interview with
+                                                us about our technology, challanges and opportunities.
                                         </div>
                                     </div>
                                 </div>
@@ -218,12 +209,4 @@
    
     @include('website/social-footer')
      </div>
-    <script>
-        tag = function () {
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop

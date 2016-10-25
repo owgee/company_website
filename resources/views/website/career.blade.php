@@ -141,14 +141,7 @@
             </div>
         </div>
     </section>
-    <script>
-        tag=function(){
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
+ 
     <script>
         //    function initMap() {
         //        var map = new google.maps.Map(document.getElementById('map-section'), {

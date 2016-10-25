@@ -8,20 +8,15 @@
 @extends('website.master')
 @section('title', 'ShuleSoft School Management System')
 @section('content')
-
-<div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-        <div class="l-titlebar-img"
-             style="background-image: url({{url("/")}}/website_assets/img/student.jpg)"
-             data-img-width="1920" data-img-height="1280"></div>
-        <div class="l-titlebar-overlay" style="background-color:rgba(28,28,28,0.3)"></div>
-        <div class="l-titlebar-h">
-            <div class="l-titlebar-content"><h1 itemprop="headline">ShuleSoft</h1></div>
-        </div>
+<div class="l-titlebar imgsize_cover size_large color_alternate">
+    <div class="l-titlebar-h">
+	<div class="l-titlebar-content"><h1 itemprop="headline">ShuleSoft</h1></div>
     </div>
+</div>
     <div class="l-main">
         <div class="l-main-h i-cf">
             <main class="l-content" itemprop="mainContentOfPage">
-                <section class="l-section wpb_row height_auto width_full">
+                <section class="">
                     <div class="l-section-h i-cf">
                         <div class="g-cols offset_none">
                             <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394418">
@@ -53,6 +48,61 @@
                             </div>
                         </div>
                     </div>
+                </section>
+		<section class="l-section height_medium color_custom" id="custom" style="background-color: #1c1f21; color: #c2c4c5;">
+                    <div class="l-section-h i-cf">
+                        <div class="g-cols offset_medium">
+                            <div class="in_col-sm-12 wpb_column in_column_container">
+                                <div class="in_column-inner">
+                                    <div class="wpb_text_column ">
+                                        <div class="wpb_wrapper">
+					    <br/>
+                                            <h2 style="text-align: center">Major <span class="highlight highlight_secondary"><strong>Benefits</strong></span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="w-separator type_invisible size_medium thick_1 style_solid color_border cont_none">
+                                        <span class="w-separator-h"></span></div>
+                                    <div class="g-cols wpb_row offset_medium vc_inner ">
+                                        <div class="in_col-sm-4 wpb_column in_column_container">
+                                            <div class="in_column-inner">
+                                                <div class="w-iconbox iconpos_top size_large style_circle color_contrast">
+                                                    <a class="w-iconbox-link" href="#">
+                                                        <div class="w-iconbox-icon"><i class="mdfi_hardware_phonelink"></i><span class="ripple-container"></span></div>
+                                                        <h4 class="w-iconbox-title">Reduce OPEX</h4></a>
+                                                    <div class="w-iconbox-text">By using ShuleSoft, your costs of operation will be highly reduce as most operations will be via the software, you will save money for stationary (paper based), buying books online, etc
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="in_col-sm-4 wpb_column in_column_container">
+                                            <div class="in_column-inner">
+                                                <div class="w-iconbox iconpos_top size_large style_circle color_contrast">
+                                                    <a class="w-iconbox-link" href="#">
+                                                        <div class="w-iconbox-icon"><i class="mdfi_action_favorite_outline"></i><span class="ripple-container"></span></div>
+                                                        <h4 class="w-iconbox-title">Improve School Performance</h4></a>
+                                                    <div class="w-iconbox-text">With ShuleSoft, the time taken to accomplish tasks like markings, creating invoices, generate reports, etc will now be done in seconds. School will need less manpower to accomplish tasks with more accuracy than manual operation
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="in_col-sm-4 wpb_column in_column_container">
+                                            <div class="in_column-inner">
+                                                <div class="w-iconbox iconpos_top size_large style_circle color_contrast">
+                                                    <a class="w-iconbox-link" href="#">
+                                                        <div class="w-iconbox-icon"><i class="mdfi_image_landscape"></i>
+                                                        <span class="ripple-container"></span></div>
+                                                        <h4 class="w-iconbox-title">Simplicity in Usage</h4></a>
+                                                    <div class="w-iconbox-text">ShuleSoft allow different users and stakeholders involved in education to collectively work together to improve your school education. ShuleSoft can be accessed in Computer, mobile phones and in tablets at any location 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		    <br/><br/>
                 </section>
                 <section class="l-section wpb_row height_auto width_full">
                     <div class="l-section-h i-cf">
@@ -133,17 +183,14 @@
                         </div>
                     </div>
                 </section>
-                <section class="l-section wpb_row height_auto width_full">
+                <section class="l-section wpb_row  width_full">
                     <div class="l-section-h i-cf">
-                        <div class="g-cols offset_none">
-                            <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394425">
-                                <div class="in_column-inner">
-                                    <div class="wpb_text_column ">
+                        <div class="g-cols offset-l2" style="padding-left: 5%; padding-right: 13%;">
+                            <div class="in_col-sm-6 wpb_column in_column_container">
+                                  <div class="in_column-inner ">
 
                                         <h2>Benefits of using ShuleSoft</h2>
-                                            {{--<div class="vc_empty_space  blank-column" style="height: 10px"><span--}}
-                                            {{--class="vc_empty_space_inner"></span></div>--}}
-
+                                         
                                                 <ul>
                                                     <li>Improve Transparency and accountability in school management to all management levels</li>
                                                     <li>Easy generation of school statistics based on records and data generated. For example, school performance, employee status, payment transactions etc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
@@ -156,12 +203,12 @@
 
 
                                     </div>
-                                </div>
+                                
                                 </div>
                                 <div class="in_col-sm-6 wpb_column in_column_container">
                                     <div class="in_column-inner">
                                         <div class="wpb_text_column ">
-                                            <div class="wpb_wrapper">
+                                            <div class="wpb_wrapper" style="padding-left: 5%;">
                                                 <h2>ShuleSoft Users</h2>
                                                 <p>ShuleSoft School Management System has a vast number of users who fit
                                                     the
@@ -304,12 +351,4 @@
         </a>
     </div>
  @include('website/social-footer')
-    <script>
-        tag=function(){
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop
