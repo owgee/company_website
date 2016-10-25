@@ -239,12 +239,12 @@
 				<div class="w-tabs layout_default icon_chevron iconpos_right ">
 				    <div class="w-tabs-list items_3">
 					<div class="w-tabs-list-h">
-					    <div class="w-tabs-item active with_icon"><a href="#1415175941-1-11"
+					    <div class="w-tabs-item with_icon"><a href="#1415175941-1-11"
 											 class="w-tabs-item-h"><i
 							class="mdfi_action_settings"></i><span
 							class="w-tabs-item-title">Who we are</span></a>
 					    </div>
-					    <div class="w-tabs-item with_icon"><a href="#1415175941-2-63"
+					    <div class="w-tabs-item active with_icon"><a href="#1415175941-2-63"
 										  class="w-tabs-item-h"><i
 							class="mdfi_hardware_laptop_mac"></i><span
 							class="w-tabs-item-title">What we do</span></a>
@@ -278,7 +278,7 @@
 								<h2 style="text-align: center">WHO WE ARE</h2>
 								<h5 style="text-align: center"><span
 									class="highlight highlight_faded">We are Software Development company founded under strong beliefs and focus<br>
-									to solve our local problems and bring solutions to boost efficiencies in government, private institutions and in communities.</span>
+									to solve our local problems and bring solutions to boost efficiency in government, private institutions and in communities.</span>
 								</h5>
 							    </div>
 							</div>
