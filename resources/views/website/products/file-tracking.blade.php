@@ -13,15 +13,11 @@
             <div class="l-titlebar-content"><h1 itemprop="headline">File Tracking</h1></div>
         </div>
     </div>-->
- <div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-        <div class="l-titlebar-img"
-             style="background-image: url({{url("/")}}/website_assets/uploads/file.jpg)"
-             data-img-width="1920" data-img-height="1280"></div>
-        <div class="l-titlebar-overlay" style="background-color:rgba(28,28,28,0.3)"></div>
-        <div class="l-titlebar-h">
-            <div class="l-titlebar-content"><h1 itemprop="headline">File Tracking System</h1></div>
-        </div>
+<div class="l-titlebar imgsize_cover size_large color_alternate">
+    <div class="l-titlebar-h">
+	<div class="l-titlebar-content"><h1 itemprop="headline">E-Formats System</h1></div>
     </div>
+</div>
     <div class="l-main">
         <div class="l-main-h i-cf">
             <main class="l-content" itemprop="mainContentOfPage">
@@ -134,12 +130,4 @@
         </a>
     </div>
  @include('website/social-footer')
-    <script>
-        tag = function () {
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop

@@ -86,14 +86,14 @@
 						    data-slotamount="7" data-hideafterloop="0"
 						    data-hideslideonmobile="off" data-easein="default"
 						    data-easeout="default" data-masterspeed="500"
-						    data-thumb="website_assets/uploads/shutterstock_215536837-100x50.jpg"
+						    data-thumb="website_assets/img/system.jpg"
 						    data-rotate="0" data-saveperformance="off"
 						    data-title="Ken Burns Slide" data-param1="" data-param2=""
 						    data-param3="" data-param4="" data-param5="" data-param6=""
 						    data-param7="" data-param8="" data-param9="" data-param10=""
 						    data-description="">
 
-						    <img src="website_assets/uploads/inets-bg.jpg"
+						    <img src="website_assets/img/system.jpg"
 							 alt="" title="Sunset" width="1920" height="1190"
 							 data-bgposition="left center" data-kenburns="on"
 							 data-duration="12000" data-ease="Linear.ease"
@@ -124,7 +124,7 @@
 							 data-splitin="none" data-splitout="none"
 							 data-responsive_offset="on"
 							 style="z-index: 6; white-space: nowrap;text-transform:left;font-style:italic;border-color:rgba(255, 255, 255, 1.00);">
-							Know how you can also benefit from our custom software solutions
+							Improve your business with our custom software solutions
 						    </div>
 
 						    <div class="tp-caption black  " id="slide-5-layer-3"
@@ -140,7 +140,7 @@
 								class="w-btn style_raised color_white icon_atleft"
 								href="<?= url('/service/enterprise-software') ?>"><i
 								    class="fa fa-arrow-down"></i><span
-								    class="w-btn-label">View More</span></a>
+								    class="w-btn-label">Learn More</span></a>
 							</div>
 						    </div>
 						</li>

@@ -13,22 +13,9 @@
 @extends('website.master')
 @section('title', 'Customer Testimonials')
 @section('content')
-{{--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
-{{--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>--}}
-{{--<script type='text/javascript'--}}
-{{--src='{{url('/')}}/website_assets/themes/framework/js/gmaps.min62d0.js?ver=4.5.3'></script>--}}
-<div class="l-titlebar imgsize_cover parallax_ver size_huge color_primary">
-    <div class="l-titlebar-img"
-	 style="background-image: url({{url("/")}}/website_assets/uploads/iso.jpg)"
-	 data-img-width="1920" data-img-height="1280"></div>
-    <div class="l-titlebar-overlay" style="background-color:rgba(28,28,28,0.3)"></div>
+<div class="l-titlebar imgsize_cover size_large color_alternate">
     <div class="l-titlebar-h">
-	<div class="l-titlebar-content"><h1 itemprop="headline">Testimonials</h1></div>
-	<div class="g-breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a
-		    class="g-breadcrumbs-item" rel="v:url" property="v:title"
-		    href="<?= url('/') ?>">Home</a></span>
-	    <span class="g-breadcrumbs-separator"></span> <span class="g-breadcrumbs-item">Testimonials</span>
-	</div>
+	<div class="l-titlebar-content"><h1 itemprop="headline">Customer Appreciations</h1></div>
     </div>
 </div>
 <div class="l-main">
@@ -152,13 +139,4 @@
     @include('website/social-footer')
 </div>
 </div>
-
-<script>
-    tag = function () {
-	$('header').addClass("bg_transparent");
-    }
-    $(document).ready(tag);
-
-
-</script>
 @stop

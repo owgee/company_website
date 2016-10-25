@@ -16,10 +16,10 @@
     <div class="l-main">
         <div class="l-main-h i-cf">
             <main class="l-content" itemprop="mainContentOfPage">
-                <section class="l-section wpb_row height_auto width_full">
+                <section class="">
                     <div class="l-section-h i-cf">
                         <div class="g-cols offset_none">
-                            <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill  vc_custom_1437646394418">
+                            <div class="in_col-sm-6 wpb_column in_column_container in_col-has-fill ">
                                 <div class="in_column-inner">
                                     <div class="w-image  align_center animate_afb"><img width="750" height="600"
                                                                                         src="{{url('/')}}/website_assets/uploads/rn.png"
@@ -178,12 +178,4 @@
         </a>
     </div>
  @include('website/social-footer')
-    <script>
-        tag = function () {
-            $('header').addClass("bg_transparent");
-        }
-        $(document).ready(tag);
-
-
-    </script>
 @stop
