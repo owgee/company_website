@@ -42,6 +42,7 @@
     <meta name="twitter:description" content="Software Development Company.">
     <meta name="twitter:image:src" content="http://inetstz.com/media/img/logo.png">
     <meta name="twitter:domain" content="http://inetstz.com/">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     
     
     <script   src="{{url('/')}}/js/jquery.min.js" ></script>
@@ -81,8 +82,7 @@
     <link rel='https://api.w.org/' href='{{url('/')}}/website_assets/index.html'/>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{url('/')}}/website_assets/wlwmanifest.xml"/>
-    <link rel="alternate" type="text/xml+oembed"
-          href="{{url('/')}}/website_assets/oembed/1.0/embed83de?url=http%3A%2F%2Fzephyr.us-themes.com%2Fhome-2%2F&amp;format=xml"/>
+
     <!--[if lte IE 9]>
     <link rel="stylesheet" type="text/css"
           href="website_assets/plugins/js_composer/assets/css/vc_lte_ie9.min.css"
