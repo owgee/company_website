@@ -174,7 +174,7 @@
 							 data-transform_out="auto:auto;s:300;" data-start="800"
 							 data-splitin="chars" data-splitout="none"
 							 data-responsive_offset="on" data-elementdelay="0.05"
-							 style="z-index: 5; white-space: nowrap;text-transform:left;border-color:rgba(0, 0, 0, 1.00);">
+							 style="z-index: 5; color: white; white-space: nowrap;text-transform:left;border-color:rgba(255, 255, 255, 1.00);">
 							Drive More Customers with Mobile app <br>for your Business
 
 						    </div>
