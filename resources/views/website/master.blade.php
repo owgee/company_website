@@ -116,9 +116,6 @@
 
 
 </textarea>
-<script type="text/javascript" src="{{url('/')}}/website_assets/plugins/us-switcher/w-switcher5589.js?ver=3.4.1" async></script>
-<link rel="stylesheet" type="text/css" media="all"
-      href="{{url('/')}}/website_assets/plugins/us-switcher/switcher5589.css?ver=3.4.1"/>
 <script type='text/javascript'
 src='{{url('/')}}/website_assets/themes/framework/js/owl.carousel.min001e.js?ver=2.0.0'></script>
 <script type="text/javascript">
