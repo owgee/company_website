@@ -8,7 +8,7 @@
              style="background-image: url({{url("/")}}/website_assets/img/about.jpg)"
              data-img-width="1920" data-img-height="1280"></div>
     <div class="l-titlebar-h">
-	<div class="l-titlebar-content"><h1 itemprop="headline">About us</h1></div>
+	<div class="l-titlebar-content"><h1 itemprop="headline" style="color:white;">About us</h1></div>
     </div>
 </div>
     <div class="l-main">
