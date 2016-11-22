@@ -104,7 +104,7 @@
 			class="w-menu-item menu-item menu-item-type-post_type menu-item-object-page"
 			href="<?= url('/products') ?>" id="menu-item-3613"><span>Products</span></a></div>
             </div>
-            <div class="w-copyright">© <?= date('Y') ?> All rights reserved. INETS Co Ltd
+            <div class="w-copyright">© <?= date('Y') ?> All rights reserved. INETS Company Limited
             </div>
         </div>
     </div>

@@ -5,7 +5,9 @@
  * Date: 12/08/2016
  * Time: 12:36 PM
  */ ?>
-@section('title', 'Enterprise Software')
+@section('title', 'Enterprise Software Design & Development')
+@section('description','Customized software solutions for small, medium and corporate organizations that boost productivity and performance')
+@section('keywords','Software development company, ERP Software, web development, Web design, custom software, Enterprise Software company,software development company, Tanzania software development company, Software company in Tanzania')
 @section('content')
 <div class="l-titlebar imgsize_cover size_large color_alternate">
     <div class="l-titlebar-h">

@@ -19,10 +19,10 @@
     <meta name="og:type" content="website">
     <meta name="theme-color" content="#03A9F4"> 
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta name="Title" content="INETS Company Limited � Official Home Page" />
+    <meta name="Title" content="@yield('title')" />
     <!--<meta name="CorrelationVector" content="MlxRoJqpv0OEKCvu.7" />-->
-    <meta name='description' content='We are Software Development Company that offers online services and focus on enterprise software solutions, Payment System Design & Integration, Mobile applications and Linux Server Configuration' />
-    <meta name="keywords" content="Inets, Inets Company Limited, Software development company, web development, Web design, custom software, Linux Administration, Database design, Enterprise Software company , Mobile app development, Payment System Design and Integration, Credit & Debit card payment integration, mobile money (m-pesa,tigo-pesa & airtel-money) integration, PayPal payment integration, software development company, Tanzania software development company, Software company in Tanzania">
+    <meta name='description' content="@yield('description')" />
+    <meta name="keywords" content="@yield('keywords')">
     <link rel="shortcut icon" href="http://inetstz.com/media/img/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
 
@@ -34,7 +34,7 @@
     <meta property="og:title" content="Inets Company Limited ">
     <meta property="og:url" content="http://inetstz.com/">
     <meta property="og:image" content="http://inetstz.com/media/img/favicon.png">
-    <meta property="og:description" content="We are Software Development Company that offers online services and focus on enterprise software solutions, Payment System Design & Integration, Mobile applications and Linux Server Configuration">
+    <meta property="og:description" content="@yield('description')">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@inetstz">

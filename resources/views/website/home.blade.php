@@ -1,5 +1,7 @@
 @extends('website.master')
-@section('title', 'Inets Company - Home page')
+@section('title', 'Inets Company Limited')
+@section('description','We are Software Development Company that offers online services and focus on enterprise software solutions, Payment System Design & Integration, Mobile applications and Linux Server Configuration')
+@section('keywords','Inets, Inets Company Limited, Software development company, web development, Web design, custom software, Linux Administration, Database design, Enterprise Software company , Mobile app development, Payment System Design and Integration, Credit & Debit card payment integration, mobile money (m-pesa,tigo-pesa & airtel-money) integration, PayPal payment integration, software development company, Tanzania software development company, Software company in Tanzania')
 @section('content')
 
 <div class="l-main">
